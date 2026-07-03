@@ -1,0 +1,204 @@
+{
+  "_comment": "Veille 'Pain points des élus locaux' — France. Objectif: repérer ce que les élus (maires, adjoints, conseillers, présidents d'EPCI/département/région) disent de leurs difficultés quotidiennes, pour en déduire des opportunités de produits/services/solutions. Flux RSS validés le 2026-06-28. Flux BdT/Localtis fonctionnels: principal (/flux/localtis.xml, firehose tous thèmes) + slugs environnement, social, energie, numerique, sante. Maire-info/rss + APVF/feed (cadence lente) OK. NE FONCTIONNENT PAS (retirés): slugs BdT logement/mobilites/amenagement/economie/eau/finances-locales (stream indispo), flux RSS Gazette des Communes + Acteurs Publics + Courrier des maires (paywall/403) -> ces thèmes sont couverts par le flux principal localtis.xml + les search_queries. fetch_strategy 'chrome' = site paywall/anti-bot, fetch robuste requis.",
+  "label": "Pain points des élus locaux — France",
+  "settings": {
+    "default_days": 7,
+    "max_insights_per_axis": 10,
+    "archive_after_days": 30,
+    "auto_enrich": {
+      "enabled": true,
+      "min_occurrences": 2,
+      "max_auto_sources_per_axis": 5
+    },
+    "fetch": {
+      "default_strategy": "webfetch",
+      "auto_flag_on_failure": true,
+      "fallback_strategy": "chrome"
+    }
+  },
+  "axes": {
+    "finances": {
+      "label": "Finances locales & contraintes budgétaires (dotations, fiscalité, recherche de financements)",
+      "priority": 1,
+      "rss_feeds": [
+        { "name": "Banque des Territoires — Localtis", "url": "https://www.banquedesterritoires.fr/flux/localtis.xml", "lang": "fr" },
+        { "name": "Maire Info (AMF)", "url": "https://www.maire-info.com/rss", "lang": "fr" }
+      ],
+      "search_queries": [
+        "maire baisse dotations DGF budget commune difficultés 2026",
+        "élus locaux manque de moyens financiers alerte 2026",
+        "collectivités contraintes budgétaires investissement reporté 2026",
+        "petite commune boucler budget fiscalité locale 2026"
+      ],
+      "blogs": []
+    },
+    "rh-ingenierie": {
+      "label": "RH, recrutement & ingénierie territoriale (secrétaires de mairie, agents techniques, manque d'expertise)",
+      "priority": 1,
+      "rss_feeds": [
+        { "name": "Banque des Territoires — Localtis", "url": "https://www.banquedesterritoires.fr/flux/localtis.xml", "lang": "fr" }
+      ],
+      "search_queries": [
+        "pénurie secrétaire de mairie recrutement commune 2026",
+        "petites communes manque d'ingénierie territoriale 2026",
+        "élus locaux difficultés recrutement agents techniques 2026",
+        "maire formation des élus manque de compétences mandat 2026"
+      ],
+      "blogs": [
+        { "name": "Association des Maires Ruraux de France (AMRF)", "url": "https://www.amrf.fr/actualites/", "lang": "fr" }
+      ]
+    },
+    "climat-transition": {
+      "label": "Adaptation climatique & transition écologique (canicule, sécheresse, inondations, rénovation, ZAN)",
+      "priority": 1,
+      "rss_feeds": [
+        { "name": "Banque des Territoires — Localtis Environnement", "url": "https://www.banquedesterritoires.fr/flux/environnement/localtis.xml", "lang": "fr" },
+        { "name": "Maire Info (AMF)", "url": "https://www.maire-info.com/rss", "lang": "fr" }
+      ],
+      "search_queries": [
+        "commune canicule écoles adaptation chaleur élus 2026",
+        "maire sécheresse eau potable difficultés collectivité 2026",
+        "collectivités adaptation changement climatique manque de moyens 2026",
+        "élus locaux inondations renaturation ZAN contraintes 2026",
+        "rénovation énergétique écoles bâtiments communaux financement 2026"
+      ],
+      "blogs": []
+    },
+    "services-proximite": {
+      "label": "Services publics de proximité & ruralité (écoles, France services, accès aux services)",
+      "priority": 2,
+      "rss_feeds": [
+        { "name": "Banque des Territoires — Localtis", "url": "https://www.banquedesterritoires.fr/flux/localtis.xml", "lang": "fr" },
+        { "name": "Association des Petites Villes de France (APVF)", "url": "https://www.apvf.asso.fr/feed/", "lang": "fr" }
+      ],
+      "search_queries": [
+        "fermeture services publics ruralité élus locaux 2026",
+        "fermeture classe école rurale maire mobilisation 2026",
+        "France services maison de services au public commune 2026",
+        "accès services publics zone rurale difficultés maire 2026"
+      ],
+      "blogs": []
+    },
+    "numerique-simplification": {
+      "label": "Numérique, IA, cybersécurité & complexité administrative (normes, dématérialisation, charge réglementaire)",
+      "priority": 2,
+      "rss_feeds": [
+        { "name": "Banque des Territoires — Localtis Numérique", "url": "https://www.banquedesterritoires.fr/flux/numerique/localtis.xml", "lang": "fr" }
+      ],
+      "search_queries": [
+        "cyberattaque commune collectivité mairie 2026",
+        "élus locaux complexité administrative normes simplification 2026",
+        "petite commune dématérialisation difficultés numérique 2026",
+        "intelligence artificielle collectivités cas d'usage mairie 2026"
+      ],
+      "blogs": []
+    },
+    "mandat-elus": {
+      "label": "Conditions d'exercice du mandat (violences & incivilités envers les élus, démissions, charge mentale, statut de l'élu)",
+      "priority": 2,
+      "rss_feeds": [
+        { "name": "Maire Info (AMF)", "url": "https://www.maire-info.com/rss", "lang": "fr" },
+        { "name": "Banque des Territoires — Localtis", "url": "https://www.banquedesterritoires.fr/flux/localtis.xml", "lang": "fr" }
+      ],
+      "search_queries": [
+        "violences contre les élus maires agressions 2026",
+        "démission maire ras-le-bol découragement 2026",
+        "statut de l'élu local revalorisation indemnités 2026",
+        "maire charge de travail burn-out élus locaux 2026",
+        "élus locaux conflits administrés incivilités tribune 2026"
+      ],
+      "blogs": []
+    },
+    "logement-urbanisme": {
+      "label": "Logement, urbanisme & foncier (instruction des autorisations, PLU, ZAN, logement vacant, friches)",
+      "priority": 2,
+      "rss_feeds": [
+        { "name": "Banque des Territoires — Localtis", "url": "https://www.banquedesterritoires.fr/flux/localtis.xml", "lang": "fr" }
+      ],
+      "search_queries": [
+        "instruction permis de construire commune délais difficultés 2026",
+        "PLU PLUi élaboration coût petites communes 2026",
+        "ZAN zéro artificialisation nette maires contraintes 2026",
+        "logement vacant insalubre commune maire levier 2026",
+        "crise du logement collectivités élus locaux 2026"
+      ],
+      "blogs": []
+    },
+    "mobilites-voirie": {
+      "label": "Mobilités du quotidien & voirie (transport rural, ZFE, stationnement, entretien voirie, ponts)",
+      "priority": 3,
+      "rss_feeds": [
+        { "name": "Banque des Territoires — Localtis", "url": "https://www.banquedesterritoires.fr/flux/localtis.xml", "lang": "fr" },
+        { "name": "Association des Petites Villes de France (APVF)", "url": "https://www.apvf.asso.fr/feed/", "lang": "fr" }
+      ],
+      "search_queries": [
+        "mobilité rurale transport commune solution élus 2026",
+        "entretien voirie ponts communaux coût maire 2026",
+        "ZFE zone à faibles émissions colère élus collectivités 2026",
+        "autorité organisatrice mobilité petite commune difficultés 2026"
+      ],
+      "blogs": []
+    },
+    "reseaux-dechets-energie": {
+      "label": "Réseaux & services techniques (eau, assainissement, déchets, facture énergétique des bâtiments communaux, éclairage public)",
+      "priority": 3,
+      "rss_feeds": [
+        { "name": "Banque des Territoires — Localtis Énergie", "url": "https://www.banquedesterritoires.fr/flux/energie/localtis.xml", "lang": "fr" },
+        { "name": "Banque des Territoires — Localtis Environnement", "url": "https://www.banquedesterritoires.fr/flux/environnement/localtis.xml", "lang": "fr" }
+      ],
+      "search_queries": [
+        "facture énergie commune bâtiments communaux hausse maire 2026",
+        "rénovation éclairage public commune économie énergie 2026",
+        "gestion des déchets coût tri collecte commune 2026",
+        "réseau eau potable fuites assainissement commune investissement 2026"
+      ],
+      "blogs": []
+    },
+    "securite-tranquillite": {
+      "label": "Sécurité & tranquillité publique (police municipale, vidéoprotection, incivilités, pouvoirs de police du maire)",
+      "priority": 3,
+      "rss_feeds": [
+        { "name": "Maire Info (AMF)", "url": "https://www.maire-info.com/rss", "lang": "fr" },
+        { "name": "Banque des Territoires — Localtis", "url": "https://www.banquedesterritoires.fr/flux/localtis.xml", "lang": "fr" }
+      ],
+      "search_queries": [
+        "police municipale recrutement commune difficultés 2026",
+        "vidéoprotection commune coût efficacité maire 2026",
+        "pouvoirs de police du maire tranquillité publique 2026",
+        "incivilités dépôts sauvages nuisances commune maire 2026"
+      ],
+      "blogs": []
+    },
+    "attractivite-commerce": {
+      "label": "Attractivité & commerce local (revitalisation centres-bourgs, vacance commerciale, friches, tourisme, Action Cœur de Ville / Petites Villes de Demain)",
+      "priority": 3,
+      "rss_feeds": [
+        { "name": "Banque des Territoires — Localtis", "url": "https://www.banquedesterritoires.fr/flux/localtis.xml", "lang": "fr" },
+        { "name": "Association des Petites Villes de France (APVF)", "url": "https://www.apvf.asso.fr/feed/", "lang": "fr" }
+      ],
+      "search_queries": [
+        "revitalisation centre-bourg commerce vacant commune 2026",
+        "Action Cœur de Ville Petites Villes de Demain bilan 2026",
+        "derniers commerces village reprise commune maire 2026",
+        "friche reconversion commune coût ingénierie 2026"
+      ],
+      "blogs": []
+    },
+    "social-grand-age": {
+      "label": "Action sociale & grand âge (CCAS, vieillissement, EHPAD, petite enfance, précarité, dépendance)",
+      "priority": 3,
+      "rss_feeds": [
+        { "name": "Banque des Territoires — Localtis Social", "url": "https://www.banquedesterritoires.fr/flux/social/localtis.xml", "lang": "fr" },
+        { "name": "Banque des Territoires — Localtis Santé", "url": "https://www.banquedesterritoires.fr/flux/sante/localtis.xml", "lang": "fr" }
+      ],
+      "search_queries": [
+        "CCAS commune action sociale moyens difficultés 2026",
+        "vieillissement grand âge commune adaptation logement 2026",
+        "petite enfance crèche commune pénurie places 2026",
+        "désert médical commune maire accès aux soins 2026",
+        "précarité aide alimentaire commune CCAS 2026"
+      ],
+      "blogs": []
+    }
+  }
+}

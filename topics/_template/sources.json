@@ -1,0 +1,51 @@
+{
+  "_comment": "Gabarit de topic. Copier ce dossier _template vers topics/<mon-sujet>/ puis remplir. Le dossier _template n'est JAMAIS exécuté par l'agent.",
+  "label": "Libellé lisible du sujet",
+  "settings": {
+    "default_days": 7,
+    "max_insights_per_axis": 10,
+    "archive_after_days": 30,
+    "auto_enrich": {
+      "enabled": true,
+      "min_occurrences": 2,
+      "max_auto_sources_per_axis": 5
+    },
+    "fetch": {
+      "default_strategy": "webfetch",
+      "auto_flag_on_failure": true,
+      "fallback_strategy": "chrome"
+    }
+  },
+  "axes": {
+    "axe_a": {
+      "label": "Premier sous-angle du sujet",
+      "rss_feeds": [
+        {
+          "name": "Nom de la source RSS",
+          "url": "https://exemple.com/feed/",
+          "lang": "fr"
+        }
+      ],
+      "search_queries": [
+        "requête de recherche pertinente 2026",
+        "autre requête plus ciblée 2026"
+      ],
+      "blogs": [
+        {
+          "name": "Nom du blog (pas de RSS)",
+          "url": "https://exemple.com/blog",
+          "lang": "fr",
+          "fetch_strategy": "chrome"
+        }
+      ]
+    },
+    "axe_b": {
+      "label": "Second sous-angle (optionnel — un sujet simple peut n'avoir qu'un axe)",
+      "rss_feeds": [],
+      "search_queries": [
+        "requête liée au second angle 2026"
+      ],
+      "blogs": []
+    }
+  }
+}
