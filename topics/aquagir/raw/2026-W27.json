@@ -13,9 +13,10 @@
       "milieux-aquatiques",
       "gouvernance-diagnostic",
       "eau-potable-distribution",
-      "pollutions"
+      "pollutions",
+      "deci"
     ],
-    "last_collecte": "2026-07-04T14:55:12.157Z",
+    "last_collecte": "2026-07-04T14:55:39.321Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
@@ -248,6 +249,33 @@
       "found_via_axis": "pollutions",
       "source_type": "search",
       "content_type": "actualite"
+    },
+    {
+      "url": "https://www.spezet.bzh/actualites/appel-a-projets-regional-defense-des-forets-et-landes-contre-les-incendies/",
+      "title": "Appel à projets régional – Défense des forêts et landes contre les incendies",
+      "date": "2026-06-30",
+      "summary": "La Région poursuit son accompagnement des territoires les plus exposés au risque d'incendie. Les dossiers sont à déposer en ligne sur la plateforme Démarches Simplifiées pour l'appel à projets DFCI 2026.",
+      "found_via_axis": "deci",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.franceinfo.fr/faits-divers/incendie/en-2024-c-etait-pres-de-4-000-feux-sur-la-meme-periode-nous-en-sommes-deja-a-plus-de-7-000-avertit-le-porte-parole-de-la-federation-des-sapeurs-pompiers_8090963.html",
+      "title": "En 2024, c'était près de 4 000 feux sur la même période, nous en sommes déjà à plus de 7 000, avertit le porte-parole de la Fédération des sapeurs-pompiers",
+      "date": "2026-07-02",
+      "summary": "C'est ce qu'on appelle la défense extérieure contre l'incendie (DECI). Plus de 40% d'activité pour le Service Départemental d'Incendie et de Secours de l'Essonne, liés aux effets de canicule.",
+      "found_via_axis": "deci",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.f2cadacademy.com/2026/07/justification-feu-poteaux-beton-arme-eurocode-2.html",
+      "title": "Justification au feu des poteaux en béton armé : Méthodes de calcul selon l'Eurocode 2 (EN 1992-1-2)",
+      "date": "2026-07-03",
+      "summary": "Guide technique complet pour la justification au feu des poteaux en béton armé. Analyse des méthodes de calcul de l'Eurocode 2 pour la résistance mécanique et la stabilité au feu des poteaux.",
+      "found_via_axis": "deci",
+      "source_type": "search",
+      "content_type": "ressource"
     }
   ]
 }
