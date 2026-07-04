@@ -80,6 +80,42 @@
       "found_via_axis": "gouvernance-socles-tech",
       "source_type": "search",
       "content_type": "actualite"
+    },
+    {
+      "url": "https://www.entreprises.gouv.fr/priorites-et-actions/transition-numerique/accompagner-les-entreprises-dans-leur-transition/le-plan",
+      "title": "Le plan national Osez l'IA",
+      "date": "2026-07-01",
+      "summary": "Lancé dans le cadre de la stratégie nationale pour l'IA, le plan Osez l'IA vise à accélérer la diffusion de l'IA dans les entreprises. La plateforme 'Accélérez avec l’IA' présente des exemples concrets de déploiement dans tous les secteurs, des informations pratiques et des témoignages de dirigeants.",
+      "found_via_axis": "ia",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.igas.gouv.fr/le-deploiement-de-lintelligence-artificielle-dans-les-administrations-publiques-analyse-comparee-enjeux-et-conditions-de-reussite",
+      "title": "Le déploiement de l’IA dans les administrations publiques : analyse comparée",
+      "date": "2026-07-01",
+      "summary": "Rapport conjoint IGF-IGAS-IGA analysant comment l'IA peut améliorer les services publics, la qualité du travail des agents et l'efficacité des politiques publiques. Il présente de nombreux cas d'usage dans la sphère sociale, France Travail, et les établissements de santé.",
+      "found_via_axis": "ia",
+      "source_type": "search",
+      "content_type": "ressource"
+    },
+    {
+      "url": "https://www.village-justice.com/articles/hackathon-special-assemblee-nationale,57869.html",
+      "title": "Hackathon spécial IA dédié au parcours de la loi à l'Assemblée nationale",
+      "date": "2026-07-03",
+      "summary": "Les 3 et 4 juillet 2026, l'Assemblée nationale organise un hackathon sur le thème 'Le parcours de la loi : vers une IA de confiance'. Cet événement marque un moment clé du développement de l'IA juridique en France.",
+      "found_via_axis": "ia",
+      "source_type": "search",
+      "content_type": "evenement"
+    },
+    {
+      "url": "https://mairie72.fr/donnees-et-ia-les-collectivites-appelees-a-participer-a-lenquete-nationale-2026",
+      "title": "Données et IA : les collectivités appelées à participer à l'enquête nationale 2026",
+      "date": "2026-07-01",
+      "summary": "Les collectivités territoriales sont invitées à participer à une enquête nationale 2026 sur les données et l'IA. L'article encourage à regrouper des éléments simples pour des retours terrain utiles et des comparaisons pertinentes.",
+      "found_via_axis": "ia",
+      "source_type": "search",
+      "content_type": "actualite"
     }
   ],
   "metadata": {
@@ -89,9 +125,10 @@
     "axes_collected": [
       "transition-eco-energetique",
       "citoyens-solidarite",
-      "gouvernance-socles-tech"
+      "gouvernance-socles-tech",
+      "ia"
     ],
-    "last_collecte": "2026-07-04T14:43:59.344Z",
+    "last_collecte": "2026-07-04T14:44:31.668Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
