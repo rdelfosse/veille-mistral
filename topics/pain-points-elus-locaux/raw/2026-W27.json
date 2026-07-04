@@ -1,12 +1,192 @@
 {
   "items": [
     {
-      "title": "Test Push Files",
-      "url": "https://test-push-files.com",
-      "source": "web_search",
+      "title": "Dotations : quel est le montant de votre DGF en 2026 ? | Maire-Info, quotidien d'information destiné aux élus locaux",
+      "url": "https://www.maire-info.com/dotations-de-l'%C3%A9tat/dotations-quel-est-le-montant-de-votre-dgf-en-2026--article-30649",
+      "source": "brave",
       "source_type": "search",
       "date": "2026-06-29",
-      "summary": "Test item via push_files",
+      "summary": "Le gouvernement a rendu publics, ... avril (et non pas au 15 avril comme habituellement). <strong>Le montant de la DGF sera en baisse ou stable pour près de la moitié des communes et pour moins d&#x27;un tiers des intercommunalités</strong>....",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Budget 2026 : les principales dispositions pour les collectivités",
+      "url": "https://www.mairesdefrance.com/budget-2026-principales-dispositions-pour-collectivites-article-28842-0",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "L&#x27;AMF déplore un budget 2026 marqué par «<strong>un prélèvement budgétaire de plus de 2 Mds€ sur les collectivités » auquel s&#x27;ajoutent d&#x27;autres dispositions portant le total des mesures qui pèsent sur elles «à plus de 5 Mds€ ».</strong> La loi ...",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Finances locales : l'Assemblée aboutit à un budget sans cohérence",
+      "url": "https://www.banquedesterritoires.fr/finances-locales-lassemblee-aboutit-un-budget-sans-coherence",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "Une autre mesure initiée par LFI et elle aussi adoptée, <strong>prévoit de supprimer en 2026 la réduction de certaines dotations de compensation (&quot;variables d&#x27;ajustement&quot;), effaçant ainsi une perte de 527 millions d&#x27;euros dans les recettes des collectivités</strong>...",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Répartition de la DGF : la hausse de la péréquation sera très largement à la charge des communes en 2026 | Maire-Info, quotidien d'information destiné aux élus locaux",
+      "url": "https://www.maire-info.com/finances-locales/repartition-de-la-dgf-la-hausse-de-la-perequation-sera-tres-largement-%EF%BF%BD-la-charge-des-communes-en-2026-article-30526",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "Alors que la DGF devrait baisser « dans plus de la moitié des communes » en 2026, <strong>le Comité des finances locales a décidé que la hausse globale de 300 millions d&#x27;euros des dotations de péréquation (DSR et DSU) sera, cette année, davantage financée par les communes – à hauteur de 80 %</strong>. ...",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Budget 2026 : un amendement réduit de 5Mds€ la dotation globale de fonctionnement aux collectivités",
+      "url": "https://www.lemoniteur.fr/politique-et-institutions/collectivites-locales/budget-2026-un-amendement-reduit-de-5mds-la-dotation-globale-de-fonctionnement-aux-collectivites.IKTCKTJQIREKTKU2MSCLXKADE4.html",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "C’est ce qui s’appelle un ascenseur émotionnel : l’examen à l’Assemblée nationale du budget des collectivités territoriales a illustré l’impossibilité de bâtir un compromis budgétaire dans l’hémicycle. Mercredi 14 janvier, le Rassemblement national (RN) a fait adopter un amendement réduisant de 4,9 milliards d’euros la dotation globale de fonctionnement (DGF) versée aux régions et aux intercommunalités (EPCI).",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Municipales 2026 : des communes entre manque de moyens et ruptures d’égalité – La Vie Ouvrière",
+      "url": "https://nvo.fr/municipales-2026-des-communes-entre-manque-de-moyens-et-ruptures-degalite/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "D&#x27;abord, parce que certains vont dépendre du bon vouloir d&#x27;élus locaux. Ensuite, parce que toutes les communes ou intercommunalités ne disposent pas des mêmes moyens financiers. »En outre, la loi du 7 août 2015 portant nouvelle organisation territoriale de la république, dite « loi NOTRe », a maintenu la clause de compétence générale des communes leur permettant, depuis 1884, « d&#x27;intervenir sur toute question présentant à leurs yeux un intérêt public local dès lors que cela n&#x27;empiète pas sur les attributions d&#x27;un autre échelon d&#x27;action publique », comme l&#x27;écrit Nadège Vezinat.",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Budget 2026 : le RN vote une baisse de 5 milliards d'euros pour les collectivités, des élus locaux s'indignent",
+      "url": "https://www.latribune.fr/article/economie/finances-publiques/25402976623323/budget-2026-le-rn-vote-une-baisse-de-5-milliards-deuros-pour-les-collectivites-des-elus-locaux-sindignent",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "Après cette entrée en matière, le Palais-Bourbon a créé la stupeur des <strong>élus locaux</strong>, mercredi soir, en votant – 57 voix pour, 47 contre - un amendement du Rassemblement national (RN) visant à baisser la dotation globale de fonctionnement ...",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Finances publiques : \"tous les signaux sont au rouge\" en 2026, alerte la Cour des comptes",
+      "url": "https://www.banquedesterritoires.fr/finances-publiques-tous-les-signaux-sont-au-rouge-en-2026-alerte-la-cour-des-comptes",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "Et la Cour d&#x27;ajouter : &quot;De surcroît, l’absence de frein significatif sur les ressources des collectivités et les profils atypiques de dépenses locales observés ces dernières années sont une source importante d’incertitude&quot;. Autrement dit, la dernière loi de finances n&#x27;aurait pas été suffisamment sévère envers les collectivités. Les élus apprécieront…",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Budget 2026 : les maires dénoncent les conséquences de ponctions qui les conduiraient « à la rupture » | Maire-Info, quotidien d'information destiné aux élus locaux",
+      "url": "https://www.maire-info.com/finances-locales/budget-2026-les-maires-denoncent-les-consequences-ponctions-qui-les-conduiraient-la-rupture--article-30216",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "« Si les ponctions que l’on nous promet pour 2026 devaient être maintenues, nous serions à la rupture. » Réunis hier pour l’ouverture de leur 107e congrès, les maires ont une nouvelle fois mis en garde, hier, lors d’une conférence de presse, sur les conséquences des mesures inscrites ...",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Budget : entre les économies demandées aux collectivités et le coup de rabot sur la politique de la ville, les associations d’élus tirent la sonnette d’alarme",
+      "url": "https://www.publicsenat.fr/actualites/economie/budget-entre-les-economies-demandees-aux-collectivites-et-le-coup-de-rabot-sur-la-politique-de-la-ville-les-associations-delus-tirent-la-sonnette-dalarme",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "Dans un communiqué commun, sept ... la ville dans le projet de loi de finances pour 2026. <strong>Les moyens accordés à la rénovation urbaine sont notamment pointés du doigt</strong>....",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Budget 2026, un tour de vis sévère pour les collectivités locales | Miroir Social",
+      "url": "https://www.miroirsocial.com/participatif/budget-2026-un-tour-de-vis-severe-pour-les-collectivites-locales",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "Le paradoxe est manifeste : les collectivités se voient contraintes de financer les déséquilibres d’un État central dont elles ne maîtrisent ni les choix fiscaux ni les dépenses. En exigeant un effort disproportionné des collectivités locales, le gouvernement transfère de facto une partie du redressement budgétaire national vers les territoires. La rigueur budgétaire imposée par le PLF 2026 ne se limite pas à une contraction des recettes : elle touche directement l’investissement local.",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Budget 2026 : un tour de vis budgétaire sévère pour les collectivités locales - Fondation Jean-Jaurès",
+      "url": "https://www.jean-jaures.org/publication/budget-2026-un-tour-de-vis-budgetaire-severe-pour-les-collectivites-locales/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "La contribution demandée, estimée ... d’intercommunalités, 16 octobre 2025., <strong>se traduira par un gel prolongé des dotations, des restrictions fiscales et des ajustements de compensations</strong>....",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Les conséquences du budget 2026 sur les collectivités - AMF62",
+      "url": "https://www.amf62.fr/budget-2026-apres-ladoption-de-la-loi-speciale-quelles-consequences-pour-les-collectivites-territoriales/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "Par ailleurs le projet de fusion des dotations d’investissement au sein d’un fonds d’investissement pour les territoires (FIT) est suspendu, les départements ne pourront pas bénéficier du fonds de soutien de 600 millions d’euros voté lors des discussions parlementaires et le versement de la “prime régalienne” de 500 euros destinée aux maires est également reporté.",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Loi de finances 2026 : Quelles conséquences pour les collectivités locales ? - Adelyce",
+      "url": "https://www.adelyce.fr/blog/loi-finances-2026-tournant-budgetaire-collectivites-territoriales/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "<strong>Les collectivités sont désormais pleinement intégrées à la trajectoire nationale de consolidation budgétaire</strong>. Pour la fonction publique territoriale, cela implique : • Un pilotage plus fin des dépenses de fonctionnement ; • Un ...",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Budget 2026 : rebâtir un climat de confiance entre l’État et les collectivités locales | Terra Nova",
+      "url": "https://tnova.fr/economie-social/territoires-metropoles/budget-2026-rebatir-un-climat-de-confiance-entre-letat-et-les-collectivites-locales/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "Le récent rapport de l’Inspection générale des Finances consacré à l’ingénierie territoriale est très éclairant à ce sujet[29]. Les premiers éléments concernant la séquence budgétaire qui va s’ouvrir à l’automne ne poussent pas à l’optimisme. Tous les indicateurs sont au rouge. L’annonce mi-juillet par le Premier ministre et sa ministre des Comptes publics de nouvelles ponctions sur les budgets locaux (5,3 milliards d’euros d’économies demandés par le gouvernement aux collectivités locales) s’apparente une fois de plus à un coup de rabot à l’aveugle.",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Budget 2026 : les communes sont \"à l'os\", alerte le président des petites villes de France - ICI",
+      "url": "https://www.francebleu.fr/emissions/ma-france-le-journal-des-regions/budget-2026-on-est-a-l-os-on-ne-voit-pas-ce-qu-on-peut-faire-de-plus-comme-economies-alerte-christophe-bouillon-2767482",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "&quot;On est à l&#x27;os, on ne voit pas ce qu&#x27;on peut faire de plus comme économies&quot;, a déclaré dans Ma France sur ICI Christophe Bouillon, maire de Barentin (Seine-Maritime) et président de l’Association des petites villes de France, alors que les communes sont sommées par l&#x27;État de faire ...",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Municipales 2026 : le mémento budgétaire - Maires de France",
+      "url": "https://www.mairesdefrance.com/municipales-2026-memento-budgetaire-2026-article-28839-0",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "<strong>La date limite de vote des budgets locaux est fixée au 30 avril</strong>. Maires de France rappelle les procédures et le calendrier à respecter, ainsi que les principales évolutions à retenir.",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Municipales 2026 : comprendre le budget de sa commune - La finance pour tous",
+      "url": "https://www.lafinancepourtous.com/2026/03/10/municipales-2026-comprendre-le-budget-de-sa-commune/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "Pour y voir plus clair, nous avons comparé les budget de trois communes de tailles très différentes : Toulouse, métropole de plus de 500 000 habitants,",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    },
+    {
+      "title": "Budget 2026 | Petit-Couronne",
+      "url": "https://www.ville-petit-couronne.fr/budget-2026",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "La Métropole Rouen Normandie est ... qu’en fonction de la revalorisation des bases de l’Etat, de l’ordre de <strong>0,8 % pour 2026</strong>....",
       "lang": "fr",
       "found_via_axis": "finances"
     }
@@ -16,7 +196,7 @@
     "week": "2026-W27",
     "date_start": "2026-06-29",
     "date_end": "2026-07-05",
-    "last_collecte": "2026-07-04T13:27:30.626Z",
+    "last_collecte": "2026-07-04T13:29:57.051Z",
     "axes_collected": [
       "finances"
     ],
