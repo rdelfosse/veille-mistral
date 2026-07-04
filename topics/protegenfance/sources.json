@@ -1,0 +1,76 @@
+{
+  "_comment": "Veille EXTERNE pour ALIMENTER la plateforme protegenfance.fr (protection de l'enfance). But : trouver AILLEURS sur le web des actualités / événements / ressources à relayer/adapter, triés par thématique (les 5 piliers de la plateforme). NE PAS chercher sur protegenfance.fr (exclu). axes = piliers de la plateforme.",
+  "label": "Proteg'Enfance — veille externe (protection de l'enfance)",
+  "settings": {
+    "default_days": 30,
+    "max_insights_per_axis": 12,
+    "archive_after_days": 120,
+    "content_types": ["actualite", "evenement", "ressource"],
+    "content_type_hints": {
+      "evenement": ["colloque", "webinaire", "séminaire", "salon", "journée d'étude", "rencontres", "assises", "conférence", "forum"],
+      "ressource": ["guide", "retour d'expérience", "étude", "rapport", "fiche pratique", "méthodologie", "boîte à outils", "référentiel", "MOOC"],
+      "actualite": []
+    },
+    "exclude_domains": ["protegenfance.fr"],
+    "enrich_target": "protegenfance.fr",
+    "auto_enrich": { "enabled": false },
+    "fetch": { "default_strategy": "search", "fallback_strategy": "open_url" }
+  },
+  "axes": {
+    "se-reperer": {
+      "label": "Se repérer — cadre légal, parcours, mesures, acteurs",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "protection de l'enfance réforme cadre légal 2026",
+        "protection de l'enfance assises OR colloque 2026",
+        "parcours de l'enfant protégé ASE rapport OR guide"
+      ],
+      "blogs": []
+    },
+    "se-former": {
+      "label": "Se former et évoluer — métiers, compétences, recrutement",
+      "priority": 2,
+      "rss_feeds": [],
+      "search_queries": [
+        "protection de l'enfance métiers recrutement 2026",
+        "travail social enfance formation journée d'étude 2026",
+        "formation protection de l'enfance référentiel OR guide"
+      ],
+      "blogs": []
+    },
+    "accueillir": {
+      "label": "Accueillir — lieux d'accueil, MECS, familles d'accueil, immobilier",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "MECS maison d'enfants accueil ASE 2026",
+        "création lieu d'accueil enfance protégée séminaire 2026",
+        "structures d'accueil enfance retour d'expérience OR guide"
+      ],
+      "blogs": []
+    },
+    "accompagner": {
+      "label": "Accompagner — autonomie, insertion, sortie de l'ASE",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "sortie ASE jeunes majeurs autonomie 2026",
+        "insertion jeunes protégés rencontres OR colloque 2026",
+        "accompagnement vers l'autonomie ASE guide OR étude"
+      ],
+      "blogs": []
+    },
+    "prevenir": {
+      "label": "Prévenir — prévention, PMI, repérage précoce",
+      "priority": 2,
+      "rss_feeds": [],
+      "search_queries": [
+        "prévention protection de l'enfance PMI 2026",
+        "prévention précoce enfance colloque OR webinaire 2026",
+        "prévention maltraitance repérage guide OR retour d'expérience"
+      ],
+      "blogs": []
+    }
+  }
+}

@@ -38,7 +38,11 @@ inventer d'insights ni compléter le JSON — le digest ne fait que refléter le
 - Insights **groupés par `primary_axis`**, triés actionability desc puis date desc. Chaque bloc :
   titre lié (URL de l'insight), source · date · langue, take (si actionability ≥ 2, préfixe `>`),
   résumé, préfixe `[actionability/axis_score]`, URL en dernière ligne.
-- Récapitulatif : total, top axes, opportunités (actionability ≥ 2).
+  - **Si les insights portent `content_type`** (topics d'enrichissement externe) : structurer en
+    **deux niveaux — `##` par type de contenu (Actualités / Événements / Ressources), puis `###` par
+    thématique** à l'intérieur. Pour un `evenement`, afficher **date et lieu** en tête de bloc.
+- Récapitulatif : total, répartition par type de contenu (si applicable) et par thématique,
+  opportunités (actionability ≥ 2).
 
 **Cohérence** : le nombre d'insights affichés == `stats.total_insights` == somme des comptes par axe.
 Les compteurs d'en-tête et de section proviennent du JSON, pas d'une estimation. N'affiche que des

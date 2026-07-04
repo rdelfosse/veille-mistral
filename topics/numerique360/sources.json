@@ -1,0 +1,87 @@
+{
+  "_comment": "Veille EXTERNE pour ALIMENTER la plateforme numerique360.banquedesterritoires.fr (numérique des collectivités). But : trouver AILLEURS sur le web des actualités / événements / ressources à relayer/adapter, triés par thématique. NE PAS chercher sur la plateforme (sous-domaine exclu) ; banquedesterritoires.fr (Localtis) reste une source externe utile. axes = thématiques de la plateforme.",
+  "label": "Numérique 360 — veille externe (numérique des collectivités)",
+  "settings": {
+    "default_days": 30,
+    "max_insights_per_axis": 12,
+    "archive_after_days": 120,
+    "content_types": ["actualite", "evenement", "ressource"],
+    "content_type_hints": {
+      "evenement": ["colloque", "webinaire", "séminaire", "salon", "journée d'étude", "rencontres", "assises", "conférence", "forum"],
+      "ressource": ["guide", "retour d'expérience", "étude", "rapport", "fiche pratique", "méthodologie", "boîte à outils", "référentiel", "MOOC"],
+      "actualite": []
+    },
+    "exclude_domains": ["numerique360.banquedesterritoires.fr"],
+    "enrich_target": "numerique360.banquedesterritoires.fr",
+    "auto_enrich": { "enabled": false },
+    "fetch": { "default_strategy": "search", "fallback_strategy": "open_url" }
+  },
+  "axes": {
+    "transition-eco-energetique": {
+      "label": "Numérique & transition écologique et énergétique",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "numérique transition écologique collectivité 2026",
+        "sobriété numérique territoire colloque OR webinaire 2026",
+        "green IT collectivité guide OR retour d'expérience"
+      ],
+      "blogs": []
+    },
+    "attractivite-amenagement": {
+      "label": "Numérique, attractivité & aménagement du territoire",
+      "priority": 2,
+      "rss_feeds": [],
+      "search_queries": [
+        "jumeau numérique territoire aménagement 2026",
+        "smart city attractivité territoire salon OR colloque 2026",
+        "numérique aménagement collectivité étude OR guide"
+      ],
+      "blogs": []
+    },
+    "citoyens-solidarite": {
+      "label": "Numérique, citoyens & solidarité (inclusion, médiation, accès aux droits)",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "inclusion numérique collectivité 2026",
+        "médiation numérique aidants rencontres OR journée 2026",
+        "e-inclusion accès aux droits guide OR retour d'expérience"
+      ],
+      "blogs": []
+    },
+    "mobilites": {
+      "label": "Numérique & mobilités (données, MaaS)",
+      "priority": 2,
+      "rss_feeds": [],
+      "search_queries": [
+        "données mobilité collectivité MaaS 2026",
+        "mobilité numérique territoire colloque OR webinaire 2026",
+        "data mobilité collectivité guide OR étude"
+      ],
+      "blogs": []
+    },
+    "gouvernance-socles-tech": {
+      "label": "Gouvernance & socles technologiques (cybersécurité, cloud, data, interopérabilité)",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "cybersécurité collectivité territoriale 2026",
+        "cloud souverain données publiques séminaire OR colloque 2026",
+        "interopérabilité socle numérique collectivité guide OR référentiel"
+      ],
+      "blogs": []
+    },
+    "ia": {
+      "label": "Intelligence artificielle dans les collectivités",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "intelligence artificielle collectivité cas d'usage 2026",
+        "IA territoriale webinaire OR colloque 2026",
+        "IA générative collectivité guide OR retour d'expérience"
+      ],
+      "blogs": []
+    }
+  }
+}

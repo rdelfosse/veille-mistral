@@ -84,6 +84,7 @@ Un fichier par semaine ISO (ex. `2026-W26.json`).
 | `url` | string | URL source (clé de déduplication) |
 | `source` | string | Nom de la source depuis `sources.json` |
 | `source_type` | string | `"rss"`, `"search"` ou `"blog"` |
+| `content_type` | string | *(optionnel — topics d'enrichissement externe)* `"actualite"`, `"evenement"` ou `"ressource"`. Voir `settings.content_types` du topic. |
 | `date` | string | Date de publication (date ISO 8601) |
 | `collected_at` | string | Horodatage de collecte (datetime ISO 8601) |
 | `lang` | string | `"fr"`, `"en"`, ... |

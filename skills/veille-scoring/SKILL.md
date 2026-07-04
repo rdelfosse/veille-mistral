@@ -56,11 +56,14 @@ Pour chaque insight retenu :
 3. **Take** (si actionability ≥ 2) : 2 phrases (pain point précis + angle de solution). **Propre à
    cet insight** — jamais recopié d'un autre.
 4. **ID** : `ins_YYYYMMDD_` + 6 hex aléatoires. `status = new` (ou `updated`).
+5. **`content_type`** : si le harvest le porte (topics d'enrichissement externe), le **reporter tel
+   quel** sur l'insight (`actualite` / `evenement` / `ressource`).
 
 ### Phase 3.5 — Curation & plafond par axe (une veille SÉLECTIONNE, elle ne déverse pas)
 1. **Plafond par axe** : conserver au plus **`settings.max_insights_per_axis`** insights par
    `primary_axis` (valeur de `sources.json`, défaut **10**). Classer par **actionability desc, puis
-   date desc**, garder le top-N, **écarter le reste**.
+   date desc**, garder le top-N, **écarter le reste**. Si `settings.content_types` est défini,
+   plafonner **par (content_type × primary_axis)** pour préserver la variété actu/événement/ressource.
 2. **Écarter les actionability ≤ 1** si le lot reste volumineux : on vise les signaux forts, pas
    l'exhaustivité.
 3. Ordre de grandeur cible : **quelques dizaines** d'insights, pas des centaines. Un `data/` à 200+

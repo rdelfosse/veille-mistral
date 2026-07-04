@@ -1,0 +1,130 @@
+{
+  "_comment": "Veille EXTERNE pour ALIMENTER la plateforme aquagir.fr (eau, Banque des Territoires). But : trouver AILLEURS sur le web des actualités / événements / ressources pertinents à relayer/adapter sur la plateforme, triés par thématique. NE PAS chercher sur aquagir.fr (exclu) — on connaît déjà notre contenu. content_type déduit des mots-clés/URL. axes = thématiques de la plateforme.",
+  "label": "Aquagir — veille externe (eau & collectivités)",
+  "settings": {
+    "default_days": 30,
+    "max_insights_per_axis": 12,
+    "archive_after_days": 120,
+    "content_types": ["actualite", "evenement", "ressource"],
+    "content_type_hints": {
+      "evenement": ["colloque", "webinaire", "séminaire", "salon", "journée d'étude", "rencontres", "assises", "conférence", "forum"],
+      "ressource": ["guide", "retour d'expérience", "étude", "rapport", "fiche pratique", "méthodologie", "boîte à outils", "référentiel", "MOOC"],
+      "actualite": []
+    },
+    "exclude_domains": ["aquagir.fr"],
+    "enrich_target": "aquagir.fr",
+    "auto_enrich": { "enabled": false },
+    "fetch": { "default_strategy": "search", "fallback_strategy": "open_url" }
+  },
+  "axes": {
+    "eaux-pluviales": {
+      "label": "Gestion des eaux pluviales",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "gestion des eaux pluviales collectivité 2026",
+        "désimperméabilisation ville colloque OR webinaire 2026",
+        "eaux pluviales zonage pluvial guide OR retour d'expérience"
+      ],
+      "blogs": []
+    },
+    "milieux-aquatiques": {
+      "label": "Gestion des milieux aquatiques (GEMAPI, cours d'eau, zones humides)",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "GEMAPI restauration cours d'eau collectivité 2026",
+        "zones humides continuité écologique journée d'étude 2026",
+        "restauration milieux aquatiques retour d'expérience guide"
+      ],
+      "blogs": []
+    },
+    "gestion-quantitative": {
+      "label": "Gestion quantitative de la ressource (sécheresse, partage, REUT, sobriété)",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "sécheresse partage de l'eau collectivité 2026",
+        "réutilisation des eaux usées REUT séminaire 2026",
+        "sobriété hydrique territoire guide OR étude"
+      ],
+      "blogs": []
+    },
+    "gouvernance-diagnostic": {
+      "label": "Gouvernance, diagnostics & prospective de l'eau",
+      "priority": 2,
+      "rss_feeds": [],
+      "search_queries": [
+        "compétence eau assainissement intercommunalité 2026",
+        "prospective ressource en eau territoire colloque 2026",
+        "diagnostic gouvernance de l'eau retour d'expérience"
+      ],
+      "blogs": []
+    },
+    "inondations": {
+      "label": "Prévention des inondations (PAPI, submersion, ruissellement)",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "prévention des inondations PAPI collectivité 2026",
+        "risque inondation submersion assises OR rencontres 2026",
+        "gestion du ruissellement guide OR retour d'expérience commune"
+      ],
+      "blogs": []
+    },
+    "eau-potable-production": {
+      "label": "Production de l'eau potable (captage, qualité, PFAS, traitement)",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "qualité eau potable PFAS pesticides collectivité 2026",
+        "protection captage eau potable webinaire 2026",
+        "traitement eau potable retour d'expérience guide"
+      ],
+      "blogs": []
+    },
+    "eau-potable-distribution": {
+      "label": "Distribution de l'eau potable (réseaux, fuites, rendement)",
+      "priority": 2,
+      "rss_feeds": [],
+      "search_queries": [
+        "rendement réseau eau potable fuites collectivité 2026",
+        "renouvellement canalisations eau salon OR colloque 2026",
+        "réduction des fuites réseau d'eau retour d'expérience"
+      ],
+      "blogs": []
+    },
+    "assainissement": {
+      "label": "Assainissement des eaux usées (collectif, ANC, boues)",
+      "priority": 1,
+      "rss_feeds": [],
+      "search_queries": [
+        "assainissement eaux usées station d'épuration collectivité 2026",
+        "assainissement non collectif ANC journée d'étude 2026",
+        "valorisation boues d'épuration guide OR étude"
+      ],
+      "blogs": []
+    },
+    "deci": {
+      "label": "Défense extérieure contre l'incendie (DECI)",
+      "priority": 3,
+      "rss_feeds": [],
+      "search_queries": [
+        "défense extérieure contre l'incendie DECI commune 2026",
+        "réglementation DECI poteaux incendie guide"
+      ],
+      "blogs": []
+    },
+    "pollutions": {
+      "label": "Pollutions de l'eau (micropolluants, PFAS, nitrates, accidentelles)",
+      "priority": 2,
+      "rss_feeds": [],
+      "search_queries": [
+        "pollution de l'eau micropolluants PFAS collectivité 2026",
+        "pollution ressource en eau nitrates colloque 2026",
+        "lutte contre les pollutions de l'eau retour d'expérience guide"
+      ],
+      "blogs": []
+    }
+  }
+}

@@ -61,9 +61,15 @@ Pour un axe donné :
    - **URL = article réel et précis** (jamais un flux/rubrique/racine) ; sinon **écarte l'item**.
    - **Fenêtre dure** : vraie date dans `[date_start, date_end]` ; rejeter hors semaine et l'evergreen.
    - **Zéro remplissage** : un axe sans article réel reste vide — c'est valide.
+   - **Exclure `settings.exclude_domains`** : sur une veille d'**enrichissement externe**, le domaine de
+     la plateforme cible y figure — on cherche du contenu **externe**, jamais le sien. Écarter ces URLs.
 3. **Merge par URL** dans `raw/YYYY-WNN.json` : items au schéma (`found_via_axis = <axe>`,
    `source_type` ∈ `rss|search|blog`), sans dupliquer un URL déjà présent ; ajouter l'axe à
    `metadata.axes_collected` ; MAJ `last_collecte`.
+   - **Si `settings.content_types` est défini** : classe chaque item dans un `content_type`
+     (`actualite` / `evenement` / `ressource`) via `settings.content_type_hints` (mots-clés) + l'URL/
+     titre — **défaut `actualite`** ; stocke le champ `content_type` sur l'item. Pour un `evenement`,
+     capter **date et lieu** dans le résumé si dispo.
 4. **Committer immédiatement cet axe** via le connecteur (create/update file) :
    `collecte(<topic>): YYYY-WNN — axe <axe> (+N items)`. **Puis passer à l'axe suivant.**
 

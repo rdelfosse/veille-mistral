@@ -25,10 +25,12 @@ veille-mistral/
 │  ├─ veille-collecte/            ← étape 1 : collecte par axe → raw/
 │  ├─ veille-scoring/             ← étape 2 : scoring & dédup → data/
 │  ├─ veille-digest/              ← étape 3 : mise en forme → digest/
+│  ├─ veille-run/                 ← orchestrateur : collecte → scoring → digest
 │  ├─ veille-tout-en-un/          ← veille monolithe (run unique / petit topic)
 │  ├─ veille-angles-morts/        ← analyse : cartographie les angles morts
 │  ├─ veille-idees-microservices/ ← idéation : idées de micro-services
-│  └─ veille-critique-idees/      ← critique : destruction Garry Tan → reframe CEO
+│  ├─ veille-critique-idees/      ← critique : destruction Garry Tan → reframe CEO
+│  └─ veille-publish-notion/      ← publie un digest comme page Notion
 ├─ references/
 │  ├─ scoring-rubric.md         ← logique de scoring (générique)
 │  ├─ output-schema.md          ← format JSON + digest
@@ -40,18 +42,23 @@ veille-mistral/
    │  ├─ sources.json
    │  ├─ scoring.md
    │  └─ analysis.md            ← brief des agents aval (acteurs, contraintes, critères)
-   └─ pain-points-elus-locaux/  ← 1er sujet
-      ├─ sources.json           ← settings + axes + sources
-      ├─ scoring.md             ← barème de scoring du sujet
-      ├─ analysis.md            ← brief d'analyse du sujet
-      ├─ raw/                   ← harvest brut par semaine — écrit par l'agent collecte
-      ├─ data/                  ← un JSON par semaine (YYYY-WNN.json) — écrit par le scoring
-      ├─ digest/                ← un Markdown par semaine (YYYY-WNN.md) — écrit par le digest
-      └─ analysis/              ← livrables des agents aval (angles-morts / idees / critique)
+   ├─ pain-points-elus-locaux/  ← sujet « détection d'opportunités » (multi-sources)
+   │  ├─ sources.json · scoring.md · analysis.md
+   │  └─ raw/ · data/ · digest/ · analysis/   (écrits par les skills)
+   ├─ aquagir/                  ← veille EXTERNE d'enrichissement (eau)
+   ├─ numerique360/             ← veille EXTERNE d'enrichissement (numérique collectivités)
+   └─ protegenfance/            ← veille EXTERNE d'enrichissement (protection de l'enfance)
 ```
 
 Un **topic** = une thématique (un dossier). À l'intérieur, plusieurs **axes** (sous-angles)
-permettent un scoring multi-dimensionnel.
+permettent un scoring multi-dimensionnel. Deux familles de topics :
+
+- **Détection d'opportunités** (ex. `pain-points-elus-locaux`) : ratisse de **multiples sources** pour
+  repérer des pain points → opportunités ; enchaîne l'analyse aval (angles-morts → idées → critique).
+- **Enrichissement externe** (ex. `aquagir`, `numerique360`, `protegenfance`) : cherche **ailleurs sur
+  le web** des **actualités / événements / ressources** (`content_type`) pour **alimenter une plateforme**
+  sur ses thématiques — `settings.exclude_domains` écarte le domaine de la plateforme, et le digest
+  groupe par type de contenu puis par thématique.
 
 ## Le pipeline
 

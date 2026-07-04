@@ -43,7 +43,8 @@ Données **non scorées** : juste ce qui a été collecté, tracé par source.
       "date": "2026-06-30",
       "lang": "fr",
       "summary": "Résumé factuel 2-3 phrases.",
-      "found_via_axis": "finances"
+      "found_via_axis": "finances",
+      "content_type": "actualite"
     }
   ]
 }
@@ -52,6 +53,15 @@ Données **non scorées** : juste ce qui a été collecté, tracé par source.
 - **Merge par URL** à chaque run de collecte : ne jamais dupliquer un item déjà présent ; ajouter
   l'axe courant à `axes_collected`. `found_via_axis` note l'axe dont les sources ont fait remonter
   l'item (informatif — le scoring re-score sur **tous** les axes).
+- **`content_type`** (optionnel) : sur les **topics d'enrichissement externe** (`settings.content_types`
+  défini), classer chaque item en `actualite` / `evenement` / `ressource` via `content_type_hints`.
+
+### Veilles d'enrichissement externe (topics mono-plateforme)
+Certains topics visent à **alimenter une plateforme** (ex. `aquagir`, `numerique360`, `protegenfance`) :
+on cherche du contenu **AILLEURS sur le web** (actualités/événements/ressources) pour ses thématiques,
+**jamais** le contenu de la plateforme elle-même. Conséquences : `search_queries` **génériques** (pas de
+`site:<plateforme>`), **`settings.exclude_domains`** écarte le domaine de la plateforme, et le digest
+groupe **par `content_type` puis par thématique**.
 
 ## Règles dures — communes à toutes les étapes
 
