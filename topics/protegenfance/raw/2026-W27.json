@@ -4,10 +4,11 @@
     "iso_week": "2026-W27",
     "date_start": "2026-06-29",
     "date_end": "2026-07-05",
-    "last_collecte": "2026-07-04T14:29:44.097Z",
+    "last_collecte": "2026-07-04T14:30:09.305Z",
     "axes_collected": [
       "se-reperer",
-      "se-former"
+      "se-former",
+      "accueillir"
     ],
     "settings": {
       "default_days": 30,
@@ -92,6 +93,24 @@
       "summary": "Le décret du 12 juin 2026 recentre l'engagement à servir, prévoit un renforcement de l'accompagnement des lauréats issus d'un M1, remplace le fast track par un concours spécial. Un focus sur la prévention et la protection de l'enfance sera mis en place.",
       "source_type": "search",
       "found_via_axis": "se-former",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/210KMXT",
+      "title": "Offre d'emploi Travailleur social H/F - CDD 6 mois - CEF - 26-081-37 (H/F) - 54 - TONNOY - 210KMXT | France Travail",
+      "date": "2026-07-01",
+      "summary": "La Maison d'Enfants de Vandoeuvre est un dispositif socio-éducatif qui accueille 10 enfants âgés de 3 à 14 ans confiés par l'ASE. Offre d'emploi pour éducateur spécialisé en CDD de 6 mois, publiée le 1er juillet 2026.",
+      "source_type": "search",
+      "found_via_axis": "accueillir",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.ici.fr/nouvelle-aquitaine/haute-vienne-87/saint-junien/une-structure-a-taille-humaine-a-saint-junien-la-maison-d-enfance-a-caractere-social-inaugure-son-dernier-batiment-7204527",
+      "title": "\"Une structure à taille humaine\" : à Saint-Junien, la Maison d'enfants à caractère social inaugure son dernier bâtiment",
+      "date": "2026-07-02",
+      "summary": "Une MECS ouverte depuis février 2026 à Saint-Junien (Haute-Vienne) accueille des enfants de 3 à 18 ans placés par l'ASE. Gérée par l'association Don Bosco, la structure a inauguré un nouveau pavillon accueillant 9 enfants, répondant à une hausse de 45% des placements depuis 2014.",
+      "source_type": "search",
+      "found_via_axis": "accueillir",
       "content_type": "actualite"
     }
   ]
