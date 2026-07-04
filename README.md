@@ -22,13 +22,18 @@ les briques natives de Vibe :
 ```
 veille-mistral/
 ├─ agent/
-│  ├─ instructions.md           ← prompt de l'agent de veille (le cœur)
+│  ├─ collecte.md               ← veille étape 1 : collecte par axe → raw/
+│  ├─ scoring.md                ← veille étape 2 : scoring & dédup → data/
+│  ├─ digest.md                 ← veille étape 3 : mise en forme → digest/
+│  ├─ instructions.md           ← veille tout-en-un (monolithe, run unique/petit topic)
 │  ├─ angles-morts.md           ← agent d'analyse : cartographie les angles morts
 │  ├─ idees-microservices.md    ← agent d'idéation : idées de micro-services
-│  └─ critique-idees.md         ← agent de critique : destruction Garry Tan → reframe CEO
+│  ├─ critique-idees.md         ← agent de critique : destruction Garry Tan → reframe CEO
+│  └─ prompts-declenchement.md  ← prompts prêts à coller (anti-simulation)
 ├─ references/
 │  ├─ scoring-rubric.md         ← logique de scoring (générique)
 │  ├─ output-schema.md          ← format JSON + digest
+│  ├─ veille-pipeline.md        ← architecture du pipeline veille + schéma harvest + règles dures
 │  └─ analysis-method.md        ← méthode des agents aval (angles morts → idées → critique)
 └─ topics/
    ├─ _template/                ← gabarit à cloner (jamais exécuté)
@@ -39,34 +44,40 @@ veille-mistral/
       ├─ sources.json           ← settings + axes + sources
       ├─ scoring.md             ← barème de scoring du sujet
       ├─ analysis.md            ← brief d'analyse du sujet
-      ├─ data/                  ← un JSON par semaine (YYYY-WNN.json) — écrit par la veille
-      ├─ digest/                ← un Markdown par semaine (YYYY-WNN.md) — écrit par la veille
+      ├─ raw/                   ← harvest brut par semaine — écrit par l'agent collecte
+      ├─ data/                  ← un JSON par semaine (YYYY-WNN.json) — écrit par le scoring
+      ├─ digest/                ← un Markdown par semaine (YYYY-WNN.md) — écrit par le digest
       └─ analysis/              ← livrables des agents aval (angles-morts / idees / critique)
 ```
 
 Un **topic** = une thématique (un dossier). À l'intérieur, plusieurs **axes** (sous-angles)
 permettent un scoring multi-dimensionnel.
 
-## Le pipeline en 4 agents
+## Le pipeline
 
-Quatre agents Vibe distincts, chaînés — chacun lit la sortie GitHub du précédent :
+Des agents Vibe distincts, chaînés — chacun lit la sortie GitHub du précédent et **commite son seul
+fichier** (un agent = un tour court = un commit, pour ne jamais « tomber en rade » avant d'écrire) :
 
 ```
-veille  →  angles-morts  →  idées-microservices  →  critique
+collecte[× axe] → scoring → digest   →   angles-morts → idées → critique
+     raw/          data/     digest/          analysis/
 ```
 
-1. **veille** (`agent/instructions.md`) — collecte hebdo, scoring multi-axes, digest.
-2. **angles-morts** (`agent/angles-morts.md`) — cartographie ce que les acteurs en place (BdT, État…)
-   font DÉJÀ pour isoler les trous exploitables.
-3. **idées-microservices** (`agent/idees-microservices.md`) — transforme les angles morts en idées de
-   micro-services concrets, filtrés par les critères du topic.
-4. **critique** (`agent/critique-idees.md`) — critique adversariale : les *six forcing questions* de
-   Garry Tan (office hours) tuent les idées non soutenues par la donnée, puis reframe stratégique CEO
-   des survivantes.
+**Veille** (voir `references/veille-pipeline.md`) :
+1. **collecte** (`agent/collecte.md`) — un run **par axe** ; collecte les articles réels → `raw/`.
+2. **scoring** (`agent/scoring.md`) — score multi-axes, déduplique, garde-fous qualité → `data/`.
+3. **digest** (`agent/digest.md`) — mise en forme lisible → `digest/`.
+   *(Alternative : `agent/instructions.md`, le monolithe tout-en-un, pour un petit topic / run unique.)*
 
-Les agents 2-4 sont **agnostiques au sujet** : toute la spécificité vit dans `topics/<topic>/analysis.md`
-+ `scoring.md`. Voir `references/analysis-method.md` pour la méthode. Ils tournent **moins souvent que
-la veille** (mensuel ou à la demande).
+**Analyse aval** (voir `references/analysis-method.md`) :
+4. **angles-morts** (`agent/angles-morts.md`) — ce que les acteurs en place (BdT, État…) font DÉJÀ,
+   pour isoler les trous.
+5. **idées-microservices** (`agent/idees-microservices.md`) — les angles morts → idées concrètes.
+6. **critique** (`agent/critique-idees.md`) — les *six forcing questions* de Garry Tan tuent les idées
+   non soutenues par la donnée, puis reframe stratégique CEO des survivantes.
+
+Tous les agents sont **agnostiques au sujet** : la spécificité vit dans `topics/<topic>/` (`sources.json`,
+`scoring.md`, `analysis.md`). Prompts prêts à coller : `agent/prompts-declenchement.md`.
 
 ## Installation côté Mistral Le Chat / Vibe
 

@@ -47,7 +47,9 @@ Pour chaque insight retenu :
 ### Phase 4 — Écrire le JSON (GitHub)
 1. Écrire `topics/<topic>/data/YYYY-WNN.json` au format `references/output-schema.md` : `metadata`
    (topic, week, dates, last_run, run_params, `stats`, `summary` Markdown 150-200 mots) + `insights`.
-   - `stats.by_axis` = chaque insight **une fois** sous son `primary_axis` ; `somme(by_axis) ==
+   - **Recalcule les stats APRÈS filtrage/dédup**, sur le lot **final** d'insights — ne jamais
+     reporter un compte d'avant-filtrage. `stats.total_insights` = longueur du tableau `insights`.
+     `stats.by_axis` = chaque insight **une fois** sous son `primary_axis` ; `somme(by_axis) ==
      total_insights`.
    - Si le fichier existe, **fusionner** par URL. Marquer `archived` au-delà de `archive_after_days`.
 2. **Écrire directement via le connecteur**, puis **commit** :
