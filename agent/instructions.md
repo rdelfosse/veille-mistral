@@ -53,6 +53,18 @@ Interpreter, mais **respecte la fenêtre `days`** partout.
 > axe filtré. À la fin, tiens un **compte par source** (rss / search / blogs) et signale tout canal
 > qui a rendu 0 résultat — une couverture d'un seul flux est un run à considérer comme incomplet.
 
+> ### 🚫 Règle d'or — zéro fabrication
+> Chaque insight correspond à **un article réel que tu as effectivement collecté**. Interdits absolus :
+> 1. **URL d'article obligatoire et spécifique.** L'`url` pointe une **page d'article précise**. Ne
+>    **jamais** utiliser une URL de **flux, de rubrique ou de racine** (`…/flux/…`, `…/localtis.xml`,
+>    `…/feed/`, page d'accueil, page de catégorie). Si tu n'as pas l'URL d'article réelle → **écarte
+>    l'insight**, ne le publie pas.
+> 2. **Pas de remplissage par axe.** Ne crée **jamais** un insight générique pour « couvrir » un axe
+>    (titre vague daté du lundi, sans article derrière). Un axe à 0 insight réel affiche « Aucun
+>    insight trouvé » — c'est un résultat valide, pas un trou à combler.
+> 3. **Mieux vaut 8 insights réels que 30 dont un quart d'inventés.** La quantité ne compte pas ; la
+>    traçabilité (chaque ligne = un lien qui s'ouvre sur l'article annoncé) compte.
+
 #### a) Flux RSS (Code Interpreter)
 Pour chaque flux RSS des sources filtrées :
 - `feedparser.parse(url)` ; garder les entrées des `days` derniers jours.
@@ -72,12 +84,19 @@ Pour chaque requête de recherche des sources filtrées :
 - Lancer Web Search. Pour les 3-5 résultats les plus pertinents, récupérer le contenu
   (Code Interpreter) pour un résumé 2-3 phrases ; sinon utiliser le snippet.
 - Extraire : `title`, `url`, date (si dispo), résumé.
+- **Fenêtre dure** : ne garder que les résultats dont la date de publication tombe dans
+  `[date_start, date_end]` (ou < `days` jours). `after:` n'est qu'un indice — **vérifie la vraie
+  date** de l'article et **rejette** tout item plus ancien (un article de mars/mai n'a rien à faire
+  dans une semaine de fin juin). Si la date est introuvable/incertaine, ne l'inclus pas.
 
 #### c) Blogs (Code Interpreter)
 Pour chaque blog des sources filtrées :
 - Récupérer la page (`requests` + User-Agent réaliste), extraire les cartes d'articles
   (titre, URL, date) publiés dans les `days` derniers jours via `BeautifulSoup`.
 - Résumé 2-3 phrases par article.
+- **Fenêtre dure** : même règle qu'en (b) — écarter tout article hors `[date_start, date_end]`, et
+  tout contenu **evergreen/sans date** (page « formation », fiche pratique) qui n'est pas une
+  actualité datée de la semaine.
 - Même gestion d'échec que pour les RSS.
 
 > **Note fetch** : le champ `fetch_strategy` de `sources.json` (`webfetch`/`chrome`) est hérité
@@ -101,6 +120,12 @@ Si `settings.auto_enrich.enabled` est `true` :
 
 1. **Dédup par URL** : comparer chaque URL collectée à l'historique de tous les fichiers
    `data/`. Ignorer les doublons (sauf si le contenu a changé significativement → `updated`).
+   - **Dédup aussi par titre/sujet** : deux items au **titre ou sujet quasi identiques** (même
+     histoire vue sur deux sites) = un seul insight ; garder la source la plus crédible. La dédup
+     par URL seule ne suffit pas (ex. « Statut de l'élu local » vu sur deux domaines différents).
+   - **Garde-fou qualité de source** : écarter les domaines **non éditoriaux** — sites de campagne
+     politique, fermes de contenu / SEO, agrégateurs, réseaux sociaux, pages persos. En cas de doute
+     sur la crédibilité, ne pas inclure.
 2. **Scorer chaque insight** sur **chaque** axe (0-3) selon les mots-clés de `scoring.md`
    (titre + résumé). `primary_axis` = axe au score le plus haut.
 3. **Actionability (0-3)** : potentiel d'exploitation pour le **public cible** défini dans
@@ -134,13 +159,25 @@ Si `settings.auto_enrich.enabled` est `true` :
    take pour actionability ≥ 2, section « Sources auto-ajoutées » si applicable, puis stats
    agrégées.
 
+> ### ✍️ Écris, ne déverse pas (dompter Le Chat)
+> Ta sortie utile, ce sont **les fichiers committés**, pas le texte affiché. Donc :
+> - **N'affiche JAMAIS le digest complet ni le JSON complet dans le chat.** Écris-les **directement**
+>   dans le repo via le connecteur GitHub (create/update file), puis commit.
+> - **Confirme par le SHA du commit.** Ta réponse de fin = le SHA + un résumé court (voir §6), pas le
+>   contenu recopié. Si tu ne peux pas produire de SHA, le run a **échoué** — dis-le, ne fais pas
+>   semblant d'avoir réussi et n'invite pas l'utilisateur à copier-coller à la main.
+> - **Écris au fil de l'eau si besoin** : si la collecte est longue, écris/commit le JSON puis le
+>   digest dès qu'ils sont prêts, plutôt que de tout garder en mémoire et de « tomber en rade » à la fin.
+>
 > **Contrôle qualité avant de conclure — le run est INCOMPLET tant que tout n'est pas vrai :**
-> 1. **Les DEUX fichiers** sont committés : `data/YYYY-WNN.json` **et** `digest/YYYY-WNN.md`. Écrire
->    le JSON sans le digest = run raté.
-> 2. Aucune URL en mojibake ; chaque URL provient verbatim de sa source.
-> 3. Aucun `editorial_take` dupliqué d'un insight à l'autre.
-> 4. `somme(stats.by_axis) == stats.total_insights`.
-> 5. Au moins deux canaux de collecte exercés quand `sources = all` (sinon signaler pourquoi).
+> 1. **Les DEUX fichiers** sont committés : `data/YYYY-WNN.json` **et** `digest/YYYY-WNN.md`, confirmés
+>    par un **SHA**. Écrire le JSON sans le digest, ou afficher sans committer = run raté.
+> 2. **Chaque `url` est un article réel et spécifique** (aucune URL de flux/rubrique/racine, aucun
+>    mojibake, aucun insight de remplissage sans article derrière).
+> 3. Tous les items sont **dans la fenêtre** `[date_start, date_end]` (aucun mois hors semaine).
+> 4. Aucun `editorial_take` dupliqué ; aucun doublon de sujet ; aucune source non éditoriale.
+> 5. `stats.total_insights` == **nombre d'insights réellement listés** == `somme(stats.by_axis)`.
+> 6. Au moins deux canaux de collecte exercés quand `sources = all` (sinon signaler pourquoi).
 > Si un point échoue, corrige et recommite **avant** d'afficher le résumé final.
 
 Si **topic = all**, répéter pour chaque topic puis afficher un récapitulatif global.
