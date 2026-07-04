@@ -1,0 +1,437 @@
+{
+  "metadata": {
+    "topic": "protegenfance",
+    "week": "2026-W27",
+    "date_start": "2026-06-29",
+    "date_end": "2026-07-05",
+    "last_run": "2026-07-04T14:43:05.725Z",
+    "summary": "### Semaine riche en actualités législatives et initiatives locales\n\nLa semaine 2026-W27 a été marquée par **l'adoption de la proposition de loi sur la protection des enfants** à l'Assemblée nationale (1er juillet), renforçant notamment le droit à un avocat pour les mineurs. Plusieurs **événements** (Assises nationales en Haute-Marne, Rencontres Économiques) et **ressources** (rapport ONPE sur la réussite scolaire, étude sur le parrainage) offrent des leviers concrets pour la plateforme.\n\n### Focus sur la prévention et l'accompagnement\n\nLes départements (Haute-Marne, Maine-et-Loire) **renforcent leurs dispositifs** avec des formations obligatoires et des budgets accrus (>38M€). Des **retours d'expérience** (affaire Louis à Narbonne) et des **signaux de tension** (offres d'emploi) complètent le panorama.",
+    "run_params": {
+      "axes": [
+        "all"
+      ],
+      "days": 7,
+      "sources": [
+        "search"
+      ]
+    },
+    "stats": {
+      "total_insights": 15,
+      "by_axis": {
+        "se-reperer": 10,
+        "accueillir": 2,
+        "se-former": 1,
+        "accompagner": 2
+      },
+      "new_insights": 15,
+      "updated_insights": 0
+    }
+  },
+  "insights": [
+    {
+      "id": "ins_20260704_9b803e",
+      "title": "Conseil des ministres : les réformes en France",
+      "url": "https://journal.impact-european.eu/conseil-ministres-france-1-juillet-2026/",
+      "source": "journal.impact-european.eu",
+      "source_type": "search",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "Le Conseil des ministres du 1er juillet 2026 a examiné un projet de loi renforçant la protection des enfants face aux violences sexuelles, avec une lettre rectificative pour renforcer plusieurs dispositions avant examen à l'Assemblée nationale à partir du 15 juillet 2026.",
+      "content_type": "actualite",
+      "editorial_take": "",
+      "axes": {
+        "se-reperer": 3,
+        "se-former": 0,
+        "accueillir": 0,
+        "accompagner": 0,
+        "prevenir": 3
+      },
+      "primary_axis": "se-reperer",
+      "actionability": {
+        "score": 1,
+        "article_potential": 1,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_613ce2",
+      "title": "VICTOIRE POUR LA PROTECTION DES ENFANTS ! - Le SAF",
+      "url": "https://lesaf.org/victoire-pour-la-protection-des-enfants/",
+      "source": "lesaf.org",
+      "source_type": "search",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "L'Assemblée nationale a adopté définitivement le 1er juillet 2026 la proposition de loi n°214/2025-2026 visant à assurer le droit de chaque enfant à être assisté d'un avocat dans le cadre d'une mesure d'assistance éducative et de protection de l'enfance.",
+      "content_type": "actualite",
+      "editorial_take": "",
+      "axes": {
+        "se-reperer": 3,
+        "se-former": 0,
+        "accueillir": 0,
+        "accompagner": 0,
+        "prevenir": 0
+      },
+      "primary_axis": "se-reperer",
+      "actionability": {
+        "score": 1,
+        "article_potential": 1,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_b52d0f",
+      "title": "Adoption, sans modification, en 2ème lecture, de la proposition de loi visant à assurer le droit de chaque enfant à être assisté d'un avocat dans le cadre d'une mesure d'assistance éducative et de protection de l'enfance",
+      "url": "https://assemblee-nationale.fr/dyn/actualites-accueil-hub/examen-en-2eme-lecture-de-la-proposition-de-loi-visant-a-assurer-le-droit-de-chaque-enfant-a-etre-assiste-d-un-avocat-dans-le-cadre-d-une-mesure",
+      "source": "assemblee-nationale.fr",
+      "source_type": "search",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "L'Assemblée nationale a adopté en 2ème lecture une proposition de loi pour garantir l'assistance d'un avocat aux enfants dans le cadre des mesures d'assistance éducative et de protection de l'enfance.",
+      "content_type": "actualite",
+      "editorial_take": "",
+      "axes": {
+        "se-reperer": 3,
+        "se-former": 0,
+        "accueillir": 0,
+        "accompagner": 0,
+        "prevenir": 0
+      },
+      "primary_axis": "se-reperer",
+      "actionability": {
+        "score": 1,
+        "article_potential": 1,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_621556",
+      "title": "Protection de l'enfance en Haute-Marne : le Département renforce ses moyens pour 2026",
+      "url": "https://www.puissancetelevision.fr/economie/protection-de-lenfance-en-haute-marne-le-departement-renforce-ses-moyens-pour-2026/",
+      "source": "puissancetelevision.fr",
+      "source_type": "search",
+      "date": "2026-06-30",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "La Meuse accueillera la 3ème édition des Assises nationales de l'accès aux soins le 30 juin 2026 à Bar-le-Duc. Le Département mobilise plus de 38M€ pour la protection de l'enfance en 2026.",
+      "content_type": "evenement",
+      "editorial_take": "Événement à promouvoir auprès des professionnels. Opportunité de networking et de veille prospective pour la plateforme.",
+      "axes": {
+        "se-reperer": 0,
+        "se-former": 0,
+        "accueillir": 2,
+        "accompagner": 0,
+        "prevenir": 0
+      },
+      "primary_axis": "accueillir",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_8aa250",
+      "title": "Réussite scolaire des enfants confiés à l'ASE : l'ONPE appelle à faire de l'école un pilier de la protection de l'enfance",
+      "url": "https://www.enfancejeunesseinfos.fr/reussite-scolaire-des-enfants-confies-a-lase-lonpe-appelle-a-faire-de-lecole-un-pilier-de-la-protection-de-lenfance/",
+      "source": "enfancejeunesseinfos.fr",
+      "source_type": "search",
+      "date": "2026-06-30",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "Le rapport publié le 30 juin par l'ONPE montre comment des initiatives de terrain renforcent la continuité des parcours scolaires des enfants confiés à l'ASE, avec 10 recommandations pour améliorer leur réussite.",
+      "content_type": "ressource",
+      "editorial_take": "Étude/rapport identifiant des leviers concrets pour améliorer la gouvernance. À adapter en ressources pour la plateforme.",
+      "axes": {
+        "se-reperer": 0,
+        "se-former": 0,
+        "accueillir": 0,
+        "accompagner": 0,
+        "prevenir": 0
+      },
+      "primary_axis": "se-reperer",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_9ca827",
+      "title": "\"Personne n'en veut de ces enfants, ni les départements, ni l'État\" : qui a failli dans la protection de Louis, 17 ans, lynché jusqu'à l'agonie à Narbonne?",
+      "url": "https://www.bfmtv.com/police-justice/personne-n-en-veut-de-ces-enfants-ni-les-departements-ni-l-etat-qui-a-failli-dans-la-protection-de-louis-17-ans-lynche-jusqu-a-l-agonie-a-narbonne_AN-202606300546.html",
+      "source": "bfmtv.com",
+      "source_type": "search",
+      "date": "2026-06-30",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "Louis, 17 ans, est mort le 24 juin 2026 après avoir été violemment agressé à Narbonne. L'adolescent, suivi par l'ASE depuis mai, soulève des questions sur les défaillances du système de protection de l'enfance.",
+      "content_type": "actualite",
+      "editorial_take": "Retour d'expérience sur les défaillances du système de protection de l'enfance. À analyser pour proposer des solutions ou des bonnes pratiques sur la plateforme.",
+      "axes": {
+        "se-reperer": 0,
+        "se-former": 0,
+        "accueillir": 0,
+        "accompagner": 0,
+        "prevenir": 0
+      },
+      "primary_axis": "se-reperer",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_4a6263",
+      "title": "Protection enfance Jarny (54800) - Voir les dernières offres - 2 juillet 2026 | Hellowork",
+      "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_protection-enfance-ville_jarny-54800.html",
+      "source": "hellowork.com",
+      "source_type": "search",
+      "date": "2026-07-02",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "Consultez les 12 offres d'emploi en protection de l'enfance à Jarny (54800) en CDI, CDD, Intérim. Les recruteurs répondent aux candidats en moyenne en 15 jours maximum.",
+      "content_type": "actualite",
+      "editorial_take": "Signal de tension sur le marché du travail en protection de l'enfance. À relayer pour attirer des candidats ou créer des contenus sur les métiers.",
+      "axes": {
+        "se-reperer": 3,
+        "se-former": 3,
+        "accueillir": 0,
+        "accompagner": 0,
+        "prevenir": 0
+      },
+      "primary_axis": "se-reperer",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_058ee8",
+      "title": "Formation des enseignants : compte rendu du 29 juin 2026 – SNALC",
+      "url": "https://snalc.fr/formation-des-enseignants-cr-29-juin-2026",
+      "source": "snalc.fr",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "Le décret du 12 juin 2026 recentre l'engagement à servir, prévoit un renforcement de l'accompagnement des lauréats issus d'un M1, remplace le fast track par un concours spécial. Un focus sur la prévention et la protection de l'enfance sera mis en place.",
+      "content_type": "actualite",
+      "editorial_take": "Initiative locale à mettre en avant. Exemple concret de se-former à partager avec la communauté des professionnels.",
+      "axes": {
+        "se-reperer": 0,
+        "se-former": 3,
+        "accueillir": 0,
+        "accompagner": 3,
+        "prevenir": 3
+      },
+      "primary_axis": "se-former",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_06c495",
+      "title": "Offre d'emploi Travailleur social H/F - CDD 6 mois - CEF - 26-081-37 (H/F) - 54 - TONNOY - 210KMXT | France Travail",
+      "url": "https://candidat.francetravail.fr/offres/recherche/detail/210KMXT",
+      "source": "candidat.francetravail.fr",
+      "source_type": "search",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "La Maison d'Enfants de Vandoeuvre est un dispositif socio-éducatif qui accueille 10 enfants âgés de 3 à 14 ans confiés par l'ASE. Offre d'emploi pour éducateur spécialisé en CDD de 6 mois, publiée le 1er juillet 2026.",
+      "content_type": "actualite",
+      "editorial_take": "Signal de tension sur le marché du travail en protection de l'enfance. À relayer pour attirer des candidats ou créer des contenus sur les métiers.",
+      "axes": {
+        "se-reperer": 3,
+        "se-former": 3,
+        "accueillir": 3,
+        "accompagner": 0,
+        "prevenir": 0
+      },
+      "primary_axis": "se-reperer",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_da35a3",
+      "title": "\"Une structure à taille humaine\" : à Saint-Junien, la Maison d'enfants à caractère social inaugure son dernier bâtiment",
+      "url": "https://www.ici.fr/nouvelle-aquitaine/haute-vienne-87/saint-junien/une-structure-a-taille-humaine-a-saint-junien-la-maison-d-enfance-a-caractere-social-inaugure-son-dernier-batiment-7204527",
+      "source": "ici.fr",
+      "source_type": "search",
+      "date": "2026-07-02",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "Une MECS ouverte depuis février 2026 à Saint-Junien (Haute-Vienne) accueille des enfants de 3 à 18 ans placés par l'ASE. Gérée par l'association Don Bosco, la structure a inauguré un nouveau pavillon accueillant 9 enfants, répondant à une hausse de 45% des placements depuis 2014.",
+      "content_type": "actualite",
+      "editorial_take": "Initiative locale à mettre en avant. Exemple concret de accueillir à partager avec la communauté des professionnels.",
+      "axes": {
+        "se-reperer": 0,
+        "se-former": 0,
+        "accueillir": 3,
+        "accompagner": 0,
+        "prevenir": 0
+      },
+      "primary_axis": "accueillir",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_7f4f86",
+      "title": "Protection des enfants: l’Aide sociale à l’enfance bientôt réformée?",
+      "url": "https://lcp.fr/actualites/protection-des-enfants-l-aide-sociale-a-l-enfance-bientot-reformee-438487",
+      "source": "lcp.fr",
+      "source_type": "search",
+      "date": "2026-06-30",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "Les travaux de la commission spéciale sur le projet de loi relatif à la protection des enfants ont débuté le 30 juin 2026. Le texte vise à améliorer la prise en charge des 400 000 mineurs et jeunes majeurs de l'ASE, avec un accent sur la primauté de la famille et l'adoption simple pour les enfants ne pouvant revenir dans leur milieu familial.",
+      "content_type": "actualite",
+      "editorial_take": "",
+      "axes": {
+        "se-reperer": 3,
+        "se-former": 0,
+        "accueillir": 0,
+        "accompagner": 3,
+        "prevenir": 0
+      },
+      "primary_axis": "se-reperer",
+      "actionability": {
+        "score": 1,
+        "article_potential": 1,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_bc2eba",
+      "title": "Le parrainage des enfants de l'ASE : \"Un levier reconnu par les professionnels\"",
+      "url": "https://www.lemediasocial.fr/le-parrainage-des-enfants-de-lase-un-levier-reconnu-par-les-professionnels_St073d",
+      "source": "lemediasocial.fr",
+      "source_type": "search",
+      "date": "2026-06-30",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "Une étude présentée le 30 juin à la Haute-commissaire à l'Enfance démontre les effets positifs du parrainage de proximité pour les enfants de l'ASE. France Parrainage milite pour un recours plus massif à cette forme d'accompagnement complémentaire.",
+      "content_type": "ressource",
+      "editorial_take": "Étude/rapport identifiant des leviers concrets pour améliorer la sortie de l'ASE. À adapter en ressources pour la plateforme.",
+      "axes": {
+        "se-reperer": 0,
+        "se-former": 0,
+        "accueillir": 0,
+        "accompagner": 3,
+        "prevenir": 0
+      },
+      "primary_axis": "accompagner",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_9c874e",
+      "title": "Les Rencontres Économiques - 2-3-4 juillet 2026",
+      "url": "https://www.lesrencontreseconomiques.fr/",
+      "source": "lesrencontreseconomiques.fr",
+      "source_type": "search",
+      "date": "2026-07-02",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "Le plus grand événement économique et social en Europe, ouvert à tous et gratuit, se tiendra à Aix-en-Provence du 2 au 4 juillet 2026. Plus de 400 intervenants et 70 sessions aborderont notamment les questions de jeunesse et d'insertion.",
+      "content_type": "evenement",
+      "editorial_take": "Événement à promouvoir auprès des professionnels. Opportunité de networking et de veille prospective pour la plateforme.",
+      "axes": {
+        "se-reperer": 0,
+        "se-former": 0,
+        "accueillir": 0,
+        "accompagner": 2,
+        "prevenir": 0
+      },
+      "primary_axis": "accompagner",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_2aca05",
+      "title": "Projet de loi sur la protection de l'enfance : quels sont les changements apportés par le Premier ministre ?",
+      "url": "https://www.ash.tm.fr/juridique/projet-de-loi-sur-la-protection-de-lenfance-quels-sont-les-changements-apportes-par-le-premier-ministre-974210.php",
+      "source": "ash.tm.fr",
+      "source_type": "search",
+      "date": "2026-07-03",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "Après présentation en conseil des ministres le 1er juillet 2026, une lettre rectificative ajoute des articles pour \"renforcer la prévention et la répression des infractions sur les mineurs\". Le projet de loi sera étudié par les députés le 15 juillet 2026.",
+      "content_type": "actualite",
+      "editorial_take": "",
+      "axes": {
+        "se-reperer": 3,
+        "se-former": 0,
+        "accueillir": 0,
+        "accompagner": 0,
+        "prevenir": 3
+      },
+      "primary_axis": "se-reperer",
+      "actionability": {
+        "score": 1,
+        "article_potential": 1,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_7c14ca",
+      "title": "Protection de l'enfance : Le Maine-et-Loire va imposer des formations de prévention aux violences sexuelles",
+      "url": "https://my-angers.info/07/02/protection-de-lenfance-le-maine-et-loire-va-imposer-des-formations-de-prevention-aux-violences-sexuelles/189482",
+      "source": "my-angers.info",
+      "source_type": "search",
+      "date": "2026-07-02",
+      "collected_at": "2026-07-04T14:43:05.725Z",
+      "lang": "fr",
+      "summary": "Le Département du Maine-et-Loire annonce la création, dès la rentrée 2026, de modules de formation obligatoires pour sensibiliser au repérage et au signalement des violences sexuelles faites aux enfants, suite à l'affaire Lyhanna et aux 288 signalements du premier semestre 2026.",
+      "content_type": "actualite",
+      "editorial_take": "",
+      "axes": {
+        "se-reperer": 3,
+        "se-former": 3,
+        "accueillir": 0,
+        "accompagner": 0,
+        "prevenir": 3
+      },
+      "primary_axis": "se-reperer",
+      "actionability": {
+        "score": 1,
+        "article_potential": 1,
+        "cross_links": []
+      },
+      "status": "new"
+    }
+  ]
+}
