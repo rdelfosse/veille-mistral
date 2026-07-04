@@ -8,6 +8,42 @@
       "found_via_axis": "transition-eco-energetique",
       "source_type": "search",
       "content_type": "actualite"
+    },
+    {
+      "url": "https://outremers360.com/bassin-atlantique-appli/guyane-le-deploiement-du-cable-sous-marin-lum-link-debute-a-montabo",
+      "title": "Guyane : Le déploiement du câble sous-marin Lum@link débute à Montabo",
+      "date": "2026-06-29",
+      "summary": "Le déploiement du câble sous-marin Lum@link a débuté sur la plage de Montabo. Ce projet vise à améliorer la connectivité en Guyane, renforcer l'inclusion numérique et développer le rayonnement du territoire. Porté par la SPLANG, il reliera directement la Guyane à l'Europe, améliorant rapidité, fiabilité et sécurité des connexions internet.",
+      "found_via_axis": "citoyens-solidarite",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.fratmat.info/article/2642932/economie/publi-info/inclusion-numerique-mtn-cote-divoire-lance-smartphone-pour-tous-pour-connecter-les-communautes-la-jeunesse-des-aujourdhui",
+      "title": "Inclusion numérique: MTN Côte d’Ivoire lance « Smartphone pour Tous »",
+      "date": "2026-06-29",
+      "summary": "MTN Côte d'Ivoire lance 'Smartphone pour Tous', une offre innovante pour rapprocher les communautés des opportunités du digital. Cette initiative vise à rendre l'accès au numérique plus accessible, particulièrement pour la jeunesse, dans une démarche d'inclusion numérique et sociale.",
+      "found_via_axis": "citoyens-solidarite",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.aip.ci/cote-divoire-aip-lansut-annonce-un-programme-de-smartphones-a-cout-reduit-pour-accelerer-linclusion-numerique",
+      "title": "ANSUT annonce un programme de smartphones à coût réduit pour accélérer l’inclusion numérique",
+      "date": "2026-06-29",
+      "summary": "L'ANSUT en Côte d'Ivoire annonce un programme de smartphones à coût réduit pour les populations à faibles revenus. Cette initiative, présentée lors des Journées du Droit Numérique, vise à lever un frein important à l'utilisation des services numériques et offrir à plus de citoyens l'accès aux services administratifs, éducatifs, sanitaires et financiers en ligne.",
+      "found_via_axis": "citoyens-solidarite",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.aixenprovence.fr/Les-Rencontres-Economiques-2026",
+      "title": "Les Rencontres Économiques 2026",
+      "date": "2026-07-02",
+      "summary": "La 26ème édition des Rencontres Économiques d'Aix se tiendra du 2 au 4 juillet 2026 au parc Jourdan. Organisé par le Cercle des économistes, cet événement aborde des thèmes incluant le développement économique durable, les smart cities, l'innovation technologique et la transition numérique. La municipalité de Perouse interviendra sur le développement économique durable et la transition numérique.",
+      "found_via_axis": "citoyens-solidarite",
+      "source_type": "search",
+      "content_type": "evenement"
     }
   ],
   "metadata": {
@@ -15,9 +51,10 @@
     "date_start": "2026-06-29",
     "date_end": "2026-07-05",
     "axes_collected": [
-      "transition-eco-energetique"
+      "transition-eco-energetique",
+      "citoyens-solidarite"
     ],
-    "last_collecte": "2026-07-04T14:43:01.801Z",
+    "last_collecte": "2026-07-04T14:43:30.582Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
