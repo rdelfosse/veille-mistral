@@ -4,21 +4,27 @@
     "week": "2026-W27",
     "date_start": "2026-06-29",
     "date_end": "2026-07-05",
-    "last_run": "2026-07-05T18:00:00Z",
-    "summary": "### La pression budgétaire et financière s'intensifie\n\nLes **élus locaux** subissent un **budget 2026 marqué par des ponctions historiques** : gel de la DGF à **27,4 Md€** (non indexée sur l’inflation), suppression de **527 M€ de variables d’ajustement**, et un amendement RN réduisant la DGF de **4,9 Md€** — soit un total de **plus de 5 Md€ de prélèvements**. Résultat : **la moitié des communes** voient leur dotation baisser ou stagner, avec un **effet ciseau** entre recettes en baisse et dépenses contraintes (normes, transition écologique). Les **intercommunalités** sont particulièrement pénalisées, tandis que les **petites communes** peinent à boucler leur budget. *L’AMF alerte : sans correction, c’est la rupture.*\n\n### Canicule et adaptation climatique : l’urgence concrète\n\nLa **vague de chaleur de fin juin** a forcé les maires à arbitrer entre **fermeture ou maintien des écoles** — **80 % des établissements non adaptés** aux températures actuelles. L’État débloque **190 M€ pour 12 500 écoles**, mais les solutions low-tech (ombrage, ventilation nocturne, *classe dehors*) peinent à se déployer faute d’ingénierie locale. Parallèlement, la **sécheresse** place **93 départements en restriction d’eau**, avec des **arrêtés municipaux** pour gérer la ressource. *Le Fonds vert, en baisse de 68 % depuis 2024, ne suffit plus.*\n\n### RH et ingénierie : la pénurie structurelle\n\n**~1 200 postes de secrétaires de mairie** restent vacants en zone rurale (5 % des communes < 3 500 hab.), avec **24 % des effectifs partant à la retraite d’ici 2026**. Les **petites communes**, privées de l’appui de l’État territorial depuis 2001, manquent cruellement d’expertise pour porter leurs projets. *L’ANCT a accompagné 1 200 projets « sur mesure » depuis 2020, mais l’offre reste disparate.*",
+    "last_run": "2026-07-04T10:34:34.001Z",
+    "summary": "### La pression budgétaire et financière s'intensifie\n\nLes **élus locaux** subissent un **budget 2026 marqué par des ponctions historiques** : gel de la DGF à **27,4 Md€** (non indexée sur l’inflation), suppression de **527 M€ de variables d’ajustement**, et un amendement RN réduisant la DGF de **4,9 Md€** — soit un total de **plus de 5 Md€ de prélèvements**. Résultat : **la moitié des communes** voient leur dotation baisser ou stagner, avec un **effet ciseau** entre recettes en baisse et dépenses contraintes (normes, transition écologique). Les **intercommunalités** sont particulièrement pénalisées, tandis que les **petites communes** peinent à boucler leur budget. *L’AMF alerte : sans correction, c’est la rupture.*\n\n### Canicule et adaptation climatique : l’urgence concrète\n\nLa **vague de chaleur de fin juin** a forcé les maires à arbitrer entre **fermeture ou maintien des écoles** — **80 % des établissements non adaptés** aux températures actuelles. L’État débloque **190 M€ pour 12 500 écoles**, mais les solutions low-tech (ombrage, ventilation nocturne, *classe dehors*) peinent à se déployer faute d’ingénierie locale. Parallèlement, la **sécheresse** place **93 départements en restriction d’eau**, avec des **arrêtés municipaux** pour gérer la ressource. *Le Fonds vert, en baisse de 68 % depuis 2024, ne suffit plus.*\n\n### RH et ingénierie : la pénurie structurelle\n\n**~1 200 postes de secrétaires de mairie** restent vacants en zone rurale (5 % des communes < 3 500 hab.), avec **24 % des effectifs partant à la retraite d’ici 2026**. Les **petites communes**, privées de l’appui de l’État territorial depuis 2001, manquent cruellement d’expertise pour porter leurs projets. *L’ANCT a accompagné 1 200 projets « sur mesure » depuis 2020, mais l’offre reste disparate.*\n\n### Veille complémentaire (4 juillet 2026)\n\nNouvelles alertes sur les **ponctions budgétaires** (AMF, Weka) et l'**érosion de l'autonomie fiscale** des collectivités. La **canicule de juin** (2 025 décès) rappelle l'urgence climatique et la vulnérabilité des **personnes âgées**.",
     "run_params": {
-      "axes": ["all"],
+      "axes": [
+        "all"
+      ],
       "days": 7,
-      "sources": ["rss", "search", "blogs"]
+      "sources": [
+        "rss",
+        "search",
+        "blogs"
+      ]
     },
     "stats": {
-      "total_insights": 32,
+      "total_insights": 27,
       "by_axis": {
-        "finances": 8,
-        "rh-ingenierie": 5,
+        "finances": 6,
+        "rh-ingenierie": 3,
         "climat-transition": 7,
         "services-proximite": 4,
-        "numerique-simplification": 3,
+        "numerique-simplification": 2,
         "mandat-elus": 2,
         "logement-urbanisme": 2,
         "mobilites-voirie": 1,
@@ -782,6 +788,138 @@
         "social-grand-age": 0
       },
       "primary_axis": "mobilites-voirie",
+      "actionability": {
+        "score": 3,
+        "article_potential": 3,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_4dce01",
+      "title": "L'AMF dit stop aux ponctions sur les budgets locaux",
+      "url": "https://www.weka.fr/actualite/finances-locales/article/l-amf-dit-stop-aux-ponctions-sur-les-budgets-locaux-216243/",
+      "source": "Weka",
+      "source_type": "search",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T10:34:34.001Z",
+      "lang": "fr",
+      "summary": "L'AMF demande à l'État de stabiliser les dotations aux collectivités territoriales et de mettre fin aux ponctions sur leurs budgets. Depuis 2009, 82 milliards d'euros ont été prélevés sur la DGF des communes et intercommunalités.",
+      "editorial_take": "Le pain point est la réduction massive et systématique des dotations de l'État. La solution passe par des outils de plaidoyer pour défendre les finances locales.",
+      "axes": {
+        "finances": 3,
+        "rh_ingenierie": 0,
+        "climat_transition": 1,
+        "services_proximite": 0,
+        "numerique_simplification": 0,
+        "mandat_elus": 0,
+        "logement_urbanisme": 0,
+        "mobilites_voirie": 0,
+        "reseaux_dechets_energie": 0,
+        "securite_tranquillite": 0,
+        "attractivite_commerce": 0,
+        "social_grand_age": 0
+      },
+      "primary_axis": "finances",
+      "actionability": {
+        "score": 3,
+        "article_potential": 3,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_42079e",
+      "title": "Finances locales : les élus demandent à l'État d'engager une concertation",
+      "url": "https://www.maire-info.com/article.asp?param=30952",
+      "source": "Maire Info (AMF)",
+      "source_type": "rss",
+      "date": "2026-07-03",
+      "collected_at": "2026-07-04T10:34:34.001Z",
+      "lang": "fr",
+      "summary": "Réunis au congrès de Villes de France à Roanne, les maires demandent au gouvernement de la lisibilité budgétaire.",
+      "editorial_take": "Le pain point est l'incertitude budgétaire. La solution réside dans des outils de gestion financière proactive.",
+      "axes": {
+        "finances": 3,
+        "rh_ingenierie": 0,
+        "climat_transition": 0,
+        "services_proximite": 0,
+        "numerique_simplification": 0,
+        "mandat_elus": 0,
+        "logement_urbanisme": 0,
+        "mobilites_voirie": 0,
+        "reseaux_dechets_energie": 0,
+        "securite_tranquillite": 0,
+        "attractivite_commerce": 0,
+        "social_grand_age": 0
+      },
+      "primary_axis": "finances",
+      "actionability": {
+        "score": 3,
+        "article_potential": 3,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_680238",
+      "title": "Autonomie fiscale : un texte garantissant un minimum de ressources à la main des collectivités",
+      "url": "https://www.maire-info.com/article.asp?param=30954",
+      "source": "Maire Info (AMF)",
+      "source_type": "rss",
+      "date": "2026-07-03",
+      "collected_at": "2026-07-04T10:34:34.001Z",
+      "lang": "fr",
+      "summary": "Stéphane Delautrette propose une proposition de loi organique pour garantir aux collectivités un minimum de ressources fiscales.",
+      "editorial_take": "Le pain point est l'érosion de l'autonomie fiscale locale. La solution passe par des outils juridiques.",
+      "axes": {
+        "finances": 3,
+        "rh_ingenierie": 0,
+        "climat_transition": 0,
+        "services_proximite": 0,
+        "numerique_simplification": 0,
+        "mandat_elus": 0,
+        "logement_urbanisme": 0,
+        "mobilites_voirie": 0,
+        "reseaux_dechets_energie": 0,
+        "securite_tranquillite": 0,
+        "attractivite_commerce": 0,
+        "social_grand_age": 0
+      },
+      "primary_axis": "finances",
+      "actionability": {
+        "score": 3,
+        "article_potential": 3,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_1d5795",
+      "title": "La canicule de juin a causé au moins 2 000 décès, en majorité des personnes âgées",
+      "url": "https://www.maire-info.com/article.asp?param=30953",
+      "source": "Maire Info (AMF)",
+      "source_type": "rss",
+      "date": "2026-07-03",
+      "collected_at": "2026-07-04T10:34:34.001Z",
+      "lang": "fr",
+      "summary": "Santé publique France rapporte 2 025 décès supplémentaires. Cette canicule est l'une des plus meurtrières.",
+      "editorial_take": "Le pain point est la vulnérabilité des personnes âgées. La solution passe par des plans communaux de prévention.",
+      "axes": {
+        "finances": 0,
+        "rh_ingenierie": 0,
+        "climat_transition": 3,
+        "services_proximite": 0,
+        "numerique_simplification": 0,
+        "mandat_elus": 0,
+        "logement_urbanisme": 0,
+        "mobilites_voirie": 0,
+        "reseaux_dechets_energie": 0,
+        "securite_tranquillite": 0,
+        "attractivite_commerce": 0,
+        "social_grand_age": 3
+      },
+      "primary_axis": "climat-transition",
       "actionability": {
         "score": 3,
         "article_potential": 3,
