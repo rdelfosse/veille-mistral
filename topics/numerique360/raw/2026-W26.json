@@ -116,6 +116,42 @@
       "found_via_axis": "ia",
       "source_type": "search",
       "content_type": "actualite"
+    },
+    {
+      "url": "https://salon-souverainete-numerique.com/",
+      "title": "Salon Souveraineté Numérique 2026",
+      "date": "2026-06-30",
+      "summary": "Les 30 juin et 1er juillet 2026 à Paris, ce salon réunira près de 100 exposants proposant des alternatives aux fournisseurs extra-européens, avec 20 conférences animées par des experts et 30 ateliers pratiques pour identifier des solutions adaptées aux enjeux des territoires.",
+      "found_via_axis": "attractivite-amenagement",
+      "source_type": "search",
+      "content_type": "evenement"
+    },
+    {
+      "url": "https://www.lavoixdefrance.fr/actualites/salon-souverainete-numerique-2026-100-exposants-20-conferences-et-un-marche-qui-bascule-vers-lexecution-8557/",
+      "title": "Salon Souveraineté Numérique 2026 : 100 exposants, 20 conférences",
+      "date": "2026-06-30",
+      "summary": "La deuxième édition du Salon Souveraineté Numérique ouvre ses portes à Paris les 30 juin et 1er juillet 2026, avec un programme axé sur le passage concret à l'acte. France Digitale est partenaire de l'événement pour mettre en avant les solutions françaises et européennes.",
+      "found_via_axis": "attractivite-amenagement",
+      "source_type": "search",
+      "content_type": "evenement"
+    },
+    {
+      "url": "https://www.gh-avocats.fr/implications-l2131-1-cgct/",
+      "title": "Les implications de l'article L2131-1 CGCT pour les collectivités : Un guide pratique",
+      "date": "2026-07-01",
+      "summary": "Ce guide pratique explique comment la numérisation des documents d'urbanisme permet aux citoyens de consulter les projets, comprendre les enjeux locaux et participer activement aux débats concernant l'aménagement de leur territoire. Il aborde les obligations légales et les investissements nécessaires dans les outils numériques.",
+      "found_via_axis": "attractivite-amenagement",
+      "source_type": "search",
+      "content_type": "ressource"
+    },
+    {
+      "url": "https://www.groupe-sncf.com/medias-publics/2026-06/rapport-innovation-2026.pdf",
+      "title": "Rapport Innovation 2026 du groupe SNCF",
+      "date": "2026-06-29",
+      "summary": "Le rapport innovation 2026 du groupe SNCF aborde les jumeaux numériques, le design et l'aménagement comme leviers pour mutualiser compétences et moyens. Un test est prévu en 2026 sur la LGV Paris-Marseille.",
+      "found_via_axis": "attractivite-amenagement",
+      "source_type": "search",
+      "content_type": "ressource"
     }
   ],
   "metadata": {
@@ -126,9 +162,10 @@
       "transition-eco-energetique",
       "citoyens-solidarite",
       "gouvernance-socles-tech",
-      "ia"
+      "ia",
+      "attractivite-amenagement"
     ],
-    "last_collecte": "2026-07-04T14:44:31.668Z",
+    "last_collecte": "2026-07-04T14:44:56.027Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
