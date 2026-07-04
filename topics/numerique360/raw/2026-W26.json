@@ -44,6 +44,42 @@
       "found_via_axis": "citoyens-solidarite",
       "source_type": "search",
       "content_type": "evenement"
+    },
+    {
+      "url": "https://www.orsys.fr/orsys-lemag/collectivites-territoriales-cybersecurite-engage-responsabilite-des-elus",
+      "title": "Collectivités territoriales : la cybersécurité engage la responsabilité des élus",
+      "date": "2026-06-29",
+      "summary": "La cybersécurité est désormais un sujet de gouvernance et de responsabilité des élus pour les collectivités territoriales. L'article souligne l'importance de cartographier les dépendances numériques et mentionne une mission d'évaluation des dépendances aux solutions extra-européennes, avec des conclusions attendues à l'été 2026.",
+      "found_via_axis": "gouvernance-socles-tech",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.info.gouv.fr/actualite/cybersecurite-le-premier-ministre-annonce-un-plan-d-action-pour-renforcer-la-protection-numerique-de-l-etat",
+      "title": "Cybersécurité : le Premier ministre annonce un plan d'action pour renforcer la protection numérique de l'État",
+      "date": "2026-07-01",
+      "summary": "Le Premier ministre annonce un plan d'action pour renforcer la protection numérique de l'État face à l'intensification des cyberattaques. La France enregistre en moyenne trois vols de données par jour depuis début 2026. Le plan inclut l'accélération de la doctrine de protection dans le cadre de la stratégie 2026-2030.",
+      "found_via_axis": "gouvernance-socles-tech",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.dpo-partage.fr/pdsfa-la-veille-rgpd-et-cybersecurite-qui-va-droit-a-lessentiel/",
+      "title": "PDSFA, la veille RGPD et cybersécurité qui va droit à l'essentiel",
+      "date": "2026-07-01",
+      "summary": "La veille PDSFA aborde la conformité RGPD et la cybersécurité pour les collectivités territoriales. Le numéro 10 revient sur l'actualité de juin 2026, avec un modèle harmonisé de notification de violation du RGPD en consultation jusqu'au 5 août 2026.",
+      "found_via_axis": "gouvernance-socles-tech",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.dpo-partage.fr/cyberattaques-contre-les-etablissements-de-sante-le-groupe-marak-interpelle-pres-de-4-millions-de-fiches-patients-exfiltrees/",
+      "title": "Cyberattaques contre les établissements de santé : le groupe Marak interpellé",
+      "date": "2026-06-30",
+      "summary": "L'Office anticybercriminalité (Ofac) a annoncé l'interpellation de cinq personnes soupçonnées d'appartenir au groupe Marak, qui visait spécifiquement des établissements de santé. Près de 4 millions de fiches patients ont été exfiltrées.",
+      "found_via_axis": "gouvernance-socles-tech",
+      "source_type": "search",
+      "content_type": "actualite"
     }
   ],
   "metadata": {
@@ -52,9 +88,10 @@
     "date_end": "2026-07-05",
     "axes_collected": [
       "transition-eco-energetique",
-      "citoyens-solidarite"
+      "citoyens-solidarite",
+      "gouvernance-socles-tech"
     ],
-    "last_collecte": "2026-07-04T14:43:30.582Z",
+    "last_collecte": "2026-07-04T14:43:59.344Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
