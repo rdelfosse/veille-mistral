@@ -12,9 +12,10 @@
       "inondations",
       "milieux-aquatiques",
       "gouvernance-diagnostic",
-      "eau-potable-distribution"
+      "eau-potable-distribution",
+      "pollutions"
     ],
-    "last_collecte": "2026-07-04T14:54:44.141Z",
+    "last_collecte": "2026-07-04T14:55:12.157Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
@@ -211,6 +212,42 @@
       "found_via_axis": "eau-potable-distribution",
       "source_type": "search",
       "content_type": "ressource"
+    },
+    {
+      "url": "https://www.lagazettedescommunes.com/1042801/les-regles-relatives-a-la-redevance-pour-pollution-de-leau-par-des-pfas/",
+      "title": "Les règles relatives à la redevance pour pollution de l'eau par des PFAS",
+      "date": "2026-06-29",
+      "summary": "Ce décret est applicable aux substances perfluoroalkylées et polyfluoroalkylées rejetées à compter du 1er septembre 2026. Pour l'année 2026, l'atteinte du seuil d'autosurveillance est appréciée à partir des données des campagnes de mesures effectuées entre 2022 et 2025.",
+      "found_via_axis": "pollutions",
+      "source_type": "search",
+      "content_type": "ressource"
+    },
+    {
+      "url": "https://www.lejournaltoulousain.fr/ile-de-france/seine-saint-denis/eau-robinet-pourquoi-plaine-commune-rejette-projet-contre-pfas-3898098/",
+      "title": "Eau du robinet : pourquoi Plaine Commune rejette ce projet contre les PFAS",
+      "date": "2026-06-29",
+      "summary": "Le projet vise à distribuer une eau pure, débarrassée à plus de 90 % des PFAS (polluants éternels), des résidus médicamenteux et des perturbateurs endocriniens. Le SEDIF précise que c'est une réponse d'urgence aux enjeux de santé environnementale.",
+      "found_via_axis": "pollutions",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.mediacites.fr/enquete/national/2026/06/29/1700-rivieres-sous-pression-la-carte-inedite-de-la-pollution-chimique-des-cours-deau-en-france/",
+      "title": "1700 rivières sous pression : la carte inédite de la pollution chimique des cours d'eau en France",
+      "date": "2026-06-29",
+      "summary": "Mediacités et Reporterre ont produit une carte inédite de la pollution chimique des cours d'eau en France. La Launette arrive en tête du classement des rivières subissant la plus forte pression des micropolluants, avec 16 molécules au-dessus des seuils de risque.",
+      "found_via_axis": "pollutions",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://reporterre.net/1-700-rivieres-contaminees-en-partie-la-carte-inedite-de-la-pollution-chimique-des-cours-d-eau-en-France",
+      "title": "1 700 rivières contaminées en partie : la carte inédite de la pollution chimique des cours d'eau en France",
+      "date": "2026-06-29",
+      "summary": "Alors que la France va encore rater l'objectif européen de bon état des cours d'eau en 2027, cette enquête permet de visualiser pour la première fois l'ampleur de la contamination nationale aux micropolluants. Les PFAS sont particulièrement préoccupants.",
+      "found_via_axis": "pollutions",
+      "source_type": "search",
+      "content_type": "actualite"
     }
   ]
 }
