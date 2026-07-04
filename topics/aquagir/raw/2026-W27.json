@@ -5,9 +5,10 @@
     "date_end": "2026-07-05",
     "topic": "aquagir",
     "axes_collected": [
-      "assainissement"
+      "assainissement",
+      "eaux-pluviales"
     ],
-    "last_collecte": "2026-07-04T14:49:08.486Z",
+    "last_collecte": "2026-07-04T14:50:14.557Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
@@ -40,6 +41,15 @@
       "date": "2026-07-02",
       "summary": "L'assainissement non collectif est aujourd'hui à la croisée des chemins. 1925–2026 : un siècle de réglementation, une légitimité construite pierre à pierre. Jérémie Steininger, délégué général des Acteurs du traitement des eaux de la parcelle (ATEP), souligne que \"L'ANC ne mérite ni l'indifférence, ni l'improvisation.\"",
       "found_via_axis": "assainissement",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.banquedesterritoires.fr/blog-des-territoires/gestion-ressource-eau-investissement",
+      "title": "Gestion de la ressource en eau dans les collectivités : solutions",
+      "date": "2026-07-01",
+      "summary": "Les investissements des collectivités se concentrent à 80% sur l'eau potable et l'assainissement, les 20% restant visent la gestion des eaux pluviales et la gestion des milieux aquatiques. 750 collectivités ont adhéré au programme Aquagir.",
+      "found_via_axis": "eaux-pluviales",
       "source_type": "search",
       "content_type": "actualite"
     }
