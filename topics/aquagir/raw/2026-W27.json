@@ -9,9 +9,10 @@
       "eaux-pluviales",
       "eau-potable-production",
       "gestion-quantitative",
-      "inondations"
+      "inondations",
+      "milieux-aquatiques"
     ],
-    "last_collecte": "2026-07-04T14:52:43.193Z",
+    "last_collecte": "2026-07-04T14:53:49.100Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
@@ -136,6 +137,42 @@
       "found_via_axis": "inondations",
       "source_type": "search",
       "content_type": "ressource"
+    },
+    {
+      "url": "https://www.lavoixdefrance.fr/actualites/eau-en-anjou-secheresses-de-deux-a-trois-ans-nappes-sous-pression-et-usages-a-repenser-durgence-8331/",
+      "title": "Eau en Anjou : sécheresses de deux à trois ans, nappes sous pression et usages à repenser d'urgence",
+      "date": "2026-06-30",
+      "summary": "À Angers, chercheurs et acteurs du territoire se retrouvent le 30 juin 2026 pour une table ronde sur la gestion de l'eau. Le bassin Loire-Bretagne supprime tout plafonnement industriel et applique 0,30 €/m³ dès 2026 pour inciter à la sobriété.",
+      "found_via_axis": "milieux-aquatiques",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.publicsenat.fr/actualites/environnement/projet-de-loi-durgence-agricole-le-senat-revient-sur-la-definition-des-zones-humides-pour-en-reduire-le-nombre",
+      "title": "Projet de loi d'urgence agricole : le Sénat revient sur la définition des zones humides pour en réduire le nombre",
+      "date": "2026-06-29",
+      "summary": "Les sénateurs ont revu la définition des zones humides, que la droite sénatoriale estime trop nombreuses. Le texte prévoit d'assouplir les contraintes sur les zones humides fortement dégradées.",
+      "found_via_axis": "milieux-aquatiques",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.senat.fr/compte-rendu-commissions/20260629/eco.html",
+      "title": "Commission des affaires économiques : compte rendu de la semaine du 29 juin 2026",
+      "date": "2026-06-29",
+      "summary": "La commission des affaires économiques a examiné un amendement tendant à prendre en compte l'intérêt économique et social des projets dans le cadre des prescriptions de compensation en zone humide.",
+      "found_via_axis": "milieux-aquatiques",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.lafarelesoliviers.com/2026/07/01/secheresse-2026-de-nouvelles-restrictions-deau-entrent-en-vigueur/",
+      "title": "Sécheresse 2026 - de nouvelles restrictions d'eau entrent en vigueur",
+      "date": "2026-07-01",
+      "summary": "Accès en colline interdit pour la journée du mercredi 1er juillet en raison du risque incendie élevé.",
+      "found_via_axis": "milieux-aquatiques",
+      "source_type": "search",
+      "content_type": "actualite"
     }
   ]
 }
