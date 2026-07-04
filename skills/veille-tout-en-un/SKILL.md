@@ -140,7 +140,9 @@ Si `settings.auto_enrich.enabled` est `true` :
    (titre + résumé). `primary_axis` = axe au score le plus haut.
 3. **Actionability (0-3)** : potentiel d'exploitation pour le **public cible** défini dans
    `scoring.md`. Pour ce topic, l'actionability mesure le **potentiel d'opportunité business /
-   de solution** (voir scoring.md).
+   de solution** (voir scoring.md). **Le 3 est exceptionnel** (besoin chiffré/récurrent/partagé **et**
+   acheteur/financement identifiable) ; dans le doute entre 2 et 3, mets **2**. Ne gonfle pas : si la
+   plupart des insights finissent à 3, redescends (repère : ~1 sur 5 mérite un 3).
 4. **Take (≥ 2 d'actionability)** : 2 phrases —
    (1) le **pain point** précis exprimé par l'élu / la collectivité ;
    (2) l'**angle de solution ou d'offre** concrète pour le soulager.

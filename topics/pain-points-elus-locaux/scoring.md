@@ -12,10 +12,20 @@ innovantes qui les soulagent. L'angle n'est pas militant ni purement informatif 
 mobilisée cette semaine pour faire classe pendant la canicule.
 
 Pour ce topic, **actionability = potentiel d'opportunité business / de solution** :
-- **3** : pain point précis, récurrent et largement partagé → opportunité de produit/service claire et exploitable.
-- **2** : difficulté réelle évoquée, piste de solution à creuser (signal à valider).
+- **3 — exceptionnel (le *slam dunk*)** : pain point **précis, chiffré, récurrent ET largement
+  partagé** entre communes, avec une opportunité **déjà solvable** — on peut nommer (a) le chiffre ou
+  la récurrence qui prouve que le besoin est partagé, **et** (b) l'acheteur / le financement. Réservé
+  aux signaux rares et incontestables.
+- **2 — le cas courant d'un signal exploitable** : difficulté réelle mais **isolée, non chiffrée, ou
+  dont l'angle de solution reste à valider**. C'est ici que tombe **par défaut** tout ce qui est
+  « piste réelle mais pas encore un slam dunk ».
 - **1** : contexte utile sur le quotidien des élus, sans angle de solution immédiat.
 - **0** : actualité institutionnelle sans difficulté ni opportunité exploitable.
+
+> **Anti-inflation** : ne mets un **3** que si (a) **et** (b) ci-dessus sont **tous deux** nommables ;
+> dans le doute entre 2 et 3, choisis **2**. Le 3 doit rester une **minorité** des insights (repère :
+> ~1 sur 5). Si tu te retrouves avec la majorité des insights à 3, tu inflates — redescends à 2 tous
+> ceux qui ne cochent pas explicitement (a)+(b).
 
 Le **take** (actionability ≥ 2) doit dire : (1) le pain point précis tel qu'exprimé par l'élu /
 la collectivité, puis (2) l'angle d'offre ou de solution concrète pour le soulager.
@@ -144,7 +154,11 @@ Chaque insight est scoré 0-3 sur **chaque** axe.
 
 ## Actionability
 
-- **3** : pain point précis et partagé → opportunité de produit/service directement exploitable
-- **2** : difficulté réelle, piste de solution à creuser
+- **3 — exceptionnel** : pain point précis, **chiffré, récurrent et partagé** + acheteur/financement
+  identifiable → opportunité directement exploitable. Rare (repère : ~1 insight sur 5).
+- **2 — signal exploitable (cas courant)** : difficulté réelle mais isolée/non chiffrée, ou angle de
+  solution à valider. **Défaut** pour toute vraie piste qui n'est pas un slam dunk.
 - **1** : contexte utile, pas d'angle de solution immédiat
 - **0** : pur relais d'actualité
+
+> Dans le doute entre 2 et 3 → **2**. Si la majorité des insights sont à 3, c'est de l'inflation.

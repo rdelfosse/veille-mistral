@@ -27,10 +27,14 @@ du topic précise quelle lecture s'applique.
 
 | Score | Critère |
 |-------|---------|
-| **3** | Signal fort directement exploitable par le public cible : pain point précis et récurrent, opportunité émergente, étude de cas, ou prise à contre-courant |
-| **2** | Pourrait nourrir une piste : complète un besoin connu avec données/exemples frais |
+| **3** | **Exceptionnel** : signal fort, **précis et récurrent/partagé**, directement exploitable par le public cible (besoin explicite + moyen d'agir identifiable). À réserver aux *slam dunks* — une minorité des insights. |
+| **2** | Piste réelle mais isolée, non chiffrée, ou à valider. **Défaut** de tout signal exploitable qui n'est pas un slam dunk. |
 | **1** | Utile en référence / contexte, pas assez pour agir seul |
 | **0** | Pur relais d'actualité, aucun angle exploitable |
+
+> **Anti-inflation** (vaut pour tous les topics) : le **3** doit rester rare (repère : ~1 insight sur
+> 5). Dans le doute entre 2 et 3, choisis **2**. Si la majorité des insights atteignent le score
+> maximum, le score ne priorise plus rien — redescends les cas non incontestables.
 
 ### Cross-références (optionnel)
 

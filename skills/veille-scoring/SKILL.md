@@ -44,7 +44,10 @@ Si le harvest est absent : le signaler, proposer de lancer l'agent **collecte** 
 Pour chaque insight retenu :
 1. **Score par axe (0-3)** sur **chaque** axe de `scoring.md` (titre + résumé). `primary_axis` = axe
    au score le plus haut.
-2. **Actionability (0-3)** selon le public cible de `scoring.md`.
+2. **Actionability (0-3)** selon le public cible de `scoring.md`. **Le 3 est exceptionnel** (slam dunk :
+   besoin chiffré/récurrent/partagé **et** acheteur/financement identifiable) — dans le doute entre 2
+   et 3, mets **2**. Ne gonfle pas : si la plupart des insights finissent à 3, redescends les cas non
+   incontestables (repère : ~1 insight sur 5 mérite un 3).
 3. **Take** (si actionability ≥ 2) : 2 phrases (pain point précis + angle de solution). **Propre à
    cet insight** — jamais recopié d'un autre.
 4. **ID** : `ins_YYYYMMDD_` + 6 hex aléatoires. `status = new` (ou `updated`).
