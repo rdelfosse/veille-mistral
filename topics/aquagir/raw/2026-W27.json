@@ -11,9 +11,10 @@
       "gestion-quantitative",
       "inondations",
       "milieux-aquatiques",
-      "gouvernance-diagnostic"
+      "gouvernance-diagnostic",
+      "eau-potable-distribution"
     ],
-    "last_collecte": "2026-07-04T14:54:16.788Z",
+    "last_collecte": "2026-07-04T14:54:44.141Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
@@ -192,6 +193,24 @@
       "found_via_axis": "gouvernance-diagnostic",
       "source_type": "search",
       "content_type": "actualite"
+    },
+    {
+      "url": "https://www.toutmontbeliard.com/2026/06/30/eau-48-740-compteurs-communicants-vont-etre-installes-dans-le-pays-de-montbeliard/",
+      "title": "Eau : 48 740 compteurs communicants vont être installés dans le Pays de Montbéliard",
+      "date": "2026-07-01",
+      "summary": "La Société des Eaux du Pays de Montbéliard engage une importante modernisation du service de l'eau potable avec le déploiement de la télérelève des compteurs d'eau. Dès le 1er juillet 2026, les premières installations débuteront sur le territoire, avec un objectif de 48 740 compteurs communicants déployés d'ici au 30 juin 2029.",
+      "found_via_axis": "eau-potable-distribution",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.sedif.com/moneau/leauchezmoi/gererunefuitedeau",
+      "title": "Gérer une fuite d'eau",
+      "date": "2026-07-03",
+      "summary": "Le SEDIF propose un numéro spécial non surtaxé 'urgence fuite' disponible 24h/24, 7j/7 pour signaler les fuites sur le réseau public. Le service couvre l'entretien et les réparations de l'installation alimentant l'habitation en eau potable.",
+      "found_via_axis": "eau-potable-distribution",
+      "source_type": "search",
+      "content_type": "ressource"
     }
   ]
 }
