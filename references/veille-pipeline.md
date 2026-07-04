@@ -12,9 +12,9 @@ raw/YYYY-WNN.json    data/…json   digest/…md      analysis/…md
 
 | Étape | Agent | Lit | Écrit (1 fichier) |
 |---|---|---|---|
-| Collecte | `agent/collecte.md` | `sources.json` (un axe) | `raw/YYYY-WNN.json` (append) |
-| Scoring | `agent/scoring.md` | `raw/`, `scoring.md`, `references/` | `data/YYYY-WNN.json` |
-| Digest | `agent/digest.md` | `data/YYYY-WNN.json` | `digest/YYYY-WNN.md` |
+| Collecte | `skills/veille-collecte/SKILL.md` | `sources.json` (un axe) | `raw/YYYY-WNN.json` (append) |
+| Scoring | `skills/veille-scoring/SKILL.md` | `raw/`, `scoring.md`, `references/` | `data/YYYY-WNN.json` |
+| Digest | `skills/veille-digest/SKILL.md` | `data/YYYY-WNN.json` | `digest/YYYY-WNN.md` |
 | + aval | `angles-morts` / `idees-microservices` / `critique-idees` | voir `analysis-method.md` | `analysis/…` |
 
 La **collecte est shardée par axe** : on lance l'agent collecte une fois par axe (chaque run append

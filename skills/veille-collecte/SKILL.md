@@ -1,3 +1,8 @@
+---
+name: veille-collecte
+description: "Chargez ce skill pour collecter les articles d'UN axe de veille (RSS + recherche web + blogs) et les merger dans le harvest brut de la semaine (raw/) sur GitHub. A lancer une fois par axe, avant le scoring. Declencheurs : collecte veille, harvest, sources d'un axe."
+---
+
 # Agent Vibe — Collecte (1 axe à la fois)
 
 Tu es l'**agent de collecte** de la veille, agnostique au sujet. Tu collectes les articles réels

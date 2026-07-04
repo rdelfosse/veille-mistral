@@ -8,7 +8,7 @@ les briques natives de Vibe :
 
 | Outil et description |
 |---|
-| **Agent custom** dont les instructions = `agent/instructions.md` |
+| **Skills Vibe** (`skills/`) chargées dans Work — ou un agent custom collant un `SKILL.md` |
 | Un agent qui boucle : **Web Search** (requêtes) + **Code Interpreter** (RSS/blogs en Python) |
 | **Tâche planifiée** Work Mode (ex. tous les lundis 8h) |
 | **Connecteur GitHub (MCP)** → l'agent lit/écrit ce repo |
@@ -21,20 +21,20 @@ les briques natives de Vibe :
 
 ```
 veille-mistral/
-├─ agent/
-│  ├─ collecte.md               ← veille étape 1 : collecte par axe → raw/
-│  ├─ scoring.md                ← veille étape 2 : scoring & dédup → data/
-│  ├─ digest.md                 ← veille étape 3 : mise en forme → digest/
-│  ├─ instructions.md           ← veille tout-en-un (monolithe, run unique/petit topic)
-│  ├─ angles-morts.md           ← agent d'analyse : cartographie les angles morts
-│  ├─ idees-microservices.md    ← agent d'idéation : idées de micro-services
-│  ├─ critique-idees.md         ← agent de critique : destruction Garry Tan → reframe CEO
-│  └─ prompts-declenchement.md  ← prompts prêts à coller (anti-simulation)
+├─ skills/                        ← Skills Vibe (1 dossier = 1 SKILL.md auto-porteur)
+│  ├─ veille-collecte/            ← étape 1 : collecte par axe → raw/
+│  ├─ veille-scoring/             ← étape 2 : scoring & dédup → data/
+│  ├─ veille-digest/              ← étape 3 : mise en forme → digest/
+│  ├─ veille-tout-en-un/          ← veille monolithe (run unique / petit topic)
+│  ├─ veille-angles-morts/        ← analyse : cartographie les angles morts
+│  ├─ veille-idees-microservices/ ← idéation : idées de micro-services
+│  └─ veille-critique-idees/      ← critique : destruction Garry Tan → reframe CEO
 ├─ references/
 │  ├─ scoring-rubric.md         ← logique de scoring (générique)
 │  ├─ output-schema.md          ← format JSON + digest
 │  ├─ veille-pipeline.md        ← architecture du pipeline veille + schéma harvest + règles dures
-│  └─ analysis-method.md        ← méthode des agents aval (angles morts → idées → critique)
+│  ├─ analysis-method.md        ← méthode des agents aval (angles morts → idées → critique)
+│  └─ prompts-declenchement.md  ← messages d'invocation prêts à coller (anti-simulation)
 └─ topics/
    ├─ _template/                ← gabarit à cloner (jamais exécuté)
    │  ├─ sources.json
@@ -64,20 +64,20 @@ collecte[× axe] → scoring → digest   →   angles-morts → idées → crit
 ```
 
 **Veille** (voir `references/veille-pipeline.md`) :
-1. **collecte** (`agent/collecte.md`) — un run **par axe** ; collecte les articles réels → `raw/`.
-2. **scoring** (`agent/scoring.md`) — score multi-axes, déduplique, garde-fous qualité → `data/`.
-3. **digest** (`agent/digest.md`) — mise en forme lisible → `digest/`.
-   *(Alternative : `agent/instructions.md`, le monolithe tout-en-un, pour un petit topic / run unique.)*
+1. **collecte** (`skills/veille-collecte/SKILL.md`) — un run **par axe** ; collecte les articles réels → `raw/`.
+2. **scoring** (`skills/veille-scoring/SKILL.md`) — score multi-axes, déduplique, garde-fous qualité → `data/`.
+3. **digest** (`skills/veille-digest/SKILL.md`) — mise en forme lisible → `digest/`.
+   *(Alternative : `skills/veille-tout-en-un/SKILL.md`, le monolithe tout-en-un, pour un petit topic / run unique.)*
 
 **Analyse aval** (voir `references/analysis-method.md`) :
-4. **angles-morts** (`agent/angles-morts.md`) — ce que les acteurs en place (BdT, État…) font DÉJÀ,
+4. **angles-morts** (`skills/veille-angles-morts/SKILL.md`) — ce que les acteurs en place (BdT, État…) font DÉJÀ,
    pour isoler les trous.
-5. **idées-microservices** (`agent/idees-microservices.md`) — les angles morts → idées concrètes.
-6. **critique** (`agent/critique-idees.md`) — les *six forcing questions* de Garry Tan tuent les idées
+5. **idées-microservices** (`skills/veille-idees-microservices/SKILL.md`) — les angles morts → idées concrètes.
+6. **critique** (`skills/veille-critique-idees/SKILL.md`) — les *six forcing questions* de Garry Tan tuent les idées
    non soutenues par la donnée, puis reframe stratégique CEO des survivantes.
 
 Tous les agents sont **agnostiques au sujet** : la spécificité vit dans `topics/<topic>/` (`sources.json`,
-`scoring.md`, `analysis.md`). Prompts prêts à coller : `agent/prompts-declenchement.md`.
+`scoring.md`, `analysis.md`). Prompts prêts à coller : `references/prompts-declenchement.md`.
 
 ## Installation côté Mistral Le Chat / Vibe
 
@@ -98,31 +98,35 @@ gh repo create veille-mistral --private --source=. --push   # ou via l'UI GitHub
 Le Chat → **Connectors** → ajouter le connecteur **GitHub** → autoriser l'accès au repo
 `veille-mistral`. (Réf. : directory de connecteurs MCP de Le Chat.)
 
-### 3. Créer l'agent
+### 3. Installer les Skills (Vibe Work)
 
-Le Chat → **Agents** → *Nouvel agent* :
-- **Nom** : `Veille élus locaux`
-- **Instructions** : coller l'intégralité de [`agent/instructions.md`](agent/instructions.md).
-- **Outils à activer** : `Web Search`, `Code Interpreter`, **connecteur GitHub**.
-- (Optionnel) **Memories** : activé, pour le contexte de dédup léger entre runs.
+Vibe Work charge des **Skills** depuis `/home/user/skills/<nom>/SKILL.md`. Copie chaque dossier de
+[`skills/`](skills/) du repo vers `/home/user/skills/` (ou fais-les générer par le skill natif
+`skill-creator`). Une fois installés, ils se déclenchent par mot-clé (leur `description`) ou à la
+demande :
 
-Créer de la même façon **trois agents d'analyse** (mêmes outils ; le Code Interpreter est facultatif) :
-- `Angles morts` → instructions = [`agent/angles-morts.md`](agent/angles-morts.md)
-- `Idées micro-services` → instructions = [`agent/idees-microservices.md`](agent/idees-microservices.md)
-- `Critique idées` → instructions = [`agent/critique-idees.md`](agent/critique-idees.md)
+- **Veille** : `veille-collecte` · `veille-scoring` · `veille-digest` (pipeline, voir §4), ou
+  `veille-tout-en-un` pour un run unique / petit topic.
+- **Analyse aval** : `veille-angles-morts` · `veille-idees-microservices` · `veille-critique-idees`.
 
-> **Anti-simulation** : dans le prompt de déclenchement de chaque agent, exiger l'exécution réelle —
+Outils à activer pour la session : `Web Search`, `Code Interpreter`, **connecteur GitHub**.
+(Optionnel) **Memories** pour un contexte de dédup léger entre runs.
+
+> **Alternative sans Skills** : coller le corps d'un `SKILL.md` comme instructions d'un **agent custom**
+> (Le Chat → Agents → Nouvel agent). Même contenu, invocation par agent au lieu de mot-clé.
+
+> **Anti-simulation** : à l'invocation, exiger l'exécution réelle —
 > *« Exécute réellement chaque étape en appelant les outils. N'affiche pas de plan, ne me demande rien
 > à faire manuellement, ne simule aucun résultat. Toute écriture passe par le connecteur GitHub, jamais
-> par des commandes git. Termine seulement après avoir committé les fichiers. »*
+> par des commandes git. Termine seulement après avoir committé les fichiers (réponds le SHA). »*
 
 ### 4. Planifier la veille (Work Mode)
 
 Le Chat → **Tâches / Work Mode** → nouvelle tâche récurrente :
 - **Agent** : `Veille élus locaux`
 - **Cadence** : hebdomadaire, **lundi 08:00**
-- **Prompt de déclenchement** : voir [`agent/prompts-declenchement.md`](agent/prompts-declenchement.md)
-  (prompts prêts à coller pour les 4 agents, avec la clause anti-simulation).
+- **Prompt de déclenchement** : voir [`references/prompts-declenchement.md`](references/prompts-declenchement.md)
+  (messages d'invocation prêts à coller pour chaque skill, avec la clause anti-simulation).
 
 ### 5. Lire les résultats dans Obsidian (optionnel) ou un lecteur MD
 
@@ -167,7 +171,7 @@ Relancer dans la même semaine **fusionne** les nouveaux insights dans le fichie
 
 Ce projet est sous licence **MIT** (voir [`LICENSE`](LICENSE)).
 
-L'agent de critique (`agent/critique-idees.md`) **adapte** des idées de
+L'agent de critique (`skills/veille-critique-idees/SKILL.md`) **adapte** des idées de
 [gstack](https://github.com/garrytan/gstack) de **Garry Tan** (skills `office-hours` et
 `plan-ceo-review`), sous licence MIT. Détails et notice d'origine dans
 [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).

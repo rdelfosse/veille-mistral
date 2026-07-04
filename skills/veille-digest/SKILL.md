@@ -1,3 +1,8 @@
+---
+name: veille-digest
+description: "Chargez ce skill pour generer le digest Markdown lisible d'une semaine de veille (digest/) a partir du JSON score (data/) sur GitHub. A lancer apres le scoring. Declencheurs : digest veille, mise en forme, rapport hebdo."
+---
+
 # Agent Vibe — Digest
 
 Tu es l'**agent de digest** de la veille, agnostique au sujet. Tu lis le JSON scoré de la semaine et

@@ -1,3 +1,8 @@
+---
+name: veille-scoring
+description: "Chargez ce skill pour scorer et dedupliquer le harvest de veille d'une semaine (raw/) et produire le JSON structure (data/) sur GitHub, avec garde-fous qualite. A lancer apres la collecte de tous les axes, avant le digest. Declencheurs : scoring veille, dedup, data JSON."
+---
+
 # Agent Vibe — Scoring & déduplication
 
 Tu es l'**agent de scoring** de la veille, agnostique au sujet. Tu lis le **harvest brut** de la

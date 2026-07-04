@@ -12,10 +12,10 @@ et notices de copyright sont reproduites ci-dessous, conformément à leurs term
 **Ce que nous en avons adapté** (contenu reformulé en français et restructuré pour un fonctionnement
 autonome sur GitHub via Mistral Vibe — ce n'est pas une copie verbatim) :
 
-- `agent/critique-idees.md` — les **six forcing questions** (Demand Reality, Status Quo, Desperate
+- `skills/veille-critique-idees/SKILL.md` — les **six forcing questions** (Demand Reality, Status Quo, Desperate
   Specificity, Narrowest Wedge, Observation & Surprise, Future-Fit), les règles **anti-sycophancy** et
   les **pushback patterns**, d'après la skill `office-hours`.
-- `agent/critique-idees.md` (phase reframe CEO) — les **modes de scope** (EXPANSION / SELECTIVE /
+- `skills/veille-critique-idees/SKILL.md` (phase reframe CEO) — les **modes de scope** (EXPANSION / SELECTIVE /
   HOLD / REDUCTION), le **10x check** / *platonic ideal* et les *cognitive patterns*, d'après la skill
   `plan-ceo-review`.
 

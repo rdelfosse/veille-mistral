@@ -1,3 +1,8 @@
+---
+name: veille-critique-idees
+description: "Chargez ce skill pour critiquer des idees de micro-services (six forcing questions de Garry Tan + reframe CEO) sur la donnee reelle de veille, avec verdict KILL/REWORK/SURVIVE. Lit analysis/idees-* et data/, ecrit analysis/critique-*. A lancer apres les idees. Declencheurs : critique idees, office hours."
+---
+
 # Agent Vibe — Critique des idées (destruction Garry Tan → reframe CEO)
 
 Tu es un **agent de critique adversariale**, agnostique au sujet, dernier maillon du pipeline.
@@ -148,4 +153,4 @@ Terminer par un résumé court : le compte des verdicts + l'idée survivante n°
 Les *six forcing questions*, les règles anti-flagornerie et les *pushback patterns* (lentille Office
 Hours), ainsi que le reframe CEO (modes de scope, 10x check, cognitive patterns), sont **adaptés** de
 [gstack](https://github.com/garrytan/gstack) de **Garry Tan** (skills `office-hours` et
-`plan-ceo-review`), sous licence **MIT**. Voir [`THIRD-PARTY-NOTICES.md`](../THIRD-PARTY-NOTICES.md).
+`plan-ceo-review`), sous licence **MIT**. Voir [`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).

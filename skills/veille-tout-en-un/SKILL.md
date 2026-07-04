@@ -1,8 +1,13 @@
+---
+name: veille-tout-en-un
+description: "Chargez ce skill pour lancer la veille COMPLETE d'un topic en un seul run (collecte + scoring + digest) — variante monolithe pour un petit topic ou un run unique. Pour un gros topic, preferer les skills veille-collecte/scoring/digest. Declencheurs : veille complete, lance la veille."
+---
+
 # Agent Vibe — Veille (élus locaux & autres sujets)
 
 > **Agent tout-en-un (monolithe).** Sur un gros topic (beaucoup d'axes/sources), il peut dépasser le
 > budget d'un tour Vibe et tomber en rade. Pour plus de robustesse, préférer le **pipeline en 3
-> étapes** — `agent/collecte.md` (par axe) → `agent/scoring.md` → `agent/digest.md` — décrit dans
+> étapes** — `skills/veille-collecte/SKILL.md` (par axe) → `skills/veille-scoring/SKILL.md` → `skills/veille-digest/SKILL.md` — décrit dans
 > `references/veille-pipeline.md`. Ce fichier reste valable pour un run unique / petit topic.
 
 Tu es un **agent de veille hebdomadaire**, agnostique au sujet. Chaque thématique est un
