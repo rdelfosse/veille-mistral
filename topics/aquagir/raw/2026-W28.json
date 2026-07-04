@@ -1,0 +1,158 @@
+{
+  "metadata": {
+    "week": "2026-W28",
+    "date_start": "2026-06-29",
+    "date_end": "2026-07-05",
+    "topic": "aquagir",
+    "axes_collected": [
+      "eaux-pluviales",
+      "milieux-aquatiques",
+      "gestion-quantitative",
+      "gouvernance-diagnostic",
+      "inondations",
+      "eau-potable-production",
+      "eau-potable-distribution",
+      "assainissement",
+      "deci",
+      "pollutions"
+    ],
+    "last_collecte": "2026-07-04T19:49:24.678Z",
+    "settings": {
+      "default_days": 30,
+      "exclude_domains": [
+        "aquagir.fr"
+      ],
+      "content_types": [
+        "actualite",
+        "evenement",
+        "ressource"
+      ],
+      "content_type_hints": {
+        "evenement": [
+          "colloque",
+          "webinaire",
+          "séminaire",
+          "salon",
+          "journée d'étude",
+          "rencontres",
+          "assises",
+          "conférence",
+          "forum"
+        ],
+        "ressource": [
+          "guide",
+          "retour d'expérience",
+          "étude",
+          "rapport",
+          "fiche pratique",
+          "méthodologie",
+          "boîte à outils",
+          "référentiel",
+          "MOOC"
+        ],
+        "actualite": []
+      }
+    }
+  },
+  "items": [
+    {
+      "url": "https://www.var.gouv.fr/Publications/Loi-sur-l-eau/2026",
+      "title": "Modification de la gestion des eaux pluviales - Hameau de Bron",
+      "date": "2026-06-29",
+      "summary": "Récépissé de déclaration concernant la modification de la gestion des eaux pluviales d'un lotissement d'habitation existant. Arrêté préfectoral portant prescriptions spécifiques au dossier de déclaration Loi sur l'eau.",
+      "source_type": "search",
+      "found_via_axis": "eaux-pluviales",
+      "content_type": "actualite"
+    },
+    {
+      "url": "news-afp-20260626-7b7699e5",
+      "title": "Solutions low-tech contre les canicules en ville",
+      "date": "2026-06-26",
+      "summary": "À Lyon, le projet des \"arbres de pluie\" favorise l'infiltration des eaux pluviales pour créer des îlots de fraîcheur. La gestion de l'eau est un levier essentiel pour l'adaptation climatique.",
+      "source_type": "search",
+      "found_via_axis": "eaux-pluviales",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Gestion_des_eaux_pluviales",
+      "title": "Zonage pluvial et gestion des milieux aquatiques",
+      "date": "2026-07-01",
+      "summary": "Le zonage pluvial doit reprendre les prescriptions des SDAGE/SAGE. Les collectivités doivent définir les pluies de référence pour chaque niveau de service.",
+      "source_type": "search",
+      "found_via_axis": "milieux-aquatiques",
+      "content_type": "ressource"
+    },
+    {
+      "url": "news-afp-20260626-f09557ce",
+      "title": "Principle pollueur-payeur pour les pesticides",
+      "date": "2026-06-26",
+      "summary": "Le Sedif engage des recours pour que les producteurs de pesticides contribuent à la dépollution de l'eau. Directive européenne sur l'assainissement des eaux usées.",
+      "source_type": "search",
+      "found_via_axis": "gestion-quantitative",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.banquedesterritoires.fr/blog-des-territoires/gestion-ressource-eau-investissement",
+      "title": "Gestion de la ressource en eau face au sous-investissement chronique",
+      "date": "2026-04-07",
+      "summary": "Analyse du déficit d'investissement dans le secteur de l'eau. Le programme Aquagir de la Banque des Territoires vise à lever les freins techniques et financiers.",
+      "source_type": "search",
+      "found_via_axis": "gouvernance-diagnostic",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Zonage_pluvial_de_Paris",
+      "title": "Zonage pluvial de Paris - prévention des inondations",
+      "date": "2026-07-02",
+      "summary": "Le Plan Paris Pluie est le zonage pluvial de Paris. Il vise à réduire les pollutions de la Seine et lutter contre le risque inondation par temps de pluie.",
+      "source_type": "search",
+      "found_via_axis": "inondations",
+      "content_type": "ressource"
+    },
+    {
+      "url": "https://metropole.toulouse.fr/mon-environnement/nature-et-climat/eau-et-assainissement",
+      "title": "Eau et assainissement - Toulouse Métropole",
+      "date": "2026-07-03",
+      "summary": "Toulouse Métropole a confié la gestion de l'eau potable à des opérateurs. Projet de modernisation des usines de production d'eau potable.",
+      "source_type": "search",
+      "found_via_axis": "eau-potable-production",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://metropole.toulouse.fr/mon-environnement/nature-et-climat/eau-et-assainissement",
+      "title": "Rendement réseau eau potable et fuites",
+      "date": "2026-07-03",
+      "summary": "Toulouse Métropole contrôle les services publics délégués pour l'eau potable et l'assainissement. Enjeux de renouvellement des canalisations.",
+      "source_type": "search",
+      "found_via_axis": "eau-potable-distribution",
+      "content_type": "actualite"
+    },
+    {
+      "url": "news-afp-20260626-f09557ce",
+      "title": "Modernisation des stations d'épuration",
+      "date": "2026-06-26",
+      "summary": "Le Sedif a chargé Veolia de moderniser ses trois usines d'eau potable pour retenir les polluants éternels. Chantier évalué à plus d'un milliard d'euros.",
+      "source_type": "search",
+      "found_via_axis": "assainissement",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Défense_extérieure_contre_l'incendie",
+      "title": "Défense extérieure contre l'incendie (DECI)",
+      "date": "2026-07-01",
+      "summary": "Réglementation DECI : obligations des communes en matière de points d'eau pour la lutte contre l'incendie. Normes et distances à respecter.",
+      "source_type": "search",
+      "found_via_axis": "deci",
+      "content_type": "ressource"
+    },
+    {
+      "url": "news-afp-20260626-f09557ce",
+      "title": "Lutte contre les micropolluants dans l'eau",
+      "date": "2026-06-26",
+      "summary": "Nouvelle directive européenne sur l'assainissement des eaux usées. Élimination des micropolluants et responsabilité élargie des producteurs.",
+      "source_type": "search",
+      "found_via_axis": "pollutions",
+      "content_type": "actualite"
+    }
+  ]
+}
