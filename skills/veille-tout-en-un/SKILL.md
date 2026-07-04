@@ -143,8 +143,8 @@ Si `settings.auto_enrich.enabled` est `true` :
      histoire vue sur deux sites) = un seul insight ; garder la source la plus crédible. La dédup
      par URL seule ne suffit pas (ex. « Statut de l'élu local » vu sur deux domaines différents).
    - **Garde-fou qualité de source** : écarter les domaines **non éditoriaux** — sites de campagne
-     politique, fermes de contenu / SEO, agrégateurs, réseaux sociaux, pages persos. En cas de doute
-     sur la crédibilité, ne pas inclure.
+     politique, fermes de contenu / SEO, agrégateurs, réseaux sociaux, pages persos, **et
+     l'encyclopédique/référence (Wikipedia, dictionnaires)**. En cas de doute, ne pas inclure.
 2. **Scorer chaque insight** sur **chaque** axe (0-3) selon les mots-clés de `scoring.md`
    (titre + résumé). `primary_axis` = axe au score le plus haut.
 3. **Actionability (0-3)** : potentiel d'exploitation pour le **public cible** défini dans
@@ -158,6 +158,10 @@ Si `settings.auto_enrich.enabled` est `true` :
    **Chaque take est propre à SON insight** : il doit nommer le pain point de **cet** article. Ne
    **jamais** recopier le take d'un autre insight — un take dupliqué d'un item à l'autre est un bug.
 5. **IDs uniques** : `ins_YYYYMMDD_` + 6 caractères hex aléatoires.
+6. **Curation & plafond par axe** (une veille sélectionne, elle ne déverse pas) : ne conserver au plus
+   que **`settings.max_insights_per_axis`** insights par `primary_axis` (défaut 10), classés
+   actionability desc puis date desc ; écarter le reste, et écarter les actionability ≤ 1 si le lot
+   reste gros. Cible : **quelques dizaines** d'insights, pas des centaines (200+ = non-curation).
 
 ### Phase 4 — Sortie (écriture GitHub)
 

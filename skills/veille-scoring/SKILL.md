@@ -39,7 +39,8 @@ Si le harvest est absent : le signaler, proposer de lancer l'agent **collecte** 
 2. **Dédup par titre/sujet** : même histoire vue sur deux sources = un seul insight (garder la plus
    crédible).
 3. **Garde-fou qualité** : écarter les domaines non éditoriaux (campagne, SEO/fermes de contenu,
-   agrégateurs, réseaux sociaux, pages perso).
+   agrégateurs, réseaux sociaux, pages perso) **et l'encyclopédique/référence** (Wikipedia,
+   dictionnaires, pages de définition) — ce n'est pas de l'actualité datée de la semaine.
 4. **Fenêtre** : re-vérifier que chaque item est dans `[date_start, date_end]` ; écarter les intrus.
 
 ### Phase 3 — Scorer
@@ -49,10 +50,21 @@ Pour chaque insight retenu :
 2. **Actionability (0-3)** selon le public cible de `scoring.md`. **Le 3 est exceptionnel** (slam dunk :
    besoin chiffré/récurrent/partagé **et** acheteur/financement identifiable) — dans le doute entre 2
    et 3, mets **2**. Ne gonfle pas : si la plupart des insights finissent à 3, redescends les cas non
-   incontestables (repère : ~1 insight sur 5 mérite un 3).
+   incontestables (repère : ~1 insight sur 5 mérite un 3). **Les purs relais d'actualité** (annonce
+   institutionnelle sans difficulté ni angle exploitable) → **0 ou 1**, pas 2 : tout mettre ≥ 2 vide le
+   score de son rôle de tri.
 3. **Take** (si actionability ≥ 2) : 2 phrases (pain point précis + angle de solution). **Propre à
    cet insight** — jamais recopié d'un autre.
 4. **ID** : `ins_YYYYMMDD_` + 6 hex aléatoires. `status = new` (ou `updated`).
+
+### Phase 3.5 — Curation & plafond par axe (une veille SÉLECTIONNE, elle ne déverse pas)
+1. **Plafond par axe** : conserver au plus **`settings.max_insights_per_axis`** insights par
+   `primary_axis` (valeur de `sources.json`, défaut **10**). Classer par **actionability desc, puis
+   date desc**, garder le top-N, **écarter le reste**.
+2. **Écarter les actionability ≤ 1** si le lot reste volumineux : on vise les signaux forts, pas
+   l'exhaustivité.
+3. Ordre de grandeur cible : **quelques dizaines** d'insights, pas des centaines. Un `data/` à 200+
+   insights est un symptôme de **non-curation** (recherche déversée) — resserre.
 
 ### Phase 4 — Écrire le JSON (GitHub)
 1. Écrire `topics/<topic>/data/YYYY-WNN.json` au format `references/output-schema.md` : `metadata`
