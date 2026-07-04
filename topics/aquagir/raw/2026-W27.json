@@ -8,9 +8,10 @@
       "assainissement",
       "eaux-pluviales",
       "eau-potable-production",
-      "gestion-quantitative"
+      "gestion-quantitative",
+      "inondations"
     ],
-    "last_collecte": "2026-07-04T14:52:13.615Z",
+    "last_collecte": "2026-07-04T14:52:43.193Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
@@ -117,6 +118,24 @@
       "found_via_axis": "gestion-quantitative",
       "source_type": "search",
       "content_type": "actualite"
+    },
+    {
+      "url": "https://www.minformer.com/2026/07/02/barrage-du-gouffre-denfer-les-travaux-de-renforcement-de-la-protection-des-inondations-sachevent/",
+      "title": "Barrage du Gouffre d'Enfer : les travaux de renforcement de la protection des inondations s'achèvent",
+      "date": "2026-07-02",
+      "summary": "Réalisée de juillet 2025 à juillet 2026 dans le cadre du Programme d'Actions de Prévention des Inondations (PAPI) du Furan 2022-2027, cette opération de 4 M€ TTC renforce les capacités du barrage à écrêter les crues du Furan afin de mieux protéger la vallée et le centre-ville de Saint-Étienne face au risque d'inondation.",
+      "found_via_axis": "inondations",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.banquedesterritoires.fr/prevention-et-gestion-des-inondations-la-proposition-de-loi-pour-mieux-outiller-les-collectivites",
+      "title": "Prévention et gestion des inondations : la proposition de loi pour mieux outiller les collectivités définitivement adoptée",
+      "date": "2026-07-03",
+      "summary": "La proposition de loi visant à soutenir les collectivités territoriales dans la prévention et la gestion des inondations a été définitivement adoptée. Le texte permet de clarifier les règles applicables à l'entretien des cours d'eau, de faciliter l'élaboration des programmes d'actions de prévention des inondations (PAPI).",
+      "found_via_axis": "inondations",
+      "source_type": "search",
+      "content_type": "ressource"
     }
   ]
 }
