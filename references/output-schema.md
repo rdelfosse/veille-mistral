@@ -73,7 +73,7 @@ Un fichier par semaine ISO (ex. `2026-W26.json`).
 | `last_run` | string | Horodatage du dernier run (datetime ISO) |
 | `summary` | string | Résumé 150-200 mots en **Markdown** (`###` + paragraphes, `**gras**`, `*italique*`). 2-3 blocs. Mots-clés du `scoring.md` tissés naturellement. |
 | `run_params` | object | Paramètres du run |
-| `stats` | object | Comptes total et par axe |
+| `stats` | object | `total_insights` + `by_axis`. `by_axis` compte chaque insight **une seule fois sous son `primary_axis`** ; `somme(by_axis) == total_insights`. |
 
 ### Champs insight
 

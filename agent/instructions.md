@@ -48,11 +48,20 @@ Filtrer les sources selon `axis` et `sources`.
 Traite les trois types de sources. Tu peux les enchaîner ou paralléliser dans le Code
 Interpreter, mais **respecte la fenêtre `days`** partout.
 
+> **Exécute réellement les trois canaux** quand `sources = all`. Ne te contente pas du premier flux
+> RSS qui répond : lance **effectivement** les `search_queries` (Web Search) et les `blogs` de chaque
+> axe filtré. À la fin, tiens un **compte par source** (rss / search / blogs) et signale tout canal
+> qui a rendu 0 résultat — une couverture d'un seul flux est un run à considérer comme incomplet.
+
 #### a) Flux RSS (Code Interpreter)
 Pour chaque flux RSS des sources filtrées :
 - `feedparser.parse(url)` ; garder les entrées des `days` derniers jours.
 - Pour chaque entrée : `title`, `link`, date de publication, résumé 2-3 phrases (depuis
   `summary`/`content`).
+- **URL verbatim** : utiliser l'URL **exacte** du champ `link` de l'entrée, telle quelle. Ne
+  **jamais** reconstruire une URL à partir du titre, ni ré-encoder les accents. Toute URL contenant
+  du **mojibake** (`%C3%A3%C2%A9`, `%C3%A3%C2%89`, `%C3%83`…) est un double encodage cassé (lien mort) :
+  repartir du `link` brut du flux, sinon écarter l'insight plutôt que publier un lien 404.
 - Si le fetch échoue (403/timeout/anti-bot), réessayer avec un `User-Agent` navigateur réaliste
   et `requests`. Si ça échoue encore, logguer et continuer — **ne jamais avorter le run**.
 
@@ -100,6 +109,8 @@ Si `settings.auto_enrich.enabled` est `true` :
 4. **Take (≥ 2 d'actionability)** : 2 phrases —
    (1) le **pain point** précis exprimé par l'élu / la collectivité ;
    (2) l'**angle de solution ou d'offre** concrète pour le soulager.
+   **Chaque take est propre à SON insight** : il doit nommer le pain point de **cet** article. Ne
+   **jamais** recopier le take d'un autre insight — un take dupliqué d'un item à l'autre est un bug.
 5. **IDs uniques** : `ins_YYYYMMDD_` + 6 caractères hex aléatoires.
 
 ### Phase 4 — Sortie (écriture GitHub)
@@ -108,6 +119,8 @@ Si `settings.auto_enrich.enabled` est `true` :
    - `metadata` (topic, week, date_start/end, last_run, run_params, stats, summary).
    - Si le fichier de la semaine existe, **fusionner** (dédup par URL) ; sinon créer.
    - Nouveaux insights en `"new"`. Marquer `"archived"` ceux plus vieux que `archive_after_days`.
+   - `stats.by_axis` compte **chaque insight une seule fois, sous son `primary_axis`** : la somme des
+     valeurs de `by_axis` **doit égaler** `total_insights`. (Ne compte PAS chaque axe scoré > 0.)
 2. **`metadata.summary`** (150-200 mots, **Markdown**, ton de briefing) : 2-3 blocs `###` +
    paragraphes, `**gras**` pour chiffres/noms, `*italique*` pour la nuance. Tisser les mots-clés
    de `scoring.md`. Pas de listes à puces.
@@ -120,6 +133,15 @@ Si `settings.auto_enrich.enabled` est `true` :
 6. **Résumé en fin de conversation** : groupé par axe, trié, préfixe `[actionability/axis_score]`,
    take pour actionability ≥ 2, section « Sources auto-ajoutées » si applicable, puis stats
    agrégées.
+
+> **Contrôle qualité avant de conclure — le run est INCOMPLET tant que tout n'est pas vrai :**
+> 1. **Les DEUX fichiers** sont committés : `data/YYYY-WNN.json` **et** `digest/YYYY-WNN.md`. Écrire
+>    le JSON sans le digest = run raté.
+> 2. Aucune URL en mojibake ; chaque URL provient verbatim de sa source.
+> 3. Aucun `editorial_take` dupliqué d'un insight à l'autre.
+> 4. `somme(stats.by_axis) == stats.total_insights`.
+> 5. Au moins deux canaux de collecte exercés quand `sources = all` (sinon signaler pourquoi).
+> Si un point échoue, corrige et recommite **avant** d'afficher le résumé final.
 
 Si **topic = all**, répéter pour chaque topic puis afficher un récapitulatif global.
 
