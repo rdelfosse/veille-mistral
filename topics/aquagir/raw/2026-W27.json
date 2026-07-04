@@ -1,0 +1,47 @@
+{
+  "metadata": {
+    "week": "2026-W27",
+    "date_start": "2026-06-29",
+    "date_end": "2026-07-05",
+    "topic": "aquagir",
+    "axes_collected": [
+      "assainissement"
+    ],
+    "last_collecte": "2026-07-04T14:49:08.486Z",
+    "settings": {
+      "default_days": 30,
+      "exclude_domains": [
+        "aquagir.fr"
+      ]
+    }
+  },
+  "items": [
+    {
+      "url": "https://www.lesaffaires.com/communique-de-presse/le-canada-et-lile-du-prince-edouard-investissent-dans-les-infrastructures-liees-a-leau-et-aux-eaux-usees-pour-soutenir-la-construction-de-nouveaux-logements-a-three-rivers/",
+      "title": "Le Canada et l'Île-du-Prince-Édouard investissent dans les infrastructures liées à l'eau et aux eaux usées pour soutenir la construction de nouveaux logements à Three Rivers",
+      "date": "2026-07-03",
+      "summary": "Le financement du projet soutiendra des améliorations pour offrir des services fiables aux résidents tout en favorisant la construction résidentielle et une densification de la collectivité à Three Rivers. Le projet s'appuiera sur le plan directeur de maintenance de 2022 en recueillant des données opérationnelles actualisées, notamment des études sur les débits et la caractérisation des eaux usées, afin de planifier les travaux d'amélioration de la station d'épuration.",
+      "found_via_axis": "assainissement",
+      "source_type": "search",
+      "content_type": "ressource"
+    },
+    {
+      "url": "https://echo-des-tribunes.com/herault-tribune/articles/poussan-dimportants-travaux-sur-le-reseau-dassainissement-jusquen-septembre",
+      "title": "Poussan : d'importants travaux sur le réseau d'assainissement jusqu'en septembre",
+      "date": "2026-06-29",
+      "summary": "Sète agglopôle Méditerranée lance des travaux de modernisation du réseau d'assainissement à Poussan, avenue de Sète, jusqu'au 18 septembre 2026. Depuis le 29 juin, le chantier prévoit la pose d'environ un kilomètre de nouvelles canalisations en grès pour remplacer les conduites existantes et augmenter la capacité de transport des eaux usées.",
+      "found_via_axis": "assainissement",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.constructionbtp.com/reseaux-vrd/article/2026/07/02/155738/tribune-anc-siecle-reglementation-demain",
+      "title": "[Tribune] ANC : un siècle de réglementation, et demain ?",
+      "date": "2026-07-02",
+      "summary": "L'assainissement non collectif est aujourd'hui à la croisée des chemins. 1925–2026 : un siècle de réglementation, une légitimité construite pierre à pierre. Jérémie Steininger, délégué général des Acteurs du traitement des eaux de la parcelle (ATEP), souligne que \"L'ANC ne mérite ni l'indifférence, ni l'improvisation.\"",
+      "found_via_axis": "assainissement",
+      "source_type": "search",
+      "content_type": "actualite"
+    }
+  ]
+}
