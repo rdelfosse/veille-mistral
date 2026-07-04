@@ -22,23 +22,51 @@ les briques natives de Vibe :
 ```
 veille-mistral/
 ├─ agent/
-│  └─ instructions.md          ← prompt système de l'agent Vibe (le cœur)
+│  ├─ instructions.md           ← prompt de l'agent de veille (le cœur)
+│  ├─ angles-morts.md           ← agent d'analyse : cartographie les angles morts
+│  ├─ idees-microservices.md    ← agent d'idéation : idées de micro-services
+│  └─ critique-idees.md         ← agent de critique : destruction Garry Tan → reframe CEO
 ├─ references/
 │  ├─ scoring-rubric.md         ← logique de scoring (générique)
-│  └─ output-schema.md          ← format JSON + digest
+│  ├─ output-schema.md          ← format JSON + digest
+│  └─ analysis-method.md        ← méthode des agents aval (angles morts → idées → critique)
 └─ topics/
    ├─ _template/                ← gabarit à cloner (jamais exécuté)
    │  ├─ sources.json
-   │  └─ scoring.md
+   │  ├─ scoring.md
+   │  └─ analysis.md            ← brief des agents aval (acteurs, contraintes, critères)
    └─ pain-points-elus-locaux/  ← 1er sujet
       ├─ sources.json           ← settings + axes + sources
       ├─ scoring.md             ← barème de scoring du sujet
-      ├─ data/                  ← un JSON par semaine (YYYY-WNN.json) — écrit par l'agent
-      └─ digest/                ← un Markdown par semaine (YYYY-WNN.md) — écrit par l'agent
+      ├─ analysis.md            ← brief d'analyse du sujet
+      ├─ data/                  ← un JSON par semaine (YYYY-WNN.json) — écrit par la veille
+      ├─ digest/                ← un Markdown par semaine (YYYY-WNN.md) — écrit par la veille
+      └─ analysis/              ← livrables des agents aval (angles-morts / idees / critique)
 ```
 
 Un **topic** = une thématique (un dossier). À l'intérieur, plusieurs **axes** (sous-angles)
 permettent un scoring multi-dimensionnel.
+
+## Le pipeline en 4 agents
+
+Quatre agents Vibe distincts, chaînés — chacun lit la sortie GitHub du précédent :
+
+```
+veille  →  angles-morts  →  idées-microservices  →  critique
+```
+
+1. **veille** (`agent/instructions.md`) — collecte hebdo, scoring multi-axes, digest.
+2. **angles-morts** (`agent/angles-morts.md`) — cartographie ce que les acteurs en place (BdT, État…)
+   font DÉJÀ pour isoler les trous exploitables.
+3. **idées-microservices** (`agent/idees-microservices.md`) — transforme les angles morts en idées de
+   micro-services concrets, filtrés par les critères du topic.
+4. **critique** (`agent/critique-idees.md`) — critique adversariale : les *six forcing questions* de
+   Garry Tan (office hours) tuent les idées non soutenues par la donnée, puis reframe stratégique CEO
+   des survivantes.
+
+Les agents 2-4 sont **agnostiques au sujet** : toute la spécificité vit dans `topics/<topic>/analysis.md`
++ `scoring.md`. Voir `references/analysis-method.md` pour la méthode. Ils tournent **moins souvent que
+la veille** (mensuel ou à la demande).
 
 ## Installation côté Mistral Le Chat / Vibe
 
@@ -66,6 +94,16 @@ Le Chat → **Agents** → *Nouvel agent* :
 - **Instructions** : coller l'intégralité de [`agent/instructions.md`](agent/instructions.md).
 - **Outils à activer** : `Web Search`, `Code Interpreter`, **connecteur GitHub**.
 - (Optionnel) **Memories** : activé, pour le contexte de dédup léger entre runs.
+
+Créer de la même façon **trois agents d'analyse** (mêmes outils ; le Code Interpreter est facultatif) :
+- `Angles morts` → instructions = [`agent/angles-morts.md`](agent/angles-morts.md)
+- `Idées micro-services` → instructions = [`agent/idees-microservices.md`](agent/idees-microservices.md)
+- `Critique idées` → instructions = [`agent/critique-idees.md`](agent/critique-idees.md)
+
+> **Anti-simulation** : dans le prompt de déclenchement de chaque agent, exiger l'exécution réelle —
+> *« Exécute réellement chaque étape en appelant les outils. N'affiche pas de plan, ne me demande rien
+> à faire manuellement, ne simule aucun résultat. Toute écriture passe par le connecteur GitHub, jamais
+> par des commandes git. Termine seulement après avoir committé les fichiers. »*
 
 ### 4. Planifier la veille (Work Mode)
 
