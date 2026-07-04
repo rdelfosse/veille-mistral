@@ -162,3 +162,12 @@ Pour chaque run et chaque topic :
 
 Relancer dans la même semaine **fusionne** les nouveaux insights dans le fichier existant
 (dédup par URL).
+
+## Licence & crédits
+
+Ce projet est sous licence **MIT** (voir [`LICENSE`](LICENSE)).
+
+L'agent de critique (`agent/critique-idees.md`) **adapte** des idées de
+[gstack](https://github.com/garrytan/gstack) de **Garry Tan** (skills `office-hours` et
+`plan-ceo-review`), sous licence MIT. Détails et notice d'origine dans
+[`THIRD-PARTY-NOTICES.md`](THIRD-PARTY-NOTICES.md).

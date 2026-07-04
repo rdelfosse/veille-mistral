@@ -142,3 +142,10 @@ Terminer par un résumé court : le compte des verdicts + l'idée survivante n°
 - Cet agent ne **génère pas** d'idées et n'en réécrit pas dans le fichier d'idées : il produit un
   **verdict séparé**. Rejouer l'agent **idées** avec ces verdicts en tête pour une v2 des idées.
 - Cadence : après chaque run de l'agent idées, ou à la demande.
+
+## Crédits
+
+Les *six forcing questions*, les règles anti-flagornerie et les *pushback patterns* (lentille Office
+Hours), ainsi que le reframe CEO (modes de scope, 10x check, cognitive patterns), sont **adaptés** de
+[gstack](https://github.com/garrytan/gstack) de **Garry Tan** (skills `office-hours` et
+`plan-ceo-review`), sous licence **MIT**. Voir [`THIRD-PARTY-NOTICES.md`](../THIRD-PARTY-NOTICES.md).
