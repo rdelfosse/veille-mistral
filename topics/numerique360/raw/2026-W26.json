@@ -1,0 +1,58 @@
+{
+  "items": [
+    {
+      "url": "https://www.ecologie.gouv.fr/strategie-nationale-bas-carbone/numerique",
+      "title": "Le secteur du numérique | Ministères Transition écologique, Aménagement du Territoire, Transports, Ville et Logement",
+      "date": "2026-07-01",
+      "summary": "Le numérique est à la fois un levier de la transition écologique et un secteur dont il faut maîtriser la croissance de l'empreinte carbone. Allonger la durée de vie des terminaux, promouvoir la sobriété des usages et contrôler l'empreinte des centres de données sont des leviers pour maîtriser la hausse de l’empreinte carbone du numérique.",
+      "found_via_axis": "transition-eco-energetique",
+      "source_type": "search",
+      "content_type": "actualite"
+    }
+  ],
+  "metadata": {
+    "week": "2026-W26",
+    "date_start": "2026-06-29",
+    "date_end": "2026-07-05",
+    "axes_collected": [
+      "transition-eco-energetique"
+    ],
+    "last_collecte": "2026-07-04T14:43:01.801Z",
+    "settings": {
+      "default_days": 30,
+      "exclude_domains": [
+        "numerique360.banquedesterritoires.fr"
+      ],
+      "content_types": [
+        "actualite",
+        "evenement",
+        "ressource"
+      ],
+      "content_type_hints": {
+        "evenement": [
+          "colloque",
+          "webinaire",
+          "séminaire",
+          "salon",
+          "journée d'étude",
+          "rencontres",
+          "assises",
+          "conférence",
+          "forum"
+        ],
+        "ressource": [
+          "guide",
+          "retour d'expérience",
+          "étude",
+          "rapport",
+          "fiche pratique",
+          "méthodologie",
+          "boîte à outils",
+          "référentiel",
+          "MOOC"
+        ],
+        "actualite": []
+      }
+    }
+  }
+}
