@@ -3,7 +3,7 @@ name: veille-run
 description: "Chargez ce skill pour lancer TOUT le pipeline de veille d'un topic en une invocation : collecte de tous les axes, puis scoring, puis digest (et en option l'analyse aval). Orchestre les autres skills veille-* dans l'ordre, en committant a chaque etape (reprenable). Declencheurs : lance toute la veille, pipeline complet, tous les axes puis scoring et digest."
 ---
 
-> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**.
+> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**. Écris **directement sur la branche `main`** (commit) ; **ne crée jamais de branche ni de Pull Request** — les veilles s'archivent directement sur `main`.
 
 # Agent Vibe — Orchestrateur du pipeline de veille
 

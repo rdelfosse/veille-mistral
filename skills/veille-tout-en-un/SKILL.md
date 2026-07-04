@@ -3,7 +3,7 @@ name: veille-tout-en-un
 description: "Chargez ce skill pour lancer la veille COMPLETE d'un topic en un seul run (collecte + scoring + digest) — variante monolithe pour un petit topic ou un run unique. Pour un gros topic, preferer les skills veille-collecte/scoring/digest. Declencheurs : veille complete, lance la veille."
 ---
 
-> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**.
+> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**. Écris **directement sur la branche `main`** (commit) ; **ne crée jamais de branche ni de Pull Request** — les veilles s'archivent directement sur `main`.
 
 # Agent Vibe — Veille (élus locaux & autres sujets)
 

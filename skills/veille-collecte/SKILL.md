@@ -3,7 +3,7 @@ name: veille-collecte
 description: "Chargez ce skill pour collecter les articles de veille (RSS + recherche web + blogs) et les merger dans le harvest brut de la semaine (raw/) sur GitHub. Param axis = un axe, `all`, ou `priority:N` ; les axes sont traites un par un en committant apres chacun (reprenable). A lancer avant le scoring. Declencheurs : collecte veille, harvest, tous les axes."
 ---
 
-> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**.
+> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**. Écris **directement sur la branche `main`** (commit) ; **ne crée jamais de branche ni de Pull Request** — les veilles s'archivent directement sur `main`.
 
 # Agent Vibe — Collecte
 

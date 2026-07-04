@@ -59,6 +59,9 @@ Données **non scorées** : juste ce qui a été collecté, tracé par source.
 - **Repo cible unique : `rdelfosse/veille-mistral`.** Toute lecture/écriture passe par le connecteur
   GitHub sur **ce** repo. **Ne crée jamais d'autre repo** (pas de `veille-data`). Les chemins
   `topics/…`, `references/…`, `skills/…` sont relatifs à ce repo.
+- **Écriture directe sur `main`.** Commit directement sur la branche par défaut ; **jamais de branche
+  ni de Pull Request**. Les veilles s'archivent en continu sur `main` (l'historique git EST l'archive
+  qui sert à repérer les signaux dans le temps) — une PR non mergée = une veille perdue.
 - **Outils réellement disponibles** : `tools.web_search.web_search()` (fiable), `open_url(url)` (fetch),
   et la **stdlib Python** (`xml.etree.ElementTree`, `html.parser`, `re`, `json`, `datetime`…).
   ⚠️ **feedparser, requests et BeautifulSoup ne sont PAS disponibles.** RSS = XML → `ElementTree` ;

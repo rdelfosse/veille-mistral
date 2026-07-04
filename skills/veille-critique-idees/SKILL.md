@@ -3,7 +3,7 @@ name: veille-critique-idees
 description: "Chargez ce skill pour critiquer des idees de micro-services (six forcing questions de Garry Tan + reframe CEO) sur la donnee reelle de veille, avec verdict KILL/REWORK/SURVIVE. Lit analysis/idees-* et data/, ecrit analysis/critique-*. A lancer apres les idees. Declencheurs : critique idees, office hours."
 ---
 
-> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**.
+> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**. Écris **directement sur la branche `main`** (commit) ; **ne crée jamais de branche ni de Pull Request** — les veilles s'archivent directement sur `main`.
 
 # Agent Vibe — Critique des idées (destruction Garry Tan → reframe CEO)
 

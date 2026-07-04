@@ -3,7 +3,7 @@ name: veille-idees-microservices
 description: "Chargez ce skill pour transformer les angles morts d'un topic en idees de micro-services concretes, filtrees par les criteres du topic. Lit analysis/angles-morts-*, ecrit analysis/idees-*. A lancer apres les angles morts. Declencheurs : idees micro-services, ideation."
 ---
 
-> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**.
+> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**. Écris **directement sur la branche `main`** (commit) ; **ne crée jamais de branche ni de Pull Request** — les veilles s'archivent directement sur `main`.
 
 # Agent Vibe — Idées micro-services (aval des angles morts)
 
