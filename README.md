@@ -110,8 +110,8 @@ Créer de la même façon **trois agents d'analyse** (mêmes outils ; le Code In
 Le Chat → **Tâches / Work Mode** → nouvelle tâche récurrente :
 - **Agent** : `Veille élus locaux`
 - **Cadence** : hebdomadaire, **lundi 08:00**
-- **Prompt de déclenchement** :
-  `Lance la veille pour le topic pain-points-elus-locaux sur les 7 derniers jours, toutes sources, tous axes. Écris le JSON et le digest dans le repo GitHub.`
+- **Prompt de déclenchement** : voir [`agent/prompts-declenchement.md`](agent/prompts-declenchement.md)
+  (prompts prêts à coller pour les 4 agents, avec la clause anti-simulation).
 
 ### 5. Lire les résultats dans Obsidian (optionnel) ou un lecteur MD
 
