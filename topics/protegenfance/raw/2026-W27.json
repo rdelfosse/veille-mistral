@@ -4,11 +4,12 @@
     "iso_week": "2026-W27",
     "date_start": "2026-06-29",
     "date_end": "2026-07-05",
-    "last_collecte": "2026-07-04T14:30:09.305Z",
+    "last_collecte": "2026-07-04T14:30:34.433Z",
     "axes_collected": [
       "se-reperer",
       "se-former",
-      "accueillir"
+      "accueillir",
+      "accompagner"
     ],
     "settings": {
       "default_days": 30,
@@ -112,6 +113,33 @@
       "source_type": "search",
       "found_via_axis": "accueillir",
       "content_type": "actualite"
+    },
+    {
+      "url": "https://lcp.fr/actualites/protection-des-enfants-l-aide-sociale-a-l-enfance-bientot-reformee-438487",
+      "title": "Protection des enfants: l’Aide sociale à l’enfance bientôt réformée?",
+      "date": "2026-06-30",
+      "summary": "Les travaux de la commission spéciale sur le projet de loi relatif à la protection des enfants ont débuté le 30 juin 2026. Le texte vise à améliorer la prise en charge des 400 000 mineurs et jeunes majeurs de l'ASE, avec un accent sur la primauté de la famille et l'adoption simple pour les enfants ne pouvant revenir dans leur milieu familial.",
+      "source_type": "search",
+      "found_via_axis": "accompagner",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.lemediasocial.fr/le-parrainage-des-enfants-de-lase-un-levier-reconnu-par-les-professionnels_St073d",
+      "title": "Le parrainage des enfants de l'ASE : \"Un levier reconnu par les professionnels\"",
+      "date": "2026-06-30",
+      "summary": "Une étude présentée le 30 juin à la Haute-commissaire à l'Enfance démontre les effets positifs du parrainage de proximité pour les enfants de l'ASE. France Parrainage milite pour un recours plus massif à cette forme d'accompagnement complémentaire.",
+      "source_type": "search",
+      "found_via_axis": "accompagner",
+      "content_type": "ressource"
+    },
+    {
+      "url": "https://www.lesrencontreseconomiques.fr/",
+      "title": "Les Rencontres Économiques - 2-3-4 juillet 2026",
+      "date": "2026-07-02",
+      "summary": "Le plus grand événement économique et social en Europe, ouvert à tous et gratuit, se tiendra à Aix-en-Provence du 2 au 4 juillet 2026. Plus de 400 intervenants et 70 sessions aborderont notamment les questions de jeunesse et d'insertion.",
+      "source_type": "search",
+      "found_via_axis": "accompagner",
+      "content_type": "evenement"
     }
   ]
 }
