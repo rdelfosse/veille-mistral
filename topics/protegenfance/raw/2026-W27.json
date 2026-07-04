@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "topic": "protegenfance",
+    "iso_week": "2026-W27",
+    "date_start": "2026-06-29",
+    "date_end": "2026-07-05",
+    "last_collecte": "2026-07-04T14:28:49.524Z",
+    "axes_collected": [
+      "se-reperer"
+    ],
+    "settings": {
+      "default_days": 30,
+      "content_types": [
+        "actualite",
+        "evenement",
+        "ressource"
+      ],
+      "exclude_domains": [
+        "protegenfance.fr"
+      ]
+    }
+  },
+  "items": [
+    {
+      "url": "https://journal.impact-european.eu/conseil-ministres-france-1-juillet-2026/",
+      "title": "Conseil des ministres : les réformes en France",
+      "date": "2026-07-01",
+      "summary": "Le Conseil des ministres du 1er juillet 2026 a examiné un projet de loi renforçant la protection des enfants face aux violences sexuelles, avec une lettre rectificative pour renforcer plusieurs dispositions avant examen à l'Assemblée nationale à partir du 15 juillet 2026.",
+      "source_type": "search",
+      "found_via_axis": "se-reperer",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://lesaf.org/victoire-pour-la-protection-des-enfants/",
+      "title": "VICTOIRE POUR LA PROTECTION DES ENFANTS ! - Le SAF",
+      "date": "2026-07-01",
+      "summary": "L'Assemblée nationale a adopté définitivement le 1er juillet 2026 la proposition de loi n°214/2025-2026 visant à assurer le droit de chaque enfant à être assisté d'un avocat dans le cadre d'une mesure d'assistance éducative et de protection de l'enfance.",
+      "source_type": "search",
+      "found_via_axis": "se-reperer",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://assemblee-nationale.fr/dyn/actualites-accueil-hub/examen-en-2eme-lecture-de-la-proposition-de-loi-visant-a-assurer-le-droit-de-chaque-enfant-a-etre-assiste-d-un-avocat-dans-le-cadre-d-une-mesure",
+      "title": "Adoption, sans modification, en 2ème lecture, de la proposition de loi visant à assurer le droit de chaque enfant à être assisté d'un avocat dans le cadre d'une mesure d'assistance éducative et de protection de l'enfance",
+      "date": "2026-07-01",
+      "summary": "L'Assemblée nationale a adopté en 2ème lecture une proposition de loi pour garantir l'assistance d'un avocat aux enfants dans le cadre des mesures d'assistance éducative et de protection de l'enfance.",
+      "source_type": "search",
+      "found_via_axis": "se-reperer",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.puissancetelevision.fr/economie/protection-de-lenfance-en-haute-marne-le-departement-renforce-ses-moyens-pour-2026/",
+      "title": "Protection de l'enfance en Haute-Marne : le Département renforce ses moyens pour 2026",
+      "date": "2026-06-30",
+      "summary": "La Meuse accueillera la 3ème édition des Assises nationales de l'accès aux soins le 30 juin 2026 à Bar-le-Duc. Le Département mobilise plus de 38M€ pour la protection de l'enfance en 2026.",
+      "source_type": "search",
+      "found_via_axis": "se-reperer",
+      "content_type": "evenement"
+    },
+    {
+      "url": "https://www.enfancejeunesseinfos.fr/reussite-scolaire-des-enfants-confies-a-lase-lonpe-appelle-a-faire-de-lecole-un-pilier-de-la-protection-de-lenfance/",
+      "title": "Réussite scolaire des enfants confiés à l'ASE : l'ONPE appelle à faire de l'école un pilier de la protection de l'enfance",
+      "date": "2026-06-30",
+      "summary": "Le rapport publié le 30 juin par l'ONPE montre comment des initiatives de terrain renforcent la continuité des parcours scolaires des enfants confiés à l'ASE, avec 10 recommandations pour améliorer leur réussite.",
+      "source_type": "search",
+      "found_via_axis": "se-reperer",
+      "content_type": "ressource"
+    },
+    {
+      "url": "https://www.bfmtv.com/police-justice/personne-n-en-veut-de-ces-enfants-ni-les-departements-ni-l-etat-qui-a-failli-dans-la-protection-de-louis-17-ans-lynche-jusqu-a-l-agonie-a-narbonne_AN-202606300546.html",
+      "title": "\"Personne n'en veut de ces enfants, ni les départements, ni l'État\" : qui a failli dans la protection de Louis, 17 ans, lynché jusqu'à l'agonie à Narbonne?",
+      "date": "2026-06-30",
+      "summary": "Louis, 17 ans, est mort le 24 juin 2026 après avoir été violemment agressé à Narbonne. L'adolescent, suivi par l'ASE depuis mai, soulève des questions sur les défaillances du système de protection de l'enfance.",
+      "source_type": "search",
+      "found_via_axis": "se-reperer",
+      "content_type": "actualite"
+    }
+  ]
+}
