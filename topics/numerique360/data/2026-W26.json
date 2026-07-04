@@ -1,0 +1,452 @@
+{
+  "metadata": {
+    "topic": "numerique360",
+    "week": "2026-W26",
+    "date_start": "2026-06-29",
+    "date_end": "2026-07-05",
+    "last_run": "2026-07-04T14:47:45.573Z",
+    "summary": "Cette semaine met en lumière plusieurs signaux forts pour le numérique des collectivités. **La cybersécurité** s'impose comme une priorité de gouvernance avec le plan national annoncé par le Premier ministre et les interpellations liées aux cyberattaques. **L'intelligence artificielle** gagne du terrain dans le secteur public avec le plan Osez l'IA, des rapports officiels et des hackathons concrets. **L'inclusion numérique** se concrétise par des projets d'infrastructure en Guyane et des initiatives internationales inspirantes. **La souveraineté numérique** est à l'honneur avec un salon dédié, tandis que **l'aménagement numérique** des territoires se structure autour des jumeaux numériques et de la numérisation des documents d'urbanisme.",
+    "run_params": {
+      "axes": [
+        "all"
+      ],
+      "days": 7,
+      "sources": [
+        "search"
+      ]
+    },
+    "stats": {
+      "total_insights": 15,
+      "by_axis": {
+        "transition-eco-energetique": 1,
+        "citoyens-solidarite": 2,
+        "gouvernance-socles-tech": 4,
+        "ia": 4,
+        "attractivite-amenagement": 3,
+        "mobilites": 1
+      }
+    }
+  },
+  "insights": [
+    {
+      "id": "ins_20260701_cdf8f7",
+      "title": "Le secteur du numérique | Ministères Transition écologique, Aménagement du Territoire, Transports, Ville et Logement",
+      "url": "https://www.ecologie.gouv.fr/strategie-nationale-bas-carbone/numerique",
+      "source": "ecologie.gouv.fr",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "Le numérique est à la fois un levier de la transition écologique et un secteur dont il faut maîtriser la croissance de l'empreinte carbone. Allonger la durée de vie des terminaux, promouvoir la sobriété des usages et contrôler l'empreinte des centres de données sont des leviers pour maîtriser la hausse de l’empreinte carbone du numérique.",
+      "editorial_take": "La stratégie nationale bas carbone intègre désormais le numérique comme levier et enjeu. Pour les collectivités, cela signifie repenser leurs achats TIC et leurs usages pour aligner sobriété numérique et transition écologique.",
+      "axes": {
+        "transition-eco-energetique": 3,
+        "gouvernance-socles-tech": 2,
+        "citoyens-solidarite": 0,
+        "mobilites": 0,
+        "attractivite-amenagement": 1,
+        "ia": 0
+      },
+      "primary_axis": "transition-eco-energetique",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260629_1f5873",
+      "title": "Guyane : Le déploiement du câble sous-marin Lum@link débute à Montabo",
+      "url": "https://outremers360.com/bassin-atlantique-appli/guyane-le-deploiement-du-cable-sous-marin-lum-link-debute-a-montabo",
+      "source": "Outremers360",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-06-29",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "Le déploiement du câble sous-marin Lum@link a débuté sur la plage de Montabo. Ce projet vise à améliorer la connectivité en Guyane, renforcer l'inclusion numérique et développer le rayonnement du territoire. Porté par la SPLANG, il reliera directement la Guyane à l'Europe.",
+      "editorial_take": "L'inclusion numérique passe aussi par les infrastructures. Ce projet montre comment une collectivité ultramarine investit dans le très haut débit pour réduire la fracture numérique et soutenir le développement économique local.",
+      "axes": {
+        "transition-eco-energetique": 0,
+        "gouvernance-socles-tech": 1,
+        "citoyens-solidarite": 3,
+        "mobilites": 1,
+        "attractivite-amenagement": 2,
+        "ia": 0
+      },
+      "primary_axis": "citoyens-solidarite",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260702_b1eaaa",
+      "title": "Les Rencontres Économiques 2026",
+      "url": "https://www.aixenprovence.fr/Les-Rencontres-Economiques-2026",
+      "source": "Aix-en-Provence",
+      "source_type": "search",
+      "content_type": "evenement",
+      "date": "2026-07-02",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "La 26ème édition des Rencontres Économiques d'Aix se tiendra du 2 au 4 juillet 2026 au parc Jourdan. Organisé par le Cercle des économistes, cet événement aborde des thèmes incluant le développement économique durable, les smart cities, l'innovation technologique et la transition numérique.",
+      "editorial_take": "Les smart cities et la transition numérique seront au cœur des débats. Pour les collectivités, c'est l'occasion de s'inspirer des retours d'expérience et des visions portées par les experts pour leurs propres projets d'aménagement numérique.",
+      "axes": {
+        "transition-eco-energetique": 1,
+        "gouvernance-socles-tech": 1,
+        "citoyens-solidarite": 2,
+        "mobilites": 1,
+        "attractivite-amenagement": 2,
+        "ia": 1
+      },
+      "primary_axis": "citoyens-solidarite",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260629_9e6605",
+      "title": "Collectivités territoriales : la cybersécurité engage la responsabilité des élus",
+      "url": "https://www.orsys.fr/orsys-lemag/collectivites-territoriales-cybersecurite-engage-responsabilite-des-elus",
+      "source": "ORSYS",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-06-29",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "La cybersécurité est désormais un sujet de gouvernance et de responsabilité des élus pour les collectivités territoriales. L'article souligne l'importance de cartographier les dépendances numériques et mentionne une mission d'évaluation des dépendances aux solutions extra-européennes.",
+      "editorial_take": "La cybersécurité n'est plus une affaire de spécialistes mais de gouvernance. Les élus doivent s'emparer du sujet pour sécuriser leurs services publics numériques et anticiper les risques liés aux dépendances technologiques.",
+      "axes": {
+        "transition-eco-energetique": 0,
+        "gouvernance-socles-tech": 3,
+        "citoyens-solidarite": 0,
+        "mobilites": 0,
+        "attractivite-amenagement": 0,
+        "ia": 0
+      },
+      "primary_axis": "gouvernance-socles-tech",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260701_3e1029",
+      "title": "Cybersécurité : le Premier ministre annonce un plan d'action pour renforcer la protection numérique de l'État",
+      "url": "https://www.info.gouv.fr/actualite/cybersecurite-le-premier-ministre-annonce-un-plan-d-action-pour-renforcer-la-protection-numerique-de-l-etat",
+      "source": "info.gouv.fr",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "Le Premier ministre annonce un plan d'action pour renforcer la protection numérique de l'État face à l'intensification des cyberattaques. La France enregistre en moyenne trois vols de données par jour depuis début 2026. Le plan inclut l'accélération de la doctrine de protection.",
+      "editorial_take": "Avec 3 vols de données par jour en moyenne, la menace est réelle. Ce plan national doit inspirer les collectivités à renforcer leurs propres dispositifs de cybersécurité, notamment face à la hausse des attaques ciblant le secteur public.",
+      "axes": {
+        "transition-eco-energetique": 0,
+        "gouvernance-socles-tech": 3,
+        "citoyens-solidarite": 0,
+        "mobilites": 0,
+        "attractivite-amenagement": 0,
+        "ia": 0
+      },
+      "primary_axis": "gouvernance-socles-tech",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260701_5baf7d",
+      "title": "PDSFA, la veille RGPD et cybersécurité qui va droit à l'essentiel",
+      "url": "https://www.dpo-partage.fr/pdsfa-la-veille-rgpd-et-cybersecurite-qui-va-droit-a-lessentiel/",
+      "source": "DPO-Partage",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "La veille PDSFA aborde la conformité RGPD et la cybersécurité pour les collectivités territoriales. Le numéro 10 revient sur l'actualité de juin 2026, avec un modèle harmonisé de notification de violation du RGPD en consultation jusqu'au 5 août 2026.",
+      "editorial_take": "Le RGPD reste un enjeu majeur pour les collectivités. Ce modèle harmonisé de notification, en consultation, pourrait simplifier leurs obligations et renforcer la protection des données personnelles qu'elles traitent.",
+      "axes": {
+        "transition-eco-energetique": 0,
+        "gouvernance-socles-tech": 3,
+        "citoyens-solidarite": 0,
+        "mobilites": 0,
+        "attractivite-amenagement": 0,
+        "ia": 0
+      },
+      "primary_axis": "gouvernance-socles-tech",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260630_fc4f1c",
+      "title": "Cyberattaques contre les établissements de santé : le groupe Marak interpellé",
+      "url": "https://www.dpo-partage.fr/cyberattaques-contre-les-etablissements-de-sante-le-groupe-marak-interpelle-pres-de-4-millions-de-fiches-patients-exfiltrees/",
+      "source": "DPO-Partage",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-06-30",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "L'Office anticybercriminalité a annoncé l'interpellation de cinq personnes soupçonnées d'appartenir au groupe Marak. Près de 4 millions de fiches patients ont été exfiltrées. Ce collectif visait spécifiquement des établissements de santé.",
+      "editorial_take": "4 millions de fiches patients exfiltrées : un rappel brutal des enjeux de cybersécurité dans le secteur public. Les collectivités gestionnaires d'établissements de santé doivent urgemment auditer leurs défenses et former leurs équipes.",
+      "axes": {
+        "transition-eco-energetique": 0,
+        "gouvernance-socles-tech": 3,
+        "citoyens-solidarite": 0,
+        "mobilites": 0,
+        "attractivite-amenagement": 0,
+        "ia": 0
+      },
+      "primary_axis": "gouvernance-socles-tech",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260701_4db12b",
+      "title": "Le plan national Osez l'IA",
+      "url": "https://www.entreprises.gouv.fr/priorites-et-actions/transition-numerique/accompagner-les-entreprises-dans-leur-transition/le-plan",
+      "source": "entreprises.gouv.fr",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "Lancé dans le cadre de la stratégie nationale pour l'IA, le plan Osez l'IA vise à accélérer la diffusion de l'IA dans les entreprises. La plateforme 'Accélérez avec l’IA' présente des exemples concrets de déploiement dans tous les secteurs, des informations pratiques et des témoignages de dirigeants.",
+      "editorial_take": "L'IA n'est plus réservée aux grands groupes. Ce plan national avec ses cas concrets et témoignages peut inspirer les collectivités à identifier des usages adaptés à leur échelle pour moderniser leurs services.",
+      "axes": {
+        "transition-eco-energetique": 0,
+        "gouvernance-socles-tech": 1,
+        "citoyens-solidarite": 0,
+        "mobilites": 0,
+        "attractivite-amenagement": 0,
+        "ia": 3
+      },
+      "primary_axis": "ia",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260701_12ed69",
+      "title": "Le déploiement de l’IA dans les administrations publiques : analyse comparée",
+      "url": "https://www.igas.gouv.fr/le-deploiement-de-lintelligence-artificielle-dans-les-administrations-publiques-analyse-comparee-enjeux-et-conditions-de-reussite",
+      "source": "IGAS",
+      "source_type": "search",
+      "content_type": "ressource",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "Rapport conjoint IGF-IGAS-IGA analysant comment l'IA peut améliorer les services publics, la qualité du travail des agents et l'efficacité des politiques publiques. Il présente de nombreux cas d'usage dans la sphère sociale, France Travail, et les établissements de santé.",
+      "editorial_take": "Ce rapport officiel identifie des cas d'usage concrets de l'IA dans le secteur public. Pour les collectivités, c'est une mine d'inspiration pour transposer ces bonnes pratiques à leur échelle et améliorer l'efficacité de leurs services.",
+      "axes": {
+        "transition-eco-energetique": 0,
+        "gouvernance-socles-tech": 2,
+        "citoyens-solidarite": 1,
+        "mobilites": 0,
+        "attractivite-amenagement": 0,
+        "ia": 3
+      },
+      "primary_axis": "ia",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260703_9f6750",
+      "title": "Hackathon spécial IA dédié au parcours de la loi à l'Assemblée nationale",
+      "url": "https://www.village-justice.com/articles/hackathon-special-assemblee-nationale,57869.html",
+      "source": "Village Justice",
+      "source_type": "search",
+      "content_type": "evenement",
+      "date": "2026-07-03",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "Les 3 et 4 juillet 2026, l'Assemblée nationale organise un hackathon sur le thème 'Le parcours de la loi : vers une IA de confiance'. Cet événement marque un moment clé du développement de l'IA juridique en France.",
+      "editorial_take": "L'IA juridique progresse avec des événements concrets comme ce hackathon. Les collectivités peuvent s'en inspirer pour organiser des ateliers similaires sur l'IA et la modernisation de leurs propres processus administratifs.",
+      "axes": {
+        "transition-eco-energetique": 0,
+        "gouvernance-socles-tech": 1,
+        "citoyens-solidarite": 0,
+        "mobilites": 0,
+        "attractivite-amenagement": 0,
+        "ia": 3
+      },
+      "primary_axis": "ia",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260701_eba065",
+      "title": "Données et IA : les collectivités appelées à participer à l'enquête nationale 2026",
+      "url": "https://mairie72.fr/donnees-et-ia-les-collectivites-appelees-a-participer-a-lenquete-nationale-2026",
+      "source": "mairie72.fr",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "Les collectivités territoriales sont invitées à participer à une enquête nationale 2026 sur les données et l'IA. L'article encourage à regrouper des éléments simples pour des retours terrain utiles et des comparaisons pertinentes.",
+      "editorial_take": "Cette enquête nationale est une opportunité pour les collectivités de faire remonter leurs besoins et leurs retours d'expérience en matière d'IA. Une participation active permettra de mieux cibler les futurs dispositifs d'accompagnement.",
+      "axes": {
+        "transition-eco-energetique": 0,
+        "gouvernance-socles-tech": 2,
+        "citoyens-solidarite": 0,
+        "mobilites": 2,
+        "attractivite-amenagement": 0,
+        "ia": 3
+      },
+      "primary_axis": "ia",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260630_1371e0",
+      "title": "Salon Souveraineté Numérique 2026",
+      "url": "https://salon-souverainete-numerique.com/",
+      "source": "Salon Souveraineté Numérique",
+      "source_type": "search",
+      "content_type": "evenement",
+      "date": "2026-06-30",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "Les 30 juin et 1er juillet 2026 à Paris, ce salon réunira près de 100 exposants proposant des alternatives aux fournisseurs extra-européens, avec 20 conférences animées par des experts et 30 ateliers pratiques pour identifier des solutions adaptées aux enjeux des territoires.",
+      "editorial_take": "100 exposants, 20 conférences, 30 ateliers : ce salon concretise la souveraineté numérique. Pour les collectivités, c'est l'occasion de découvrir des solutions souveraines pour leurs projets numériques et de rencontrer des partenaires de confiance.",
+      "axes": {
+        "transition-eco-energetique": 1,
+        "gouvernance-socles-tech": 2,
+        "citoyens-solidarite": 0,
+        "mobilites": 0,
+        "attractivite-amenagement": 3,
+        "ia": 0
+      },
+      "primary_axis": "attractivite-amenagement",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260701_b9de27",
+      "title": "Les implications de l'article L2131-1 CGCT pour les collectivités : Un guide pratique",
+      "url": "https://www.gh-avocats.fr/implications-l2131-1-cgct/",
+      "source": "GH Avocats",
+      "source_type": "search",
+      "content_type": "ressource",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "Ce guide pratique explique comment la numérisation des documents d'urbanisme permet aux citoyens de consulter les projets, comprendre les enjeux locaux et participer activement aux débats concernant l'aménagement de leur territoire. Il aborde les obligations légales et les investissements nécessaires.",
+      "editorial_take": "La numérisation des documents d'urbanisme est un levier d'inclusion citoyenne. Ce guide pratique aide les collectivités à comprendre leurs obligations et à mettre en œuvre des solutions pour rendre leurs projets d'aménagement plus transparents et participatifs.",
+      "axes": {
+        "transition-eco-energetique": 0,
+        "gouvernance-socles-tech": 1,
+        "citoyens-solidarite": 2,
+        "mobilites": 0,
+        "attractivite-amenagement": 3,
+        "ia": 0
+      },
+      "primary_axis": "attractivite-amenagement",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260629_ba1529",
+      "title": "Rapport Innovation 2026 du groupe SNCF",
+      "url": "https://www.groupe-sncf.com/medias-publics/2026-06/rapport-innovation-2026.pdf",
+      "source": "Groupe SNCF",
+      "source_type": "search",
+      "content_type": "ressource",
+      "date": "2026-06-29",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "Le rapport innovation 2026 du groupe SNCF aborde les jumeaux numériques, le design et l'aménagement comme leviers pour mutualiser compétences et moyens. Un test est prévu en 2026 sur la LGV Paris-Marseille.",
+      "editorial_take": "Les jumeaux numériques ne sont plus de la science-fiction. Ce rapport montre comment la SNCF les utilise pour optimiser ses infrastructures. Les collectivités peuvent s'en inspirer pour leurs propres projets d'aménagement et de gestion des équipements publics.",
+      "axes": {
+        "transition-eco-energetique": 0,
+        "gouvernance-socles-tech": 1,
+        "citoyens-solidarite": 0,
+        "mobilites": 2,
+        "attractivite-amenagement": 3,
+        "ia": 0
+      },
+      "primary_axis": "attractivite-amenagement",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260702_e47158",
+      "title": "Partage de données pour l'analyse des mobilités : état des lieux et retours d'expériences",
+      "url": "https://www.cerema.fr/fr/evenements/partage-donnees-analyse-mobilites-etat-lieux-retours",
+      "source": "Cerema",
+      "source_type": "search",
+      "content_type": "evenement",
+      "date": "2026-07-02",
+      "collected_at": "2026-07-04T14:47:45.573Z",
+      "lang": "fr",
+      "summary": "Le Cerema organise un Rendez-vous Mobilités le 2 juillet 2026 de 14h à 16h sur l'enjeu des données pour l'analyse des mobilités. Les données sont essentielles pour comprendre, analyser et concevoir des solutions pour améliorer les mobilités et accélérer leur transition écologique.",
+      "editorial_take": "Sans données, pas de politique de mobilité efficace. Ce rendez-vous du Cerema est l'occasion pour les collectivités de partager leurs retours d'expérience et d'identifier des solutions pour mieux exploiter leurs données de mobilité.",
+      "axes": {
+        "transition-eco-energetique": 1,
+        "gouvernance-socles-tech": 2,
+        "citoyens-solidarite": 0,
+        "mobilites": 3,
+        "attractivite-amenagement": 1,
+        "ia": 0
+      },
+      "primary_axis": "mobilites",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    }
+  ]
+}
