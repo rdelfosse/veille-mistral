@@ -4,12 +4,13 @@
     "iso_week": "2026-W27",
     "date_start": "2026-06-29",
     "date_end": "2026-07-05",
-    "last_collecte": "2026-07-04T14:30:34.433Z",
+    "last_collecte": "2026-07-04T14:30:56.351Z",
     "axes_collected": [
       "se-reperer",
       "se-former",
       "accueillir",
-      "accompagner"
+      "accompagner",
+      "prevenir"
     ],
     "settings": {
       "default_days": 30,
@@ -140,6 +141,24 @@
       "source_type": "search",
       "found_via_axis": "accompagner",
       "content_type": "evenement"
+    },
+    {
+      "url": "https://www.ash.tm.fr/juridique/projet-de-loi-sur-la-protection-de-lenfance-quels-sont-les-changements-apportes-par-le-premier-ministre-974210.php",
+      "title": "Projet de loi sur la protection de l'enfance : quels sont les changements apportés par le Premier ministre ?",
+      "date": "2026-07-03",
+      "summary": "Après présentation en conseil des ministres le 1er juillet 2026, une lettre rectificative ajoute des articles pour \"renforcer la prévention et la répression des infractions sur les mineurs\". Le projet de loi sera étudié par les députés le 15 juillet 2026.",
+      "source_type": "search",
+      "found_via_axis": "prevenir",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://my-angers.info/07/02/protection-de-lenfance-le-maine-et-loire-va-imposer-des-formations-de-prevention-aux-violences-sexuelles/189482",
+      "title": "Protection de l'enfance : Le Maine-et-Loire va imposer des formations de prévention aux violences sexuelles",
+      "date": "2026-07-02",
+      "summary": "Le Département du Maine-et-Loire annonce la création, dès la rentrée 2026, de modules de formation obligatoires pour sensibiliser au repérage et au signalement des violences sexuelles faites aux enfants, suite à l'affaire Lyhanna et aux 288 signalements du premier semestre 2026.",
+      "source_type": "search",
+      "found_via_axis": "prevenir",
+      "content_type": "actualite"
     }
   ]
 }
