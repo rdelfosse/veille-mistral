@@ -10,9 +10,10 @@
       "eau-potable-production",
       "gestion-quantitative",
       "inondations",
-      "milieux-aquatiques"
+      "milieux-aquatiques",
+      "gouvernance-diagnostic"
     ],
-    "last_collecte": "2026-07-04T14:53:49.100Z",
+    "last_collecte": "2026-07-04T14:54:16.788Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
@@ -171,6 +172,24 @@
       "date": "2026-07-01",
       "summary": "Accès en colline interdit pour la journée du mercredi 1er juillet en raison du risque incendie élevé.",
       "found_via_axis": "milieux-aquatiques",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.haute-corse.gouv.fr/Actualites/Espace-Presse/Communiques-de-presse/Communiques-de-presse-2026/Comite-de-ressources-en-eau-du-jeudi-2-juillet-2026",
+      "title": "Comité de ressources en eau du jeudi 2 juillet 2026",
+      "date": "2026-07-02",
+      "summary": "Grâce à une très bonne saison hivernale, les indicateurs de suivi montrent une situation favorable. Le comité de ressources en eau s'est réuni le 2 juillet 2026 pour faire un point sur la gestion de la ressource en eau en Haute-Corse.",
+      "found_via_axis": "gouvernance-diagnostic",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.ccacv.fr/2026/07/02/le-conseil-communautaire-renforce-son-soutien-aux-communes-et-associations-et-poursuit-ses-engagements-sur-leau-potable/",
+      "title": "Le Conseil Communautaire renforce son soutien aux communes et associations et poursuit ses engagements sur l'eau potable",
+      "date": "2026-07-02",
+      "summary": "Dans le même esprit de répartition équitable, le Conseil Communautaire a décidé de renforcer son soutien aux communes et associations pour la gestion de l'eau potable.",
+      "found_via_axis": "gouvernance-diagnostic",
       "source_type": "search",
       "content_type": "actualite"
     }
