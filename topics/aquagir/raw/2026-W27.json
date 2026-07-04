@@ -7,9 +7,10 @@
     "axes_collected": [
       "assainissement",
       "eaux-pluviales",
-      "eau-potable-production"
+      "eau-potable-production",
+      "gestion-quantitative"
     ],
-    "last_collecte": "2026-07-04T14:51:45.440Z",
+    "last_collecte": "2026-07-04T14:52:13.615Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
@@ -80,6 +81,42 @@
       "found_via_axis": "eau-potable-production",
       "source_type": "search",
       "content_type": "ressource"
+    },
+    {
+      "url": "https://www.toutsurmesfinances.com/vie-pratique/a/restriction-d-eau-interdiction-et-departements-concernes",
+      "title": "Restriction d'eau 2026 : départements concernés et usages interdits",
+      "date": "2026-07-01",
+      "summary": "Au 1er juillet 2026, 93 départements de France métropolitaine sont concernés par un arrêté sécheresse et des appels à des restrictions d'eau potable ou de forage. La situation se durcit semaine après semaine.",
+      "found_via_axis": "gestion-quantitative",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.ain.gouv.fr/Actions-de-l-Etat/Environnement-risques-naturels-et-technologiques/Eau-et-milieu-aquatique/Secheresse/Secheresse-2026/Secheresse-les-cours-d-eau-du-Bugey-et-du-Pays-de-Gex-sous-tension",
+      "title": "Sécheresse : les cours d'eau du Bugey et du Pays de Gex sous tension",
+      "date": "2026-06-29",
+      "summary": "Un arrêté préfectoral signé le 29 juin 2026 impose des mesures de limitation ou d'interdiction des prélèvements et de l'utilisation de l'eau. VigiEau permet aux usagers de connaître la situation de sécheresse de leur commune.",
+      "found_via_axis": "gestion-quantitative",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://selectra.info/energie/actualites/marche/canicule-secheresse-2026-restrictions-eau-departements",
+      "title": "Restrictions d'eau et canicule : votre commune est-elle concernée ? 84 départements touchés",
+      "date": "2026-07-01",
+      "summary": "Au 1er juillet, l'eau du robinet est restreinte dans 84 des 96 départements. Le printemps 2026 a été le plus chaud jamais enregistré, avec un déficit de pluie d'environ 30%. La canicule du 10 juillet menace d'aggraver la sécheresse.",
+      "found_via_axis": "gestion-quantitative",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.eau-et-rivieres.org/canicule-et-s%C3%A9cheresse-2026-aveugles-pour-combien-de-temps-encore",
+      "title": "Canicule et sécheresse 2026 : Aveugles pour combien de temps encore ?",
+      "date": "2026-06-29",
+      "summary": "Paimpol vient de se lancer dans le projet 'communes engagées pour l'eau' ce lundi 29 juin 2026. La canicule et la sécheresse sont au cœur de l'actualité en Bretagne, mettant les collectivités fournisseuses d'eau en grande difficulté.",
+      "found_via_axis": "gestion-quantitative",
+      "source_type": "search",
+      "content_type": "actualite"
     }
   ]
 }
