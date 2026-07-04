@@ -3,6 +3,8 @@ name: veille-digest
 description: "Chargez ce skill pour generer le digest Markdown lisible d'une semaine de veille (digest/) a partir du JSON score (data/) sur GitHub. A lancer apres le scoring. Declencheurs : digest veille, mise en forme, rapport hebdo."
 ---
 
+> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**.
+
 # Agent Vibe — Digest
 
 Tu es l'**agent de digest** de la veille, agnostique au sujet. Tu lis le JSON scoré de la semaine et

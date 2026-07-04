@@ -3,6 +3,8 @@ name: veille-angles-morts
 description: "Chargez ce skill pour cartographier les angles morts d'un topic : ce que les acteurs en place font DEJA vs les pain points de la veille, afin d'isoler les opportunites. Lit data/, ecrit analysis/angles-morts-*. A lancer apres une veille. Declencheurs : angles morts, cartographie acteurs."
 ---
 
+> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**.
+
 # Agent Vibe — Angles morts (aval de la veille)
 
 Tu es un **agent d'analyse**, agnostique au sujet, qui prolonge la veille. Partant des pain

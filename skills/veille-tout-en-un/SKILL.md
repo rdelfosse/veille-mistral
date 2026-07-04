@@ -3,6 +3,8 @@ name: veille-tout-en-un
 description: "Chargez ce skill pour lancer la veille COMPLETE d'un topic en un seul run (collecte + scoring + digest) — variante monolithe pour un petit topic ou un run unique. Pour un gros topic, preferer les skills veille-collecte/scoring/digest. Declencheurs : veille complete, lance la veille."
 ---
 
+> **Repo cible : `rdelfosse/veille-mistral`.** Lis et écris **uniquement** dans ce repo via le connecteur GitHub. **Ne crée JAMAIS d'autre repo** (pas de `veille-data` ni autre). Tous les chemins (`topics/…`, `references/…`, `skills/…`) sont **relatifs à ce repo**.
+
 # Agent Vibe — Veille (élus locaux & autres sujets)
 
 > **Agent tout-en-un (monolithe).** Sur un gros topic (beaucoup d'axes/sources), il peut dépasser le
@@ -16,9 +18,11 @@ plusieurs sujets sans modification — il suffit de préciser le `topic`.
 
 ## Outils que tu utilises
 
-- **Web Search** : pour les requêtes de recherche (axe « search »).
-- **Code Interpreter** (Python) : pour récupérer et parser les flux RSS et les pages de blog
-  (`requests`, `feedparser`, `BeautifulSoup`, `re`). C'est ton outil de fetch principal.
+- **Web Search** (`tools.web_search.web_search()`) : requêtes de recherche — **le canal le plus
+  fiable** dans le sandbox Vibe.
+- **Code Interpreter** (Python **stdlib uniquement**) : `open_url(url)` pour récupérer un flux/une page,
+  puis `xml.etree.ElementTree` (RSS/Atom) ou `html.parser`/`re` (blogs). ⚠️ **feedparser, requests et
+  BeautifulSoup ne sont PAS disponibles** dans le sandbox — n'y fais jamais appel.
 - **Connecteur GitHub** : pour lire la config (`sources.json`, `scoring.md`, `references/`)
   et l'historique (`data/`), puis écrire les résultats (`data/`, `digest/`) dans le repo.
 
@@ -75,17 +79,21 @@ Interpreter, mais **respecte la fenêtre `days`** partout.
 > 3. **Mieux vaut 8 insights réels que 30 dont un quart d'inventés.** La quantité ne compte pas ; la
 >    traçabilité (chaque ligne = un lien qui s'ouvre sur l'article annoncé) compte.
 
-#### a) Flux RSS (Code Interpreter)
+#### a) Flux RSS (Code Interpreter — stdlib, sans feedparser)
 Pour chaque flux RSS des sources filtrées :
-- `feedparser.parse(url)` ; garder les entrées des `days` derniers jours.
+- `open_url(feed_url)` pour récupérer le XML, puis le parser avec `xml.etree.ElementTree` : RSS 2.0
+  (`item` → `title` / `link` / `pubDate` / `description`) et Atom (`entry`, namespace
+  `{http://www.w3.org/2005/Atom}` → `title` / `link[@href]` / `updated` / `summary`). Garder les
+  entrées des `days` derniers jours. Si le parse XML échoue, extraire les blocs `<item>…</item>` par
+  `re` en dernier recours.
 - Pour chaque entrée : `title`, `link`, date de publication, résumé 2-3 phrases (depuis
   `summary`/`content`).
 - **URL verbatim** : utiliser l'URL **exacte** du champ `link` de l'entrée, telle quelle. Ne
   **jamais** reconstruire une URL à partir du titre, ni ré-encoder les accents. Toute URL contenant
   du **mojibake** (`%C3%A3%C2%A9`, `%C3%A3%C2%89`, `%C3%83`…) est un double encodage cassé (lien mort) :
   repartir du `link` brut du flux, sinon écarter l'insight plutôt que publier un lien 404.
-- Si le fetch échoue (403/timeout/anti-bot), réessayer avec un `User-Agent` navigateur réaliste
-  et `requests`. Si ça échoue encore, logguer et continuer — **ne jamais avorter le run**.
+- Si le fetch/parse échoue, logguer et continuer — **ne jamais avorter le run**. À défaut de RSS,
+  couvrir l'axe par **Web Search** ciblé `site:<domaine-de-la-source>`.
 
 #### b) Recherche Web (Web Search)
 Pour chaque requête de recherche des sources filtrées :
@@ -99,10 +107,11 @@ Pour chaque requête de recherche des sources filtrées :
   date** de l'article et **rejette** tout item plus ancien (un article de mars/mai n'a rien à faire
   dans une semaine de fin juin). Si la date est introuvable/incertaine, ne l'inclus pas.
 
-#### c) Blogs (Code Interpreter)
+#### c) Blogs (Code Interpreter — sans BeautifulSoup)
 Pour chaque blog des sources filtrées :
-- Récupérer la page (`requests` + User-Agent réaliste), extraire les cartes d'articles
-  (titre, URL, date) publiés dans les `days` derniers jours via `BeautifulSoup`.
+- **Privilégier Web Search** ciblé `site:<domaine-du-blog>` (+ filtre date) — plus fiable que le
+  scraping. En complément seulement : `open_url(page)` + `html.parser` (stdlib) ou `re` pour extraire
+  les cartes d'articles (titre, URL, date) des `days` derniers jours (best-effort).
 - Résumé 2-3 phrases par article.
 - **Fenêtre dure** : même règle qu'en (b) — écarter tout article hors `[date_start, date_end]`, et
   tout contenu **evergreen/sans date** (page « formation », fiche pratique) qui n'est pas une

@@ -55,6 +55,15 @@ Données **non scorées** : juste ce qui a été collecté, tracé par source.
 
 ## Règles dures — communes à toutes les étapes
 
+### Repo cible & environnement (sandbox Vibe)
+- **Repo cible unique : `rdelfosse/veille-mistral`.** Toute lecture/écriture passe par le connecteur
+  GitHub sur **ce** repo. **Ne crée jamais d'autre repo** (pas de `veille-data`). Les chemins
+  `topics/…`, `references/…`, `skills/…` sont relatifs à ce repo.
+- **Outils réellement disponibles** : `tools.web_search.web_search()` (fiable), `open_url(url)` (fetch),
+  et la **stdlib Python** (`xml.etree.ElementTree`, `html.parser`, `re`, `json`, `datetime`…).
+  ⚠️ **feedparser, requests et BeautifulSoup ne sont PAS disponibles.** RSS = XML → `ElementTree` ;
+  blogs → Web Search `site:` de préférence, sinon `html.parser`/`re`.
+
 ### Zéro fabrication (surtout collecte)
 1. Chaque item = **un article réel effectivement collecté**. `url` = **page d'article précise**,
    jamais un flux/rubrique/racine (`…/flux/…`, `…/localtis.xml`, `…/feed/`, accueil, catégorie).
