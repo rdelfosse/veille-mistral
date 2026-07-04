@@ -4,9 +4,10 @@
     "iso_week": "2026-W27",
     "date_start": "2026-06-29",
     "date_end": "2026-07-05",
-    "last_collecte": "2026-07-04T14:28:49.524Z",
+    "last_collecte": "2026-07-04T14:29:44.097Z",
     "axes_collected": [
-      "se-reperer"
+      "se-reperer",
+      "se-former"
     ],
     "settings": {
       "default_days": 30,
@@ -73,6 +74,24 @@
       "summary": "Louis, 17 ans, est mort le 24 juin 2026 après avoir été violemment agressé à Narbonne. L'adolescent, suivi par l'ASE depuis mai, soulève des questions sur les défaillances du système de protection de l'enfance.",
       "source_type": "search",
       "found_via_axis": "se-reperer",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.hellowork.com/fr-fr/emploi/mot-cle_protection-enfance-ville_jarny-54800.html",
+      "title": "Protection enfance Jarny (54800) - Voir les dernières offres - 2 juillet 2026 | Hellowork",
+      "date": "2026-07-02",
+      "summary": "Consultez les 12 offres d'emploi en protection de l'enfance à Jarny (54800) en CDI, CDD, Intérim. Les recruteurs répondent aux candidats en moyenne en 15 jours maximum.",
+      "source_type": "search",
+      "found_via_axis": "se-former",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://snalc.fr/formation-des-enseignants-cr-29-juin-2026",
+      "title": "Formation des enseignants : compte rendu du 29 juin 2026 – SNALC",
+      "date": "2026-06-29",
+      "summary": "Le décret du 12 juin 2026 recentre l'engagement à servir, prévoit un renforcement de l'accompagnement des lauréats issus d'un M1, remplace le fast track par un concours spécial. Un focus sur la prévention et la protection de l'enfance sera mis en place.",
+      "source_type": "search",
+      "found_via_axis": "se-former",
       "content_type": "actualite"
     }
   ]
