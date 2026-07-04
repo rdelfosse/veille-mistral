@@ -1,12 +1,25 @@
 {
-  "items": [],
+  "items": [
+    {
+      "title": "Test Push Files",
+      "url": "https://test-push-files.com",
+      "source": "web_search",
+      "source_type": "search",
+      "date": "2026-06-29",
+      "summary": "Test item via push_files",
+      "lang": "fr",
+      "found_via_axis": "finances"
+    }
+  ],
   "metadata": {
     "topic": "pain-points-elus-locaux",
     "week": "2026-W27",
     "date_start": "2026-06-29",
     "date_end": "2026-07-05",
-    "last_collecte": "2026-07-04T13:25:14.982Z",
-    "axes_collected": [],
+    "last_collecte": "2026-07-04T13:27:30.626Z",
+    "axes_collected": [
+      "finances"
+    ],
     "run_params": {
       "axes": [
         "all"
