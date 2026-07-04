@@ -152,6 +152,33 @@
       "found_via_axis": "attractivite-amenagement",
       "source_type": "search",
       "content_type": "ressource"
+    },
+    {
+      "url": "https://www.cerema.fr/fr/actualites/capacities-deuxieme-edition-du-programme-faire-avancer",
+      "title": "CAPACities : deuxième édition du programme pour faire avancer les projets de données des collectivités",
+      "date": "2026-06-26",
+      "summary": "La deuxième édition de CAPACities a réuni six collectivités sur des cas d'usage de données de mobilité. À Fécamp, le projet portait sur l'analyse des flux de mobilité à partir de données IoT, avec un enjeu fort de souveraineté sur les données et de construction d'outils d'aide à la décision. Des guides d'atelier sont librement téléchargeables.",
+      "found_via_axis": "mobilites",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.cerema.fr/fr/evenements/partage-donnees-analyse-mobilites-etat-lieux-retours",
+      "title": "Partage de données pour l'analyse des mobilités : état des lieux et retours d'expériences",
+      "date": "2026-07-02",
+      "summary": "Le Cerema organise un Rendez-vous Mobilités le 2 juillet 2026 de 14h à 16h sur l'enjeu des données pour l'analyse des mobilités. Les données sont essentielles pour comprendre, analyser et concevoir des solutions pour améliorer les mobilités et accélérer leur transition écologique.",
+      "found_via_axis": "mobilites",
+      "source_type": "search",
+      "content_type": "evenement"
+    },
+    {
+      "url": "https://www.cerema.fr/fr/actualites/capacities-deuxieme-edition-du-programme-faire-avancer",
+      "title": "CAPACities : guides et ressources pour les projets de mobilité",
+      "date": "2026-06-26",
+      "summary": "Le programme CAPACities a produit des ressources directement mobilisables : cadrage de cas d'usage, analyse coûts-bénéfices, gouvernance des données, clauses juridiques, modèles économiques. L'ensemble des guides d'atelier utilisés sont librement téléchargeables.",
+      "found_via_axis": "mobilites",
+      "source_type": "search",
+      "content_type": "ressource"
     }
   ],
   "metadata": {
@@ -163,9 +190,10 @@
       "citoyens-solidarite",
       "gouvernance-socles-tech",
       "ia",
-      "attractivite-amenagement"
+      "attractivite-amenagement",
+      "mobilites"
     ],
-    "last_collecte": "2026-07-04T14:44:56.027Z",
+    "last_collecte": "2026-07-04T14:45:16.537Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
