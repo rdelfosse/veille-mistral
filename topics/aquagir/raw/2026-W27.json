@@ -6,9 +6,10 @@
     "topic": "aquagir",
     "axes_collected": [
       "assainissement",
-      "eaux-pluviales"
+      "eaux-pluviales",
+      "eau-potable-production"
     ],
-    "last_collecte": "2026-07-04T14:50:14.557Z",
+    "last_collecte": "2026-07-04T14:51:45.440Z",
     "settings": {
       "default_days": 30,
       "exclude_domains": [
@@ -52,6 +53,33 @@
       "found_via_axis": "eaux-pluviales",
       "source_type": "search",
       "content_type": "actualite"
+    },
+    {
+      "url": "https://www.le28.tv/actualite/eau-potable-dans-le-pays-de-dreux-lurgence-face-aux-fuites-et-aux-pesticides",
+      "title": "Eau potable dans le Pays de Dreux : l'urgence face aux fuites et aux pesticides",
+      "date": "2026-07-01",
+      "summary": "Un rapport de la Chambre régionale des comptes publié ce 1er juillet met en lumière les défis structurels, financiers et qualitatifs auxquels fait face la communauté d'agglomération du Pays de Dreux pour la gestion de son réseau d'eau potable. Une qualité de l'eau dégradée par les nitrates et les pesticides.",
+      "found_via_axis": "eau-potable-production",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://metropole.toulouse.fr/mon-environnement/nature-et-climat/eau-et-assainissement",
+      "title": "Eau et assainissement",
+      "date": "2026-07-02",
+      "summary": "Le projet Qualité+ prévoit la mise en place de procédés complémentaires pour renforcer la qualité de l'eau et éliminer davantage de micropolluants (PFAS), pesticides et autres résidus médicamenteux. L'usine Pech David à Toulouse a été mise en service au printemps 2026.",
+      "found_via_axis": "eau-potable-production",
+      "source_type": "search",
+      "content_type": "actualite"
+    },
+    {
+      "url": "https://www.consoglobe.com/pfas-rejets-industriels-eau-redevance-pollueur-payeur-cg",
+      "title": "PFAS : une redevance pour taxer les rejets industriels dans l'eau",
+      "date": "2026-07-03",
+      "summary": "À compter du 1er septembre 2026, une nouvelle redevance s'appliquera aux émissions de PFAS dans les milieux aquatiques. Les pouvoirs publics rappellent que le coût de la dépollution des captages d'eau potable augmente régulièrement.",
+      "found_via_axis": "eau-potable-production",
+      "source_type": "search",
+      "content_type": "ressource"
     }
   ]
 }
