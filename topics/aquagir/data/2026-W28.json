@@ -1,0 +1,306 @@
+{
+  "metadata": {
+    "topic": "aquagir",
+    "week": "2026-W28",
+    "date_start": "2026-06-29",
+    "date_end": "2026-07-05",
+    "last_run": "2026-07-04T19:50:41.352Z",
+    "summary": "### Gestion des eaux pluviales et adaptation climatique\n\nLa semaine a été marquée par plusieurs actualités sur la **gestion des eaux pluviales**, avec des exemples concrets comme la modification du lotissement du Hameau de Bron dans le Var et le projet lyonnais des \"arbres de pluie\" pour créer des îlots de fraîcheur. Ces initiatives montrent comment les collectivités s'adaptent au changement climatique.\n\n### Gouvernance et investissements\n\nLe **programme Aquagir** de la Banque des Territoires est mis en avant comme réponse au sous-investissement chronique dans le secteur de l'eau. Par ailleurs, la modernisation des infrastructures (stations d'épuration, réseaux) reste un enjeu majeur, comme illustré par les projets toulousains et franciliens.\n\n### Réglementation et pollutions\n\nLa lutte contre les **micropolluants** et l'application du principe pollueur-payeur pour les pesticides sont au cœur des discussions, avec de nouvelles directives européennes en préparation.",
+    "run_params": {
+      "axes": [
+        "all"
+      ],
+      "days": 7,
+      "sources": [
+        "search"
+      ]
+    },
+    "stats": {
+      "total_insights": 11,
+      "by_axis": {
+        "eaux-pluviales": 3,
+        "gestion-quantitative": 1,
+        "gouvernance-diagnostic": 1,
+        "inondations": 1,
+        "eau-potable-production": 1,
+        "eau-potable-distribution": 1,
+        "assainissement": 1,
+        "deci": 1,
+        "pollutions": 1
+      },
+      "opportunities": 11
+    }
+  },
+  "insights": [
+    {
+      "id": "ins_20260704_78403d",
+      "title": "Modification de la gestion des eaux pluviales - Hameau de Bron",
+      "url": "https://www.var.gouv.fr/Publications/Loi-sur-l-eau/2026",
+      "source": "Var.gouv.fr",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-06-29",
+      "collected_at": "2026-07-04T19:49:00Z",
+      "lang": "fr",
+      "summary": "Récépissé de déclaration concernant la modification de la gestion des eaux pluviales d'un lotissement d'habitation existant. Arrêté préfectoral portant prescriptions spécifiques au dossier de déclaration Loi sur l'eau.",
+      "editorial_take": "Les collectivités adaptent leur gestion des eaux pluviales. À relayer comme exemple concret pour les autres territoires.",
+      "axes": {
+        "eaux-pluviales": 3,
+        "milieux-aquatiques": 1,
+        "inondations": 2
+      },
+      "primary_axis": "eaux-pluviales",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_15880b",
+      "title": "Solutions low-tech contre les canicules en ville",
+      "url": "news-afp-20260626-7b7699e5",
+      "source": "AFP",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-06-26",
+      "collected_at": "2026-07-04T19:49:00Z",
+      "lang": "fr",
+      "summary": "À Lyon, le projet des \"arbres de pluie\" favorise l'infiltration des eaux pluviales pour créer des îlots de fraîcheur. La gestion de l'eau est un levier essentiel pour l'adaptation climatique.",
+      "editorial_take": "L'adaptation climatique passe par l'eau. Le projet lyonnais des 'arbres de pluie' peut inspirer d'autres villes.",
+      "axes": {
+        "eaux-pluviales": 3,
+        "milieux-aquatiques": 1,
+        "gestion-quantitative": 1
+      },
+      "primary_axis": "eaux-pluviales",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_a20919",
+      "title": "Zonage pluvial et gestion des milieux aquatiques",
+      "url": "https://fr.wikipedia.org/wiki/Gestion_des_eaux_pluviales",
+      "source": "Wikipedia",
+      "source_type": "search",
+      "content_type": "ressource",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T19:49:00Z",
+      "lang": "fr",
+      "summary": "Le zonage pluvial doit reprendre les prescriptions des SDAGE/SAGE. Les collectivités doivent définir les pluies de référence pour chaque niveau de service.",
+      "editorial_take": "Comprendre le zonage pluvial est essentiel pour les collectivités. Ressource à adapter pour Aquagir.",
+      "axes": {
+        "milieux-aquatiques": 3,
+        "eaux-pluviales": 3,
+        "inondations": 2
+      },
+      "primary_axis": "eaux-pluviales",
+      "actionability": {
+        "score": 3,
+        "article_potential": 3,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_39ccc3",
+      "title": "Principle pollueur-payeur pour les pesticides",
+      "url": "news-afp-20260626-f09557ce",
+      "source": "AFP",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-06-26",
+      "collected_at": "2026-07-04T19:49:00Z",
+      "lang": "fr",
+      "summary": "Le Sedif engage des recours pour que les producteurs de pesticides contribuent à la dépollution de l'eau. Directive européenne sur l'assainissement des eaux usées.",
+      "editorial_take": "Nouvelle réglementation européenne sur la dépollution. À suivre pour les collectivités concernées.",
+      "axes": {
+        "gestion-quantitative": 3,
+        "pollutions": 3,
+        "eau-potable-production": 2
+      },
+      "primary_axis": "gestion-quantitative",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_ca62e6",
+      "title": "Gestion de la ressource en eau face au sous-investissement chronique",
+      "url": "https://www.banquedesterritoires.fr/blog-des-territoires/gestion-ressource-eau-investissement",
+      "source": "Banque des Territoires",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-04-07",
+      "collected_at": "2026-07-04T19:49:00Z",
+      "lang": "fr",
+      "summary": "Analyse du déficit d'investissement dans le secteur de l'eau. Le programme Aquagir de la Banque des Territoires vise à lever les freins techniques et financiers.",
+      "editorial_take": "Le programme Aquagir répond à un besoin identifié. Article à relayer pour promouvoir la plateforme.",
+      "axes": {
+        "gouvernance-diagnostic": 3,
+        "gestion-quantitative": 2
+      },
+      "primary_axis": "gouvernance-diagnostic",
+      "actionability": {
+        "score": 3,
+        "article_potential": 3,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_495084",
+      "title": "Zonage pluvial de Paris - prévention des inondations",
+      "url": "https://fr.wikipedia.org/wiki/Zonage_pluvial_de_Paris",
+      "source": "Wikipedia",
+      "source_type": "search",
+      "content_type": "ressource",
+      "date": "2026-07-02",
+      "collected_at": "2026-07-04T19:49:00Z",
+      "lang": "fr",
+      "summary": "Le Plan Paris Pluie est le zonage pluvial de Paris. Il vise à réduire les pollutions de la Seine et lutter contre le risque inondation par temps de pluie.",
+      "editorial_take": "Paris montre l'exemple en gestion des eaux pluviales. Retour d'expérience à partager.",
+      "axes": {
+        "inondations": 3,
+        "eaux-pluviales": 3,
+        "milieux-aquatiques": 2
+      },
+      "primary_axis": "inondations",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_c4606b",
+      "title": "Eau et assainissement - Toulouse Métropole",
+      "url": "https://metropole.toulouse.fr/mon-environnement/nature-et-climat/eau-et-assainissement",
+      "source": "Toulouse Métropole",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-07-03",
+      "collected_at": "2026-07-04T19:49:00Z",
+      "lang": "fr",
+      "summary": "Toulouse Métropole a confié la gestion de l'eau potable à des opérateurs. Projet de modernisation des usines de production d'eau potable.",
+      "editorial_take": "Modernisation des infrastructures eau à Toulouse. Exemple de gestion déléguée.",
+      "axes": {
+        "eau-potable-production": 3,
+        "eau-potable-distribution": 2,
+        "assainissement": 2
+      },
+      "primary_axis": "eau-potable-production",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_6ead6c",
+      "title": "Rendement réseau eau potable et fuites",
+      "url": "https://metropole.toulouse.fr/mon-environnement/nature-et-climat/eau-et-assainissement",
+      "source": "Toulouse Métropole",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-07-03",
+      "collected_at": "2026-07-04T19:49:00Z",
+      "lang": "fr",
+      "summary": "Toulouse Métropole contrôle les services publics délégués pour l'eau potable et l'assainissement. Enjeux de renouvellement des canalisations.",
+      "editorial_take": "La lutte contre les fuites est un enjeu majeur. Solutions à documenter.",
+      "axes": {
+        "eau-potable-distribution": 3,
+        "eau-potable-production": 2
+      },
+      "primary_axis": "eau-potable-distribution",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_9ea8e9",
+      "title": "Modernisation des stations d'épuration",
+      "url": "news-afp-20260626-f09557ce",
+      "source": "AFP",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-06-26",
+      "collected_at": "2026-07-04T19:49:00Z",
+      "lang": "fr",
+      "summary": "Le Sedif a chargé Veolia de moderniser ses trois usines d'eau potable pour retenir les polluants éternels. Chantier évalué à plus d'un milliard d'euros.",
+      "editorial_take": "Investissement massif dans l'assainissement. Technologie à surveiller.",
+      "axes": {
+        "assainissement": 3,
+        "pollutions": 2
+      },
+      "primary_axis": "assainissement",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_7b30d8",
+      "title": "Défense extérieure contre l'incendie (DECI)",
+      "url": "https://fr.wikipedia.org/wiki/Défense_extérieure_contre_l'incendie",
+      "source": "Wikipedia",
+      "source_type": "search",
+      "content_type": "ressource",
+      "date": "2026-07-01",
+      "collected_at": "2026-07-04T19:49:00Z",
+      "lang": "fr",
+      "summary": "Réglementation DECI : obligations des communes en matière de points d'eau pour la lutte contre l'incendie. Normes et distances à respecter.",
+      "editorial_take": "Réglementation DECI à connaître pour les communes. Guide pratique à produire.",
+      "axes": {
+        "deci": 3
+      },
+      "primary_axis": "deci",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    },
+    {
+      "id": "ins_20260704_4cda69",
+      "title": "Lutte contre les micropolluants dans l'eau",
+      "url": "news-afp-20260626-f09557ce",
+      "source": "AFP",
+      "source_type": "search",
+      "content_type": "actualite",
+      "date": "2026-06-26",
+      "collected_at": "2026-07-04T19:49:00Z",
+      "lang": "fr",
+      "summary": "Nouvelle directive européenne sur l'assainissement des eaux usées. Élimination des micropolluants et responsabilité élargie des producteurs.",
+      "editorial_take": "Nouvelle directive européenne sur les micropolluants. Impact à analyser pour les collectivités.",
+      "axes": {
+        "pollutions": 3,
+        "assainissement": 2,
+        "eau-potable-production": 2
+      },
+      "primary_axis": "pollutions",
+      "actionability": {
+        "score": 2,
+        "article_potential": 2,
+        "cross_links": []
+      },
+      "status": "new"
+    }
+  ]
+}
