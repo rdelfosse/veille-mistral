@@ -1,0 +1,22 @@
+{
+  "items": [],
+  "metadata": {
+    "topic": "pain-points-elus-locaux",
+    "week": "2026-W28",
+    "date_start": "2026-07-06",
+    "date_end": "2026-07-12",
+    "last_collecte": "2026-07-15T07:54:43.721Z",
+    "axes_collected": [],
+    "run_params": {
+      "axes": [
+        "all"
+      ],
+      "days": 7,
+      "sources": [
+        "rss",
+        "search",
+        "blogs"
+      ]
+    }
+  }
+}
