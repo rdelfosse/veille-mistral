@@ -1,24 +1,214 @@
 {
-  "items": [],
+  "items": [
+    {
+      "title": "Le Courrier des maires : l'actualité pour les élus locaux",
+      "url": "https://www.courrierdesmaires.fr/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Suivez l’actualité des collectivités locales, de la décentralisation et de la fonction publique territoriale pour gérer au mieux votre mandat.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Désertification des territoires ruraux et fermeture des services publics",
+      "url": "https://www.senat.fr/questions/base/2020/qSEQ20101287S.html",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Mme Brigitte Lherbier attire l&#x27;attention de M. le secrétaire d&#x27;État auprès de la ministre de la cohésion des territoires et des relations avec les collectivités territoriales, chargé de la ruralité, sur la fermeture des services publics dans les territoires ruraux.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Réorganisation des services publics en milieu rural",
+      "url": "https://www.senat.fr/questions/base/2005/qSEQ051120305.html",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Enfin, pour le service essentiel qu&#x27;est l&#x27;école primaire en milieu rural, elle prévoit un délai d&#x27;alerte du maire d&#x27;un minimum de deux ans avant tout projet de fermeture de classe. Neuf mois après sa signature, il apparaît que la bonne application de cette charte donne toute satisfaction aux élus locaux concernés.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Ruralité : Actualité de la fonction publique territoriale et des collectivités locales",
+      "url": "https://www.lagazettedescommunes.com/etat-et-collectivites/ruralite/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Dans une tribune pour La Gazette des communes, Cédric Szabo, ancien directeur de l’Association des maires ruraux de France et spécialiste des ruralités, alerte sur le décalage croissant entre l’énergie des élus locaux et les moyens réellement mobilisés pour les accompagner.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Mars 2026 FRANCE RURALITÉS Guide à destination des élus",
+      "url": "https://media.anct.gouv.fr/ressources/2026-04/guide_franceruralites_elus_2026.pdf",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Guide à destination des élus · Chères élues, chers élus,",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Le combat des maires contre les fermetures de classes en zone rurale | France Culture",
+      "url": "https://www.radiofrance.fr/franceculture/podcasts/municipales-2026-maire-pour-quoi-faire/le-combat-des-maires-contre-les-fermetures-de-classes-en-zone-rurale-4304600",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Collectif de Défense des Écoles en Pays Mélusin à Curzay-sur-Vonne. Janvier 2026. ©Radio France - Hakim Kasmi · En attendant, les parents d’élèves tentent de se mobiliser contre la fermeture, afin, d’éviter de longs trajets pour leurs enfants.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Fontaine. Fermeture de trois classes votée par l’équipe du maire - Travailleur alpin",
+      "url": "https://travailleur-alpin.fr/2026/06/30/fontaine-fermeture-de-trois-classes-votee-par-lequipe-du-maire/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Les parents d’élèves des écoles Marcel-Cachin (maternelle et élémentaire) et Jeanne-Labourbe (élémentaire) étaient mobilisés lundi 29 juin devant la mairie de Fontaine pour réclamer la suspension du projet de fermeture des trois écoles.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Pour protester contre la fermeture d'une classe, un maire rural décide de s'inscrire en moyenne section de maternelle | France Inter",
+      "url": "https://www.radiofrance.fr/franceinter/podcasts/l-info-de-france-inter/pour-protester-contre-la-fermeture-d-une-classe-un-maire-rural-decide-de-s-inscrire-en-moyenne-section-de-maternelle-1419134",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "<strong>Une dizaine d&#x27;élus ruraux ont écrit à Emmanuel Macron aujourd&#x27;hui et demandent un moratoire sur la fermeture de classes</strong>. Dans les Alpes-Maritimes, à Breil-sur-Roya, le maire Sébastien Olharan a décidé de s&#x27;inscrire en moyenne section ...",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Le combat des élus pour maintenir l'école en milieu rural",
+      "url": "https://www.mairesdefrance.com/m/article/?id=86",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "<strong>Les élus se mobilisent contre sa fermeture. Le défi démographique conjugué aux réalités financières obligent les maires à repenser l&#x27;organisation de l&#x27;école</strong>. Panorama des différents dispositifs et rappel des positions de l&#x27;AMF.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Fermeture de classes dans les écoles du premier degré en milieu rural",
+      "url": "https://www.weka.fr/actualite/education/article_juridique/fermeture-de-classes-en-milieu-rural-quels-apports-pour-la-proposition-de-loi-n487-214177/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "La sénatrice Paulette Matray, représentant la Saône-et-Loire, a déposé, le 31 mars 2026, la proposition de loi n° 487 rectifiée, visant à garantir l’accord des conseils municipaux pour la fermeture de classes dans les écoles du premier degré en milieu rural.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Accueil | France services",
+      "url": "https://www.france-services.gouv.fr/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Le site officiel de l&#x27;administration Service-public.gouv.fr a pour mission d&#x27;informer l&#x27;usager et de l&#x27;orienter vers les services qui lui permettent de connaître ses obligations, d&#x27;exercer ses droits et d&#x27;accomplir ses démarches administratives. Service-public.gouv.fr est complémentaire des maisons France services en offrant une information globale en ligne.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "De nouvelles maisons France services reconnues pour la qualité de service rendu aux usagers | DITP",
+      "url": "https://www.modernisation.gouv.fr/actualites/de-nouvelles-maisons-france-services-reconnues-pour-la-qualite-de-service-rendu-aux",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Et 2026 commence fort, puisque trois nouvelles collectivités territoriales viennent de l’obtenir : <strong>Cagire Garonne Salat, Vallons de Haute-Bretagne (avec deux maisons France services) et Pays de Saint-Omer</strong>.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Actualités - Portes ouvertes Maison France Services 2026 - Actualité illiwap de Mairie de Les Villedieu | illiwap®",
+      "url": "https://station.illiwap.com/fr/public/25619fr/actu/portes-ouvertes-maison-france-services-2026",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Bonjour à tous, Secrétaires et ... des portes ouvertes de la France Services de Mouthe qui se tiendront <strong>vendredi 10/10 prochain de 9h00 à 12h00 et de 14h00 à 17h00 devant notre structure</strong>....",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Ouverture d'une Maison France Services - Fécamp Caux Littoral",
+      "url": "https://www.agglo-fecampcauxlittoral.fr/actualite/ouverture-dune-maison-france-services/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "L’Agglomération Fécamp Caux Littoral ouvre le jeudi 18 juin 2026 une <strong>Maison France Services</strong> Une <strong>Maison France Services</strong> est un espace d’accueil qui a pour but d’améliorer l’accès aux droits, de permettre à chacun de bénéficier ...",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "61 nouvelles maisons France services | info.gouv.fr",
+      "url": "https://www.info.gouv.fr/actualite/61-nouvelles-maisons-france-services",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "<strong>Le réseau France services offre aux usagers un accès aux services publics à moins de 20 minutes de route de chez eux</strong>.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Pour une autre approche du service public en zone rurale ?",
+      "url": "https://www.weka.fr/actualite/lutte-contre-les-exclusions/article/pour-une-autre-approche-du-service-public-en-zone-rurale-111433/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Daprès une enquête réalisée ... les communes rurales, on constate que <strong>les habitants de ces communes font face à un grand nombre de difficultés dans leurs démarches administratives</strong>....",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "L’accès aux services publics dans les territoires ruraux | Cour des comptes",
+      "url": "https://www.ccomptes.fr/fr/publications/lacces-aux-services-publics-dans-les-territoires-ruraux",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Si la définition et l’implantation des services publics doivent se faire dans le cadre de schémas départementaux, l’échelon intercommunal constitue le niveau adéquat de mise en œuvre des politiques d’accessibilité dans les territoires ruraux, les mairies ayant vocation à demeurer les points d’entrée privilégiés des usagers.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Territoires ruraux : un accès aux services publics encore insuffisant | vie-publique.fr",
+      "url": "https://www.vie-publique.fr/en-bref/288986-territoires-ruraux-un-acces-aux-services-publics-encore-insuffisant",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Haut débit, maisons France services, soins... Si les territoires ruraux qui représentent 91,5% du territoire sont mieux pris en compte, <strong>des problèmes persistent tant sur la couverture numérique, l&#x27;éloignement des services publics ou encore l&#x27;accès à la santé de ces territoires souligne</strong> ...",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Municipales 2026 : maire pour quoi faire ? : écouter le podcast et replay",
+      "url": "https://www.radiofrance.fr/franceculture/podcasts/municipales-2026-maire-pour-quoi-faire",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Dans les communes rurales, <strong>l&#x27;accès à l&#x27;ingénierie pour mener des projets d&#x27;urbanisme est un défi de plus à relever pour les maires</strong>.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Élections municipales et ruralité : les services de proximité, grand enjeu du scrutin à venir ? | Ipsos",
+      "url": "https://www.ipsos.com/fr-fr/elections-municipales-et-ruralite-les-services-de-proximite-grand-enjeu-du-scrutin-venir",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Acteurs clés, très majoritairement appréciés, les maires ruraux, qui constituent la majorité des maires en France, doivent aujourd’hui répondre aux nombreuses préoccupations des habitants des zones rurales, à commencer par la question centrale de l’accès aux services de proximité dans un contexte de désertification médicale et de fermeture progressive des services publics.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    }
+  ],
   "metadata": {
     "topic": "pain-points-elus-locaux",
     "week": "2026-W28",
     "date_start": "2026-07-06",
     "date_end": "2026-07-12",
-    "last_collecte": "2026-07-15T12:58:00.665Z",
+    "last_collecte": "2026-07-15T12:58:39.452Z",
     "axes_collected": [
-      "finances",
-      "rh-ingenierie",
-      "climat-transition",
-      "services-proximite",
-      "numerique-simplification",
-      "mandat-elus",
-      "logement-urbanisme",
-      "mobilites-voirie",
-      "reseaux-dechets-energie",
-      "securite-tranquillite",
-      "attractivite-commerce",
-      "social-grand-age"
+      "services-proximite"
     ],
     "run_params": {
       "axes": [
