@@ -7,9 +7,10 @@
   "metadata": {
     "topic": "numerique360",
     "axes_collected": [
-      "transition-eco-energetique"
+      "transition-eco-energetique",
+      "citoyens-solidarite"
     ],
-    "last_collecte": "2026-07-16T21:41:06.455Z",
+    "last_collecte": "2026-07-16T21:42:58.493Z",
     "settings": {
       "content_types": [
         "actualite",
@@ -35,13 +36,35 @@
     {
       "url": "https://efficacity.com/assises-europeeenes-2026/",
       "title": "Décarbonation des territoires : les clés partagées par Efficacity aux Assises Européennes de la Transition Énergétique 2026",
-      "description": "Appuyé sur les données scientifiques d'UrbanPrint, l'atelier permet de mesurer les impacts environnementaux, énergétiques et sociaux de chaque décision, tout en favorisant une compréhension systémique des enjeux de la transition urbaine.",
+      "description": "Appuyé sur les données scientifiques d'UrbanPrint, l'atelier permet de mesurer les impacts environnementaux, énergétiques et sociaux de chaque décision.",
       "date": "2026-07-08",
       "source": "Efficacity",
       "source_type": "search",
       "found_via_axis": "transition-eco-energetique",
       "content_type": "actualite",
       "summary": "Efficacity a partagé lors des Assises Européennes de la Transition Énergétique 2026 des outils et méthodes pour accélérer la mise en œuvre de la transition écologique par les collectivités."
+    },
+    {
+      "url": "https://maghrebemergent.news/fr/algerie-telecom-decroche-une-distinction-internationale-a-geneve/",
+      "title": "Algérie Télécom décroche une distinction internationale à Genève pour son projet « AI for Digital Inclusion »",
+      "description": "L’opérateur public Algérie Télécom a été honoré à Genève dans le cadre du Forum du Sommet mondial sur la société de l’information (SMSI 2026), qui se tient du 6 au 10 juillet.",
+      "date": "2026-07-06",
+      "source": "Maghreb Emergent",
+      "source_type": "search",
+      "found_via_axis": "citoyens-solidarite",
+      "content_type": "actualite",
+      "summary": "Algérie Télécom a reçu une distinction internationale à Genève lors du SMSI 2026 (6-10 juillet) pour son projet AIDI utilisant l’IA pour l’inclusion numérique."
+    },
+    {
+      "url": "https://www.villes-internet.net/site/panorama-atlaas-des-actions-dinclusion-numerique/",
+      "title": "Panorama Atlaas des actions d’inclusion numérique",
+      "description": "Le Kit « enjeux et écosystème » de l’ANCT diffusé depuis le 2 juillet 2026 constitue un bon point de départ pour la vue d’ensemble du point de vue d’une collectivité.",
+      "date": "2026-07-08",
+      "source": "Villes Internet",
+      "source_type": "search",
+      "found_via_axis": "citoyens-solidarite",
+      "content_type": "ressource",
+      "summary": "Panorama des actions d’inclusion numérique avec le Kit ANCT « enjeux et écosystème » diffusé depuis juillet 2026."
     }
   ]
 }
