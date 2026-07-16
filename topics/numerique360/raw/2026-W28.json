@@ -9,9 +9,10 @@
     "axes_collected": [
       "transition-eco-energetique",
       "citoyens-solidarite",
-      "gouvernance-socles-tech"
+      "gouvernance-socles-tech",
+      "ia"
     ],
-    "last_collecte": "2026-07-16T21:43:39.753Z",
+    "last_collecte": "2026-07-16T21:44:21.318Z",
     "settings": {
       "content_types": [
         "actualite",
@@ -37,7 +38,7 @@
     {
       "url": "https://efficacity.com/assises-europeeenes-2026/",
       "title": "Décarbonation des territoires : les clés partagées par Efficacity aux Assises Européennes de la Transition Énergétique 2026",
-      "description": "Appuyé sur les données scientifiques d'UrbanPrint, l'atelier permet de mesurer les impacts environnementaux, énergétiques et sociaux de chaque décision.",
+      "description": "Appuyé sur les données scientifiques d'UrbanPrint, l'atelier permet de mesurer les impacts environnementaux, énergétiques et sociaux.",
       "date": "2026-07-08",
       "source": "Efficacity",
       "source_type": "search",
@@ -48,7 +49,7 @@
     {
       "url": "https://maghrebemergent.news/fr/algerie-telecom-decroche-une-distinction-internationale-a-geneve/",
       "title": "Algérie Télécom décroche une distinction internationale à Genève pour son projet « AI for Digital Inclusion »",
-      "description": "L’opérateur public Algérie Télécom a été honoré à Genève dans le cadre du Forum du Sommet mondial sur la société de l’information (SMSI 2026), qui se tient du 6 au 10 juillet.",
+      "description": "L’opérateur public Algérie Télécom a été honoré à Genève dans le cadre du Forum du Sommet mondial sur la société de l’information (SMSI 2026).",
       "date": "2026-07-06",
       "source": "Maghreb Emergent",
       "source_type": "search",
@@ -70,13 +71,46 @@
     {
       "url": "https://www.lejournaldesentreprises.com/breve/leader-occitanie-remanie-sa-gouvernance-autour-des-territoires-2146549",
       "title": "Leader Occitanie remanie sa gouvernance autour des territoires",
-      "description": "Leader Occitanie adopte de nouveaux statuts et modifie son mode de gouvernance. Désormais, les administrateurs seront désignés par les collèges territoriaux.",
+      "description": "Leader Occitanie adopte de nouveaux statuts et modifie son mode de gouvernance.",
       "date": "2026-07-10",
       "source": "Le Journal des Entreprises",
       "source_type": "search",
       "found_via_axis": "gouvernance-socles-tech",
       "content_type": "actualite",
       "summary": "Leader Occitanie restructure sa gouvernance pour faire des territoires des copropriétaires de sa stratégie régionale."
+    },
+    {
+      "url": "https://france.representation.ec.europa.eu/informations-et-evenements/informations/cybersecurite-et-intelligence-artificielle-la-commission-presente-le-plan-daction-de-lue-2026-07-07_fr",
+      "title": "Cybersécurité et intelligence artificielle : la Commission présente le plan d’action de l’UE",
+      "description": "La Commission européenne a présenté un plan d’action visant à apporter une réponse structurée aux risques et opportunités des modèles avancés d’IA dans la cybersécurité.",
+      "date": "2026-07-07",
+      "source": "Représentation en France - Commission européenne",
+      "source_type": "search",
+      "found_via_axis": "ia",
+      "content_type": "actualite",
+      "summary": "La Commission européenne présente un plan d’action pour encadrer les modèles avancés d’IA dans la cybersécurité, avec application à partir du 2 août 2026."
+    },
+    {
+      "url": "https://www.igedd.developpement-durable.gouv.fr/deploiement-de-l-intelligence-artificielle-ia-au-a4450.html?lang=fr",
+      "title": "Déploiement de l’intelligence artificielle (IA) au sein du pôle ministériel transition écologique",
+      "description": "Mission visant à évaluer les conditions et le pilotage du déploiement de l’IA au sein des services et opérateurs sous tutelle du pôle ministériel.",
+      "date": "2026-07-09",
+      "source": "IGEDD",
+      "source_type": "search",
+      "found_via_axis": "ia",
+      "content_type": "actualite",
+      "summary": "L’IGEDD évalue le déploiement de l’IA dans les services du pôle ministériel transition écologique, avec publication d’un rapport le 9 juillet 2026."
+    },
+    {
+      "url": "https://www.journaldelahautemarne.com/les-news-du-marche/lintelligence-artificielle-arrive-en-mairie-services-budgets-donnees-ce-que-les-elus-doivent-surveiller-de-pres/692/",
+      "title": "L'intelligence artificielle arrive en mairie : services, budgets, données, ce que les élus doivent surveiller de près",
+      "description": "Les municipalités évaluent l’IA pour améliorer les services publics locaux, avec des questions sur les données, les coûts et le contrôle démocratique en 2026.",
+      "date": "2026-07-08",
+      "source": "Journal de la Haute-Marne",
+      "source_type": "search",
+      "found_via_axis": "ia",
+      "content_type": "actualite",
+      "summary": "Les municipalités évaluent l’adoption de l’IA pour améliorer les services publics, avec prudence sur les coûts et le contrôle démocratique."
     }
   ]
 }
