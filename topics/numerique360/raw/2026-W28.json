@@ -1,0 +1,47 @@
+{
+  "weekInfo": {
+    "weekString": "2026-W28",
+    "dateStart": "2026-07-06",
+    "dateEnd": "2026-07-12"
+  },
+  "metadata": {
+    "topic": "numerique360",
+    "axes_collected": [
+      "transition-eco-energetique"
+    ],
+    "last_collecte": "2026-07-16T21:41:06.455Z",
+    "settings": {
+      "content_types": [
+        "actualite",
+        "evenement",
+        "ressource"
+      ],
+      "exclude_domains": [],
+      "max_insights_per_axis": 12
+    }
+  },
+  "items": [
+    {
+      "url": "https://www.boursorama.com/actualite-economique/actualites/transition-ecologique-leclerc-va-investir-2-3-milliards-d-euros-d-ici-2030-4845ceb084f97a70873620075d625ebf",
+      "title": "Transition écologique: Leclerc va investir 2,3 milliards d'euros d'ici 2030",
+      "description": "Michel-Edouard Leclerc a annoncé lundi 2,3 milliards d'euros d'investissements d'ici 2030 dans les magasins de la coopérative, estimant que les entreprises ont \"une responsabilité\" dans la transition écologique.",
+      "date": "2026-07-06",
+      "source": "Boursorama",
+      "source_type": "search",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "actualite",
+      "summary": "Michel-Edouard Leclerc annonce un investissement de 2,3 milliards d'euros d'ici 2030 pour la transition écologique dans les magasins de la coopérative, soulignant la responsabilité des entreprises dans ce domaine."
+    },
+    {
+      "url": "https://efficacity.com/assises-europeeenes-2026/",
+      "title": "Décarbonation des territoires : les clés partagées par Efficacity aux Assises Européennes de la Transition Énergétique 2026",
+      "description": "Appuyé sur les données scientifiques d'UrbanPrint, l'atelier permet de mesurer les impacts environnementaux, énergétiques et sociaux de chaque décision, tout en favorisant une compréhension systémique des enjeux de la transition urbaine.",
+      "date": "2026-07-08",
+      "source": "Efficacity",
+      "source_type": "search",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "actualite",
+      "summary": "Efficacity a partagé lors des Assises Européennes de la Transition Énergétique 2026 des outils et méthodes pour accélérer la mise en œuvre de la transition écologique par les collectivités."
+    }
+  ]
+}
