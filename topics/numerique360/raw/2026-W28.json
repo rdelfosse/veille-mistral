@@ -10,9 +10,10 @@
       "transition-eco-energetique",
       "citoyens-solidarite",
       "gouvernance-socles-tech",
-      "ia"
+      "ia",
+      "attractivite-amenagement"
     ],
-    "last_collecte": "2026-07-16T21:44:21.318Z",
+    "last_collecte": "2026-07-16T21:45:31.220Z",
     "settings": {
       "content_types": [
         "actualite",
@@ -82,7 +83,7 @@
     {
       "url": "https://france.representation.ec.europa.eu/informations-et-evenements/informations/cybersecurite-et-intelligence-artificielle-la-commission-presente-le-plan-daction-de-lue-2026-07-07_fr",
       "title": "Cybersécurité et intelligence artificielle : la Commission présente le plan d’action de l’UE",
-      "description": "La Commission européenne a présenté un plan d’action visant à apporter une réponse structurée aux risques et opportunités des modèles avancés d’IA dans la cybersécurité.",
+      "description": "La Commission européenne a présenté un plan d’action pour les modèles avancés d’IA dans la cybersécurité.",
       "date": "2026-07-07",
       "source": "Représentation en France - Commission européenne",
       "source_type": "search",
@@ -93,7 +94,7 @@
     {
       "url": "https://www.igedd.developpement-durable.gouv.fr/deploiement-de-l-intelligence-artificielle-ia-au-a4450.html?lang=fr",
       "title": "Déploiement de l’intelligence artificielle (IA) au sein du pôle ministériel transition écologique",
-      "description": "Mission visant à évaluer les conditions et le pilotage du déploiement de l’IA au sein des services et opérateurs sous tutelle du pôle ministériel.",
+      "description": "Mission visant à évaluer les conditions et le pilotage du déploiement de l’IA au sein des services et opérateurs.",
       "date": "2026-07-09",
       "source": "IGEDD",
       "source_type": "search",
@@ -104,13 +105,46 @@
     {
       "url": "https://www.journaldelahautemarne.com/les-news-du-marche/lintelligence-artificielle-arrive-en-mairie-services-budgets-donnees-ce-que-les-elus-doivent-surveiller-de-pres/692/",
       "title": "L'intelligence artificielle arrive en mairie : services, budgets, données, ce que les élus doivent surveiller de près",
-      "description": "Les municipalités évaluent l’IA pour améliorer les services publics locaux, avec des questions sur les données, les coûts et le contrôle démocratique en 2026.",
+      "description": "Les municipalités évaluent l’IA pour améliorer les services publics locaux.",
       "date": "2026-07-08",
       "source": "Journal de la Haute-Marne",
       "source_type": "search",
       "found_via_axis": "ia",
       "content_type": "actualite",
       "summary": "Les municipalités évaluent l’adoption de l’IA pour améliorer les services publics, avec prudence sur les coûts et le contrôle démocratique."
+    },
+    {
+      "url": "https://www.afnum.fr/2026/07/06/signature-du-contrat-de-filiere-horizon-2030-une-nouvelle-feuille-de-route-pour-les-infrastructures-numeriques/",
+      "title": "Signature du contrat de filière « Horizon 2030 » : une nouvelle feuille de route pour les infrastructures numériques",
+      "description": "Le 7 juillet 2026, signature du troisième contrat de filière des infrastructures numériques avec les ministères.",
+      "date": "2026-07-07",
+      "source": "AFNUM",
+      "source_type": "search",
+      "found_via_axis": "attractivite-amenagement",
+      "content_type": "actualite",
+      "summary": "Signature du contrat de filière « Horizon 2030 » le 7 juillet 2026, faisant des infrastructures numériques un levier de développement territorial."
+    },
+    {
+      "url": "https://presseagence.fr/paris-comment-leconomie-locale-des-grandes-villes-francaises-attire-de-nouveaux-operateurs-numeriques/",
+      "title": "PARIS : Comment l’économie locale des grandes villes françaises attire de nouveaux opérateurs numériques",
+      "description": "Paris, Lyon, Bordeaux, Marseille attirent des opérateurs numériques recherchant talents, infrastructures et présence commerciale.",
+      "date": "2026-07-06",
+      "source": "Presse Agence",
+      "source_type": "search",
+      "found_via_axis": "attractivite-amenagement",
+      "content_type": "actualite",
+      "summary": "L’économie locale des grandes villes françaises attire de nouveaux opérateurs numériques dans divers secteurs (B2B, fintech, données, etc.)."
+    },
+    {
+      "url": "https://www.socialmag.news/07/07/2026/territoires-france-2030-pme-eti/",
+      "title": "Territoires : le Grand Est lance France 2030 industriel",
+      "description": "Le 6 juillet 2026, le ministre délégué chargé de l’Industrie a lancé un dispositif inédit pour moderniser les outils de production.",
+      "date": "2026-07-07",
+      "source": "Social Mag",
+      "source_type": "search",
+      "found_via_axis": "attractivite-amenagement",
+      "content_type": "actualite",
+      "summary": "Le Grand Est lance France 2030 industriel le 6 juillet 2026 pour moderniser les outils de production et maintenir l’attractivité des filières."
     }
   ]
 }
