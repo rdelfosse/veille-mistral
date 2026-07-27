@@ -4,10 +4,115 @@
     "week": "2026-W29",
     "date_start": "2026-07-13",
     "date_end": "2026-07-19",
-    "last_collecte": "2026-07-27T23:07:25.660Z",
+    "last_collecte": "2026-07-27T23:15:32.855Z",
     "axes_collected": [
-      "transition-eco-energetique"
+      "transition-eco-energetique",
+      "ia",
+      "mobilites",
+      "citoyens-solidarite",
+      "attractivite-amenagement",
+      "gouvernance-socles-tech"
     ]
   },
-  "items": []
+  "items": [
+    {
+      "title": "La France adopte sa troisième Stratégie nationale bas-carbone : une feuille de route ambitieuse pour atteindre la neutralité carbone et renforcer sa souveraineté",
+      "url": "https://www.ecologie.gouv.fr/presse/france-adopte-sa-troisieme-strategie-nationale-bas-carbone-feuille-route-ambitieuse",
+      "source": "Ministère de la Transition écologique",
+      "source_type": "search",
+      "date": "2026-07-15",
+      "lang": "fr",
+      "summary": "Le Gouvernement adopte la SNBC-3, feuille de route de la France pour atteindre la neutralité carbone à l'horizon 2050. Cette stratégie fixe la trajectoire de réduction des émissions de gaz à effet de serre et mobilise tous les leviers de la transition écologique.",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "actualite"
+    },
+    {
+      "title": "Sécheresse : face à une situation précoce et exceptionnelle, le dispositif de gestion locale de la ressource en eau est activé par les préfets",
+      "url": "https://www.ecologie.gouv.fr/presse/secheresse-face-situation-precoce-exceptionnelle-dispositif-gestion-locale-ressource-eau-est",
+      "source": "Ministère de la Transition écologique",
+      "source_type": "search",
+      "date": "2026-07-13",
+      "lang": "fr",
+      "summary": "La France connaît un épisode de sécheresse particulièrement précoce et intense. Le Gouvernement renforce son dispositif de suivi et de gestion de la ressource en eau avec 97 départements concernés par des mesures de restriction.",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "actualite"
+    },
+    {
+      "title": "Sécheresse : Monique Barbut et Mathieu Lefèvre feront un point de situation au Centre de crise de Roquelaure",
+      "url": "https://www.ecologie.gouv.fr/presse/secheresse-monique-barbut-mathieu-lefevre-feront-point-situation-centre-crise-roquelaure-ce",
+      "source": "Ministère de la Transition écologique",
+      "source_type": "search",
+      "date": "2026-07-14",
+      "lang": "fr",
+      "summary": "Les ministres feront un point de situation sur la sécheresse et les mesures de sobriété mises en œuvre pour faire face aux conséquences du changement climatique.",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "actualite"
+    },
+    {
+      "title": "France 2030 : lancement d'un appel à projets pour sélectionner les acteurs français du futur PIIEC sur les technologies avancées du semiconducteur",
+      "url": "https://presse.economie.gouv.fr/france-2030-lancement-dun-appel-a-projets-pour-selectionner-les-acteurs-francais-du-futur-piiec-sur-les-technologies-avancees-du-semiconducteur/",
+      "source": "Ministère de l'Économie",
+      "source_type": "search",
+      "date": "2026-07-17",
+      "lang": "fr",
+      "summary": "L'appel à projets vise à identifier les participants français du PIIEC sur les technologies avancées du semiconducteur, renforçant la position de la France dans la chaîne de valeur de l'IA.",
+      "found_via_axis": "ia",
+      "content_type": "actualite"
+    },
+    {
+      "title": "Déclaration conjointe de la République fédérale d'Allemagne et de la République française sur la coopération en matière de sûreté et de sécurité de l'IA",
+      "url": "https://presse.economie.gouv.fr/declaration-conjointe-de-la-republique-federale-dallemagne-et-de-la-republique-francaise-sur-la-cooperation-en-matiere-de-surete-et-de-securite-de-lia-joint-statement-by-the-federal-republic-of-germa/",
+      "source": "Ministère de l'Économie",
+      "source_type": "search",
+      "date": "2026-07-17",
+      "lang": "fr",
+      "summary": "La France et l'Allemagne renforcent leur collaboration sur la sûreté et la sécurité de l'IA, complémentant la capacité du Bureau européen de l'IA à exercer sa mission.",
+      "found_via_axis": "ia",
+      "content_type": "actualite"
+    },
+    {
+      "title": "Prévisions et recommandations Bison futé pour le week-end du vendredi 17 au dimanche 19 juillet 2026",
+      "url": "https://www.ecologie.gouv.fr/presse/previsions-recommandations-bison-fute-week-end-du-vendredi-17-dimanche-19-juillet-2026",
+      "source": "Ministère de la Transition écologique",
+      "source_type": "search",
+      "date": "2026-07-16",
+      "lang": "fr",
+      "summary": "Bison futé annonce un week-end très chargé sur les routes avec le vendredi 17 juillet classé orange et le samedi 18 juillet classé rouge au niveau national.",
+      "found_via_axis": "mobilites",
+      "content_type": "actualite"
+    },
+    {
+      "title": "Livret A et LEP : quelle évolution des taux de rémunération à compter du 1er août 2026 ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18000",
+      "source": "Service Public",
+      "source_type": "search",
+      "date": "2026-07-15",
+      "lang": "fr",
+      "summary": "Le taux du Livret A passe à 1,7 % et le LEP se maintient à 2,5 % à compter du 1er août 2026, suivant les recommandations de la Banque de France.",
+      "found_via_axis": "citoyens-solidarite",
+      "content_type": "actualite"
+    },
+    {
+      "title": "14 juillet 2026 : la Sécurité civile, l'excellence du secours au service de la Nation",
+      "url": "https://www.securite-civile.interieur.gouv.fr/actualites/actualites/14-juillet-2026-securite-civile-lexcellence-du-secours-au-service-de-nation",
+      "source": "Sécurité civile",
+      "source_type": "search",
+      "date": "2026-07-15",
+      "lang": "fr",
+      "summary": "À l'occasion du défilé du 14 juillet, le ministère de l'Intérieur met à l'honneur les femmes et les hommes de la Sécurité civile, illustrant l'engagement territorial et la coordination des secours.",
+      "found_via_axis": "attractivite-amenagement",
+      "content_type": "actualite"
+    },
+    {
+      "title": "Tchap : la nouvelle version de l'application mobile est disponible (nouveau téléchargement requis)",
+      "url": "https://www.numerique.gouv.fr/actualites/tchap-nouvelle-version-application-mobile-disponible/",
+      "source": "DINUM",
+      "source_type": "search",
+      "date": "2026-07-16",
+      "lang": "fr",
+      "summary": "Une nouvelle version de l'application mobile Tchap est disponible sur l'App Store et le Google Play Store, nécessitant un nouveau téléchargement pour les utilisateurs.",
+      "found_via_axis": "gouvernance-socles-tech",
+      "content_type": "actualite"
+    }
+  ]
 }
