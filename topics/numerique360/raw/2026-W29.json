@@ -4,8 +4,47 @@
     "week": "2026-W29",
     "date_start": "2026-07-20",
     "date_end": "2026-07-26",
-    "axes_collected": [],
-    "last_collecte": null
+    "axes_collected": [
+      "transition-eco-energetique"
+    ],
+    "last_collecte": "2026-07-27T14:00:46.118Z"
   },
-  "items": []
+  "items": [
+    {
+      "url": "https://www.bfmtv.com/politique/gouvernement/la-ministre-de-la-transition-ecologique-monique-barbut-va-presenter-sa-demission-d-ici-le-conseil-des-ministres-mercredi_AN-202607210602.html",
+      "title": "La ministre de la Transition écologique Monique Barbut va présenter sa démission d'ici le Conseil des ministres mercredi",
+      "date": "2026-07-21",
+      "source_type": "search",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "actualite",
+      "summary": "La ministre de la Transition écologique Monique Barbut annonce sa démission lors d'un point sur la sécheresse du territoire. Cette décision intervient dans un contexte de tensions sur la politique environnementale du gouvernement."
+    },
+    {
+      "url": "https://www.aefinfo.fr/depeche/754526-transition-ecologique-aux-jo-et-aux-joue-du-21-22-et-23juillet2026",
+      "title": "Transition écologique : aux JO et aux JOUE du 21, 22 et 23 juillet 2026",
+      "date": "2026-07-21",
+      "source_type": "search",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "evenement",
+      "summary": "Événements sur la transition écologique organisés du 21 au 23 juillet 2026, combinant Jeux Olympiques et Jeux Olympiques Universitaires d'Été avec des initiatives environnementales."
+    },
+    {
+      "url": "https://www.recyclage-recuperation.fr/collectivites-locales/transition-ecologique-des-solutions-concretes-a-destination-des-elus",
+      "title": "Transition écologique : des solutions concrètes à destination des élus",
+      "date": "2026-07-20",
+      "source_type": "search",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "ressource",
+      "summary": "Le Ministère de la Transition écologique et l'ADEME proposent des solutions concrètes pour aider les élus locaux à mettre en œuvre des politiques de transition écologique dans leurs collectivités."
+    },
+    {
+      "url": "https://www.rsedatanews.net/amp/article/article-les-veilles-la-veille-du-22-juillet-2026-20260721-11071",
+      "title": "La veille du 22 juillet 2026 - RSE ESG Environnement Climat",
+      "date": "2026-07-22",
+      "source_type": "search",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "actualite",
+      "summary": "Synthèse de l'actualité des transitions environnementales : mobilisation pour restaurer les massifs forestiers, nouvel outil pour la réglementation déforestation, et réduction des polluants éternels."
+    }
+  ]
 }
