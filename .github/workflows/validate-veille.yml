@@ -1,0 +1,54 @@
+name: Validate Veille Outputs
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'topics/**/*.json'
+      - 'topics/**/*.md'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'topics/**/*.json'
+      - 'topics/**/*.md'
+
+jobs:
+  validate:
+    name: Validate JSON Schemas and Rules
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -q pygithub
+
+      - name: Run validation script
+        run: python3 scripts/validate_veille.py
+
+      - name: Check for validation errors
+        id: validation
+        run: |
+          python3 scripts/validate_veille.py > validation_report.txt || echo "VALIDATION_FAILED=true" >> $GITHUB_ENV
+          if [ -f validation_report.txt ]; then
+            echo "report=$(cat validation_report.txt)" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Upload validation report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: validation_report.txt
+
+      - name: Fail if validation errors found
+        if: env.VALIDATION_FAILED == 'true'
+        run: |
+          echo "::error::Validation des fichiers de veille échouée"
+          cat validation_report.txt
+          exit 1

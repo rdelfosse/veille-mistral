@@ -3,8 +3,12 @@
   "label": "Libellé lisible du sujet",
   "settings": {
     "default_days": 7,
-    "max_insights_per_axis": 10,
+    "max_insights_per_axis": 5,
     "archive_after_days": 30,
+    "content_types": null,
+    "exclude_domains": [],
+    "preferred_domains": [],
+    "enrich_target": null,
     "auto_enrich": {
       "enabled": true,
       "min_occurrences": 2,
@@ -19,16 +23,18 @@
   "axes": {
     "axe_a": {
       "label": "Premier sous-angle du sujet",
+      "priority": 1,
       "rss_feeds": [
         {
           "name": "Nom de la source RSS",
           "url": "https://exemple.com/feed/",
-          "lang": "fr"
+          "lang": "fr",
+          "reliability": 0.9
         }
       ],
       "search_queries": [
-        "requête de recherche pertinente 2026",
-        "autre requête plus ciblée 2026"
+        "requête de recherche pertinente {YEAR}",
+        "autre requête plus ciblée {YEAR}"
       ],
       "blogs": [
         {
@@ -41,9 +47,10 @@
     },
     "axe_b": {
       "label": "Second sous-angle (optionnel — un sujet simple peut n'avoir qu'un axe)",
+      "priority": 2,
       "rss_feeds": [],
       "search_queries": [
-        "requête liée au second angle 2026"
+        "requête liée au second angle {YEAR}"
       ],
       "blogs": []
     }

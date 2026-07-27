@@ -3,7 +3,7 @@
   "label": "Pain points des élus locaux — France",
   "settings": {
     "default_days": 7,
-    "max_insights_per_axis": 10,
+    "max_insights_per_axis": 5,
     "archive_after_days": 30,
     "auto_enrich": {
       "enabled": true,

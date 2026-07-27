@@ -3,7 +3,7 @@
   "label": "Numérique 360 — veille externe (numérique des collectivités)",
   "settings": {
     "default_days": 30,
-    "max_insights_per_axis": 12,
+    "max_insights_per_axis": 5,
     "archive_after_days": 120,
     "content_types": ["actualite", "evenement", "ressource"],
     "content_type_hints": {
