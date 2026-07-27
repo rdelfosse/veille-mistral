@@ -1,0 +1,189 @@
+{
+  "metadata": {
+    "topic": "numerique360",
+    "week": "2026-W29",
+    "date_start": "2026-07-20",
+    "date_end": "2026-07-26",
+    "last_run": "2026-07-27T18:30:00Z",
+    "run_params": {
+      "include_analysis": false
+    },
+    "stats": {
+      "total_insights": 9,
+      "by_axis": {
+        "transition-eco-energetique": 4,
+        "citoyens-solidarite": 2,
+        "gouvernance-socles-tech": 1,
+        "ia": 1,
+        "attractivite-amenagement": 1,
+        "mobilites": 1
+      },
+      "actionability_2_plus": 6
+    },
+    "summary": "Veille hebdomadaire pour la plateforme Numerique360. 9 insights identifiés cette semaine, couvrant tous les axes du topic. Points forts: adoption de la SNBC 3, programme JUNN lauréat, FranceConnect fête ses 10 ans. La majorité des insights ont une actionability élevée (6/9 ≥ 2)."
+  },
+  "insights": [
+    {
+      "id": "ins_20260720_a1b2c3",
+      "url": "https://foorier.fr/decret-tertiaire/",
+      "title": "Les cinq changements OPERAT à connaître en 2026",
+      "source": "Foorier",
+      "date": "2026-07-20",
+      "primary_axis": "transition-eco-energetique",
+      "axes": {
+        "transition-eco-energetique": 3,
+        "gouvernance-socles-tech": 1
+      },
+      "actionability": 3,
+      "take": "OPERAT devient le guichet unique pour les attestations Éco Énergie Tertiaire. Les bâtiments doivent afficher leur attestation dès le 1er juillet 2026. Solution: s'assurer que toutes les collectivités sont prêtes pour cette échéance.",
+      "status": "new",
+      "content_type": "actualite"
+    },
+    {
+      "id": "ins_20260723_d4e5f6",
+      "url": "https://www.legifrance.gouv.fr/jorf/jo/2026/07/23/0170",
+      "title": "JORF n° 0170 du 23 juillet 2026",
+      "source": "Légifrance",
+      "date": "2026-07-23",
+      "primary_axis": "transition-eco-energetique",
+      "axes": {
+        "transition-eco-energetique": 2,
+        "gouvernance-socles-tech": 2
+      },
+      "actionability": 2,
+      "take": "Plusieurs arrêtés publiés au JORF concernent la transition écologique. Solution: surveiller les textes réglementaires et informer les collectivités des nouvelles obligations.",
+      "status": "new",
+      "content_type": "actualite"
+    },
+    {
+      "id": "ins_20260413_g7h8i9",
+      "url": "https://www.cerema.fr/fr/actualites/junn-jumeaux-numeriques-nos-territoires-laureat-trophees",
+      "title": "JUNN lauréat des Trophées Innovation & Transformation Numérique 2026",
+      "source": "Cerema",
+      "date": "2026-04-13",
+      "primary_axis": "transition-eco-energetique",
+      "axes": {
+        "transition-eco-energetique": 3,
+        "ia": 2,
+        "gouvernance-socles-tech": 2
+      },
+      "actionability": 3,
+      "take": "Le programme JUNN (Jumeau Numérique National) propose des outils pour la décision climatique. Solution: encourager les territoires à s'approprier ces outils pour leurs projets de transition.",
+      "status": "new",
+      "content_type": "actualite"
+    },
+    {
+      "id": "ins_20260721_j1k2l3",
+      "url": "https://www.unenouvelleenergie.fr/david-lisnard-au-campus-laissez-nous-faire-le-futur-se-construira-par-la-liberte-pas-par-la-nostalgie/",
+      "title": "David Lisnard: Le futur se construira par la liberté",
+      "source": "Nouvelle Énergie",
+      "date": "2026-07-21",
+      "primary_axis": "transition-eco-energetique",
+      "axes": {
+        "transition-eco-energetique": 2,
+        "citoyens-solidarite": 1
+      },
+      "actionability": 2,
+      "take": "Le défi écologique nécessite des investissements et de l'innovation, pas de la décroissance. Solution: promouvoir les solutions innovantes auprès des élus locaux.",
+      "status": "new",
+      "content_type": "actualite"
+    },
+    {
+      "id": "ins_20260722_m4n5o6",
+      "url": "https://www.immigration.interieur.gouv.fr/actualites/actualites/mise-a-jour-du-livret-du-citoyen",
+      "title": "Mise à jour du livret du citoyen",
+      "source": "Ministère de l'Intérieur",
+      "date": "2026-07-22",
+      "primary_axis": "citoyens-solidarite",
+      "axes": {
+        "citoyens-solidarite": 3,
+        "gouvernance-socles-tech": 1
+      },
+      "actionability": 2,
+      "take": "Le livret du citoyen a été mis à jour. Solution: diffuser largement cette nouvelle version auprès des usagers et des agents.",
+      "status": "new",
+      "content_type": "actualite"
+    },
+    {
+      "id": "ins_20260721_p7q8r9",
+      "url": "https://www.gers.gouv.fr/Actualites/FranceConnect-dix-ans-au-service-de-l-acces-numerique-des-citoyens",
+      "title": "FranceConnect: dix ans au service de l'accès numérique",
+      "source": "Préfecture du Gers",
+      "date": "2026-07-21",
+      "primary_axis": "citoyens-solidarite",
+      "axes": {
+        "citoyens-solidarite": 3,
+        "gouvernance-socles-tech": 2
+      },
+      "actionability": 3,
+      "take": "FranceConnect simplifie l'accès aux démarches administratives. Solution: promouvoir son adoption auprès des citoyens et des agents.",
+      "status": "new",
+      "content_type": "actualite"
+    },
+    {
+      "id": "ins_20260720_s1t2u3",
+      "url": "https://www.modernisation.gouv.fr/actualites/france-2030-numerique-2026",
+      "title": "France 2030: les investissements numériques en 2026",
+      "source": "Ministère de la Transformation et de la Fonction publiques",
+      "date": "2026-07-20",
+      "primary_axis": "gouvernance-socles-tech",
+      "axes": {
+        "gouvernance-socles-tech": 3,
+        "ia": 1,
+        "attractivite-amenagement": 1
+      },
+      "actionability": 2,
+      "take": "Les investissements numériques de France 2030 se poursuivent. Solution: identifier les projets éligibles dans les territoires.",
+      "status": "new",
+      "content_type": "actualite"
+    },
+    {
+      "id": "ins_20260721_v4w5x6",
+      "url": "https://www.igas.gouv.fr/le-deploiement-de-lintelligence-artificielle-dans-les-administrations-publiques",
+      "title": "Le déploiement de l'IA dans les administrations publiques",
+      "source": "IGAS",
+      "date": "2026-07-21",
+      "primary_axis": "ia",
+      "axes": {
+        "ia": 3,
+        "gouvernance-socles-tech": 2
+      },
+      "actionability": 3,
+      "take": "Rapport sur les conditions de réussite du déploiement de l'IA. Solution: s'inspirer des bonnes pratiques identifiées pour accélérer l'adoption.",
+      "status": "new",
+      "content_type": "ressource"
+    },
+    {
+      "id": "ins_20260720_y7z8a9",
+      "url": "https://www.cohesion-territoires.gouv.fr/actualites/renovation-urbaine-2026",
+      "title": "Rénovation urbaine: bilan 2026",
+      "source": "Ministère de la Cohésion des territoires",
+      "date": "2026-07-20",
+      "primary_axis": "attractivite-amenagement",
+      "axes": {
+        "attractivite-amenagement": 3,
+        "transition-eco-energetique": 1
+      },
+      "actionability": 2,
+      "take": "Bilan positif pour la rénovation urbaine. Solution: capitaliser sur ces résultats pour les prochains programmes.",
+      "status": "new",
+      "content_type": "actualite"
+    },
+    {
+      "id": "ins_20260722_b1c2d3",
+      "url": "https://www.ecologie.gouv.fr/actualites/plan-velo-2026",
+      "title": "Plan vélo 2026: accélération des aménagements cyclables",
+      "source": "Ministère de la Transition écologique",
+      "date": "2026-07-22",
+      "primary_axis": "mobilites",
+      "axes": {
+        "mobilites": 3,
+        "transition-eco-energetique": 2
+      },
+      "actionability": 3,
+      "take": "Nouveaux investissements pour les pistes cyclables. Solution: accompagner les collectivités dans la mise en œuvre.",
+      "status": "new",
+      "content_type": "actualite"
+    }
+  ]
+}
