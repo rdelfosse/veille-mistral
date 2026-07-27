@@ -1,0 +1,222 @@
+{
+  "metadata": {
+    "topic": "numerique360",
+    "week": "2026-W29",
+    "date_start": "2026-07-13",
+    "date_end": "2026-07-19",
+    "last_run": "2026-07-27T23:20:03.546Z",
+    "run_params": {
+      "topic": "numerique360",
+      "week": "2026-W29"
+    },
+    "stats": {
+      "total_insights": 9,
+      "by_axis": {
+        "transition-eco-energetique": 3,
+        "ia": 2,
+        "mobilites": 1,
+        "citoyens-solidarite": 1,
+        "attractivite-amenagement": 1,
+        "gouvernance-socles-tech": 1
+      },
+      "by_actionability": {
+        "0": 0,
+        "1": 3,
+        "2": 5,
+        "3": 1
+      }
+    },
+    "summary": "Veille numérique360 W29 (13-19 juillet 2026) : 9 insights identifiés.\n\n**Thématiques fortes** : La transition écologique domine avec l'adoption de la SNBC-3 et la gestion de la sécheresse (3 insights). L'IA se structure avec un appel à projets semiconducteur et une coopération franco-allemande sur la sûreté (2 insights).\n\n**Opportunités actionnables** : L'appel à projets PIIEC (score 3), la SNBC-3 et la coopération IA (score 2) offrent des leviers concrets pour les collectivités. La nouvelle version de Tchap et les évolutions Livret A/LEP impactent directement les services publics.\n\n**Public cible** : Collectivités territoriales, acteurs du numérique public, institutions financières."
+  },
+  "insights": [
+    {
+      "id": "ins_20260727_4f86fe",
+      "title": "La France adopte sa troisième Stratégie nationale bas-carbone : une feuille de route ambitieuse pour atteindre la neutralité carbone et renforcer sa souveraineté",
+      "url": "https://www.ecologie.gouv.fr/presse/france-adopte-sa-troisieme-strategie-nationale-bas-carbone-feuille-route-ambitieuse",
+      "source": "Ministère de la Transition écologique",
+      "date": "2026-07-15",
+      "lang": "fr",
+      "content_type": "actualite",
+      "primary_axis": "transition-eco-energetique",
+      "scores": {
+        "transition-eco-energetique": 3,
+        "ia": 0,
+        "mobilites": 0,
+        "citoyens-solidarite": 0,
+        "attractivite-amenagement": 0,
+        "gouvernance-socles-tech": 0
+      },
+      "actionability": 3,
+      "take": "Pain: Les collectivités doivent réduire leur empreinte carbone mais manquent de cadre clair. Solution: La SNBC-3 fournit une feuille de route concrète avec des budgets carbone par période, permettant aux territoires de planifier leurs actions de décarbonation.",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260727_41285a",
+      "title": "Sécheresse : face à une situation précoce et exceptionnelle, le dispositif de gestion locale de la ressource en eau est activé par les préfets",
+      "url": "https://www.ecologie.gouv.fr/presse/secheresse-face-situation-precoce-exceptionnelle-dispositif-gestion-locale-ressource-eau-est",
+      "source": "Ministère de la Transition écologique",
+      "date": "2026-07-13",
+      "lang": "fr",
+      "content_type": "actualite",
+      "primary_axis": "transition-eco-energetique",
+      "scores": {
+        "transition-eco-energetique": 3,
+        "ia": 0,
+        "mobilites": 0,
+        "citoyens-solidarite": 0,
+        "attractivite-amenagement": 0,
+        "gouvernance-socles-tech": 0
+      },
+      "actionability": 2,
+      "take": "Pain: 97 départements en restriction d'eau avec des impacts économiques et écologiques. Solution: Le Guide sécheresse 2023 harmonise les mesures, mais les collectivités doivent anticiper avec des plans de sobriété et des infrastructures résilientes.",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260727_3e2118",
+      "title": "Sécheresse : Monique Barbut et Mathieu Lefèvre feront un point de situation au Centre de crise de Roquelaure",
+      "url": "https://www.ecologie.gouv.fr/presse/secheresse-monique-barbut-mathieu-lefevre-feront-point-situation-centre-crise-roquelaure-ce",
+      "source": "Ministère de la Transition écologique",
+      "date": "2026-07-14",
+      "lang": "fr",
+      "content_type": "actualite",
+      "primary_axis": "transition-eco-energetique",
+      "scores": {
+        "transition-eco-energetique": 3,
+        "ia": 0,
+        "mobilites": 0,
+        "citoyens-solidarite": 0,
+        "attractivite-amenagement": 0,
+        "gouvernance-socles-tech": 0
+      },
+      "actionability": 1,
+      "take": null,
+      "status": "new"
+    },
+    {
+      "id": "ins_20260727_521196",
+      "title": "France 2030 : lancement d'un appel à projets pour sélectionner les acteurs français du futur PIIEC sur les technologies avancées du semiconducteur",
+      "url": "https://presse.economie.gouv.fr/france-2030-lancement-dun-appel-a-projets-pour-selectionner-les-acteurs-francais-du-futur-piiec-sur-les-technologies-avancees-du-semiconducteur/",
+      "source": "Ministère de l'Économie",
+      "date": "2026-07-17",
+      "lang": "fr",
+      "content_type": "actualite",
+      "primary_axis": "ia",
+      "scores": {
+        "transition-eco-energetique": 1,
+        "ia": 3,
+        "mobilites": 0,
+        "citoyens-solidarite": 0,
+        "attractivite-amenagement": 1,
+        "gouvernance-socles-tech": 1
+      },
+      "actionability": 3,
+      "take": "Pain: La France dépend des importations de semiconducteurs pour l'IA. Solution: Le PIIEC AST permet de financer des projets industriels français pour renforcer la souveraineté sur la chaîne de valeur de l'IA, avec un appel à projets ouvert jusqu'au 1er septembre 2026.",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260727_8cbb57",
+      "title": "Déclaration conjointe de la République fédérale d'Allemagne et de la République française sur la coopération en matière de sûreté et de sécurité de l'IA",
+      "url": "https://presse.economie.gouv.fr/declaration-conjointe-de-la-republique-federale-dallemagne-et-de-la-republique-francaise-sur-la-cooperation-en-matiere-de-surete-et-de-securite-de-lia-joint-statement-by-the-federal-republic-of-germa/",
+      "source": "Ministère de l'Économie",
+      "date": "2026-07-17",
+      "lang": "fr",
+      "content_type": "actualite",
+      "primary_axis": "ia",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "ia": 3,
+        "mobilites": 0,
+        "citoyens-solidarite": 0,
+        "attractivite-amenagement": 1,
+        "gouvernance-socles-tech": 1
+      },
+      "actionability": 2,
+      "take": "Pain: L'IA de frontière pose des défis de sécurité nationaux et internationaux. Solution: La coopération franco-allemande renforce la capacité européenne d'évaluation et de gouvernance de l'IA, complémentant le Bureau européen de l'IA.",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260727_765c3a",
+      "title": "Prévisions et recommandations Bison futé pour le week-end du vendredi 17 au dimanche 19 juillet 2026",
+      "url": "https://www.ecologie.gouv.fr/presse/previsions-recommandations-bison-fute-week-end-du-vendredi-17-dimanche-19-juillet-2026",
+      "source": "Ministère de la Transition écologique",
+      "date": "2026-07-16",
+      "lang": "fr",
+      "content_type": "actualite",
+      "primary_axis": "mobilites",
+      "scores": {
+        "transition-eco-energetique": 1,
+        "ia": 0,
+        "mobilites": 3,
+        "citoyens-solidarite": 0,
+        "attractivite-amenagement": 0,
+        "gouvernance-socles-tech": 0
+      },
+      "actionability": 1,
+      "take": null,
+      "status": "new"
+    },
+    {
+      "id": "ins_20260727_490213",
+      "title": "Livret A et LEP : quelle évolution des taux de rémunération à compter du 1er août 2026 ?",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18000",
+      "source": "Service Public",
+      "date": "2026-07-15",
+      "lang": "fr",
+      "content_type": "actualite",
+      "primary_axis": "citoyens-solidarite",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "ia": 0,
+        "mobilites": 0,
+        "citoyens-solidarite": 3,
+        "attractivite-amenagement": 0,
+        "gouvernance-socles-tech": 0
+      },
+      "actionability": 2,
+      "take": "Pain: Les ménages modestes cherchent des solutions d'épargne accessibles. Solution: Le maintien du LEP à 2,5% (au-dessus du taux calculé) soutient le pouvoir d'achat des 12 millions de détenteurs, tout en incitant à l'épargne responsable.",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260727_31df7f",
+      "title": "14 juillet 2026 : la Sécurité civile, l'excellence du secours au service de la Nation",
+      "url": "https://www.securite-civile.interieur.gouv.fr/actualites/actualites/14-juillet-2026-securite-civile-lexcellence-du-secours-au-service-de-nation",
+      "source": "Sécurité civile",
+      "date": "2026-07-15",
+      "lang": "fr",
+      "content_type": "actualite",
+      "primary_axis": "attractivite-amenagement",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "ia": 0,
+        "mobilites": 1,
+        "citoyens-solidarite": 1,
+        "attractivite-amenagement": 3,
+        "gouvernance-socles-tech": 0
+      },
+      "actionability": 2,
+      "take": "Pain: Coordination complexe des secours en cas de crise sur les territoires. Solution: La Sécurité civile met en avant son modèle territorial avec des moyens aériens renouvelés (hélicoptères Dragon H145) pour une réponse rapide et efficace aux catastrophes.",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260727_7fb1eb",
+      "title": "Tchap : la nouvelle version de l'application mobile est disponible (nouveau téléchargement requis)",
+      "url": "https://www.numerique.gouv.fr/actualites/tchap-nouvelle-version-application-mobile-disponible/",
+      "source": "DINUM",
+      "date": "2026-07-16",
+      "lang": "fr",
+      "content_type": "actualite",
+      "primary_axis": "gouvernance-socles-tech",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "ia": 0,
+        "mobilites": 0,
+        "citoyens-solidarite": 1,
+        "attractivite-amenagement": 0,
+        "gouvernance-socles-tech": 3
+      },
+      "actionability": 2,
+      "take": "Pain: Migration complexe pour 400 000 agents publics utilisant Tchap mobile. Solution: Un guide de migration détaillé permet de conserver l'historique des messages, avec un nouveau téléchargement requis pour continuer à utiliser l'application.",
+      "status": "new"
+    }
+  ]
+}
