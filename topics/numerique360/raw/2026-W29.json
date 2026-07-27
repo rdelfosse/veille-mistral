@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "url": "https://foorier.fr/decret-tertiaire/",
+      "title": "Les cinq changements OPERAT à connaître en 2026",
+      "description": "L'arrêté du 1er août 2025 rebattit les règles du dispositif Éco Énergie Tertiaire: OPERAT devient l'unique guichet générant l'attestation.",
+      "date": null,
+      "source": "brave",
+      "axis": "transition-eco-energetique",
+      "found_via_axis": "transition-eco-energetique",
+      "source_type": "search",
+      "summary": "OPERAT devient l'unique guichet générant l'attestation pour le dispositif Éco Énergie Tertiaire.",
+      "metadata": {
+        "lang": "fr",
+        "thumbnail": "https://i0.wp.com/foorier.fr/wp-content/uploads/2026/07/Gemini_Generated_Image_atqootatqootatqo.png?fit=1200%2C670&ssl=1",
+        "favicon": "https://imgs.search.brave.com/6PpUoFNsvfvLGIKnrZybxvIjLJBkqHMC8SjqVTSoTxA/rs:fit:32:32:1:0/g:ce/aHR0cDovL2Zhdmlj/b25zLnNlYXJjaC5i/cmF2ZS5jb20vaWNv/bnMvOGZlMzVkNmIy/ZWFmZjU3YmQwOTBh/NmNhYmY3YTZjNWQw/NzFiZTlkMDkxNjY3/NDRiMDkyZGIwNjg3/ZTNkNmJmMS9mb29y/aWVyLmZyLw",
+        "source": "brave"
+      }
+    }
+  ],
+  "metadata": {
+    "axes_collected": [
+      "transition-eco-energetique",
+      "citoyens-solidarite",
+      "gouvernance-socles-tech",
+      "ia",
+      "attractivite-amenagement",
+      "mobilites"
+    ],
+    "last_collecte": "2026-07-27T18:30:00Z",
+    "week": "2026-W29"
+  }
+}
