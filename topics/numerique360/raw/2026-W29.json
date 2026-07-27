@@ -5,9 +5,10 @@
     "date_start": "2026-07-20",
     "date_end": "2026-07-26",
     "axes_collected": [
-      "transition-eco-energetique"
+      "transition-eco-energetique",
+      "citoyens-solidarite"
     ],
-    "last_collecte": "2026-07-27T14:00:46.118Z"
+    "last_collecte": "2026-07-27T14:01:52.006Z"
   },
   "items": [
     {
@@ -45,6 +46,33 @@
       "found_via_axis": "transition-eco-energetique",
       "content_type": "actualite",
       "summary": "Synthèse de l'actualité des transitions environnementales : mobilisation pour restaurer les massifs forestiers, nouvel outil pour la réglementation déforestation, et réduction des polluants éternels."
+    },
+    {
+      "url": "https://www.france-immigration.com/news/livret-du-citoyen-2026-naturalisation/",
+      "title": "Naturalisation : le livret du citoyen 2026 est en ligne",
+      "date": "2026-07-16",
+      "source_type": "search",
+      "found_via_axis": "citoyens-solidarite",
+      "content_type": "actualite",
+      "summary": "Le livret du citoyen 2026 intègre trois nouveaux sujets : droits environnementaux, vie numérique et service militaire volontaire. Version 2022 abrogée depuis le 16 juillet 2026."
+    },
+    {
+      "url": "https://mceni.gov.gn/le-ministre-mourana-soumah-prend-part-au-lancement-du-systeme-national-nimbapay/",
+      "title": "Le Ministre Mourana Soumah prend part au lancement du système national NimbaPay",
+      "date": "2026-07-22",
+      "source_type": "search",
+      "found_via_axis": "citoyens-solidarite",
+      "content_type": "actualite",
+      "summary": "Lancement du système national de paiement instantané NimbaPay en Guinée, promouvant l'inclusion financière et numérique pour tous les citoyens."
+    },
+    {
+      "url": "https://gabonactu.com/blog/2026/07/26/reseaux-sociaux-reguler-dans-le-respect-des-libertes-apsad/",
+      "title": "Réseaux sociaux : Réguler dans le respect des libertés",
+      "date": "2026-07-26",
+      "source_type": "search",
+      "found_via_axis": "citoyens-solidarite",
+      "content_type": "actualite",
+      "summary": "L'APSAD publie des recommandations pour améliorer la gouvernance du numérique et renforcer la protection des droits fondamentaux des citoyens."
     }
   ]
 }
