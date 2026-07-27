@@ -60,8 +60,11 @@ Données **non scorées** : juste ce qui a été collecté, tracé par source.
 Certains topics visent à **alimenter une plateforme** (ex. `aquagir`, `numerique360`, `protegenfance`) :
 on cherche du contenu **AILLEURS sur le web** (actualités/événements/ressources) pour ses thématiques,
 **jamais** le contenu de la plateforme elle-même. Conséquences : `search_queries` **génériques** (pas de
-`site:<plateforme>`), **`settings.exclude_domains`** écarte le domaine de la plateforme, et le digest
-groupe **par `content_type` puis par thématique**.
+`site:<plateforme>`), **`settings.exclude_domains`** écarte le domaine de la plateforme,
+**`settings.preferred_domains`** ancre la recherche sur des **sources de référence crédibles** (et le
+garde-fou qualité écarte la presse locale/SEO/conso hors-sujet), et le digest groupe **par `content_type`
+puis par thématique**. **Dates réelles obligatoires** : `web_search` n'en donne pas de fiable → ouvrir
+l'article (`open_url`) pour la date ; pas de date → écarter l'item.
 
 ## Règles dures — communes à toutes les étapes
 

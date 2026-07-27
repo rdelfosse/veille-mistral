@@ -12,6 +12,10 @@
       "actualite": []
     },
     "exclude_domains": ["aquagir.fr"],
+    "preferred_domains": [
+      "banquedesterritoires.fr", "actu-environnement.com", "lagazettedescommunes.com",
+      "cerema.fr", "ecologie.gouv.fr", "eaufrance.fr", "astee.org", "oieau.fr", "amf.asso.fr"
+    ],
     "enrich_target": "aquagir.fr",
     "auto_enrich": { "enabled": false },
     "fetch": { "default_strategy": "search", "fallback_strategy": "open_url" }

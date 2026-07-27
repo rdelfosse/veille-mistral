@@ -12,6 +12,11 @@
       "actualite": []
     },
     "exclude_domains": ["protegenfance.fr"],
+    "preferred_domains": [
+      "banquedesterritoires.fr", "lagazettedescommunes.com", "tsa-quotidien.fr",
+      "lemediasocial.fr", "ash.tm.fr", "onpe.gouv.fr", "solidarites.gouv.fr",
+      "departements.fr", "cnape.fr", "defenseurdesdroits.fr"
+    ],
     "enrich_target": "protegenfance.fr",
     "auto_enrich": { "enabled": false },
     "fetch": { "default_strategy": "search", "fallback_strategy": "open_url" }

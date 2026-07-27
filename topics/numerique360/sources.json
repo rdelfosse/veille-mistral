@@ -12,6 +12,11 @@
       "actualite": []
     },
     "exclude_domains": ["numerique360.banquedesterritoires.fr"],
+    "preferred_domains": [
+      "banquedesterritoires.fr", "lagazettedescommunes.com", "acteurspublics.fr", "weka.fr",
+      "cnil.fr", "cyber.gouv.fr", "ssi.gouv.fr", "numerique.gouv.fr", "anct.gouv.fr",
+      "lemondeinformatique.fr", "interconnectes.com"
+    ],
     "enrich_target": "numerique360.banquedesterritoires.fr",
     "auto_enrich": { "enabled": false },
     "fetch": { "default_strategy": "search", "fallback_strategy": "open_url" }

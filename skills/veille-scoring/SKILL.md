@@ -38,10 +38,12 @@ Si le harvest est absent : le signaler, proposer de lancer l'agent **collecte** 
    significativement changé → `updated`).
 2. **Dédup par titre/sujet** : même histoire vue sur deux sources = un seul insight (garder la plus
    crédible).
-3. **Garde-fou qualité** : écarter les domaines non éditoriaux (campagne, SEO/fermes de contenu,
-   agrégateurs, réseaux sociaux, pages perso) **et l'encyclopédique/référence** (Wikipedia,
-   dictionnaires, pages de définition) — ce n'est pas de l'actualité datée de la semaine.
-4. **Fenêtre** : re-vérifier que chaque item est dans `[date_start, date_end]` ; écarter les intrus.
+3. **Garde-fou qualité & pertinence** : écarter les domaines non éditoriaux (campagne, SEO/fermes de
+   contenu, agrégateurs, réseaux sociaux, pages perso, presse locale généraliste, sites conso) **et
+   l'encyclopédique/référence** (Wikipedia, dictionnaires). **Privilégier `settings.preferred_domains`**
+   (sources de référence du topic). Écarter aussi tout item **hors-sujet** par rapport aux thématiques.
+4. **Fenêtre & date** : re-vérifier que chaque item a une **vraie date** dans `[date_start, date_end]` ;
+   écarter les intrus et **tout item sans date** (pas de veille sans dates).
 
 ### Phase 3 — Scorer
 Pour chaque insight retenu :
@@ -52,7 +54,8 @@ Pour chaque insight retenu :
    et 3, mets **2**. Ne gonfle pas : si la plupart des insights finissent à 3, redescends les cas non
    incontestables (repère : ~1 insight sur 5 mérite un 3). **Les purs relais d'actualité** (annonce
    institutionnelle sans difficulté ni angle exploitable) → **0 ou 1**, pas 2 : tout mettre ≥ 2 vide le
-   score de son rôle de tri.
+   score de son rôle de tri. **Utilise TOUTE l'échelle 0-3** ; ne mets pas mécaniquement la même valeur
+   partout (bug W29 : 43/43 à 2 = aucune discrimination).
 3. **Take** (si actionability ≥ 2) : 2 phrases (pain point précis + angle de solution). **Propre à
    cet insight** — jamais recopié d'un autre.
 4. **ID** : `ins_YYYYMMDD_` + 6 hex aléatoires. `status = new` (ou `updated`).
@@ -70,6 +73,25 @@ Pour chaque insight retenu :
    insights est un symptôme de **non-curation** (recherche déversée) — resserre.
 
 ### Phase 4 — Écrire le JSON (GitHub)
+
+**Schéma d'un insight — à respecter EXACTEMENT (ne rien inventer, ne rien renommer) :**
+
+```json
+{
+  "id": "ins_YYYYMMDD_a1b2c3", "title": "…", "url": "https://…/article-precis",
+  "source": "Nom de la source", "source_type": "search", "date": "YYYY-MM-DD",
+  "collected_at": "<datetime ISO>", "lang": "fr", "summary": "Résumé factuel 2-3 phrases.",
+  "editorial_take": "… (si actionability ≥ 2, sinon \"\")",
+  "axes": { "<axe_a>": 0, "<axe_b>": 3 }, "primary_axis": "<axe_b>",
+  "actionability": { "score": 2, "article_potential": 2, "cross_links": [] },
+  "content_type": "actualite", "status": "new"
+}
+```
+
+Interdits (bugs vus au run W29) : `description` au lieu de `summary`, `axes_scores` au lieu de `axes`,
+`actionability` en **entier** au lieu d'un objet `{score,…}`, `metadata` imbriqué dans l'insight,
+`date` à `null`. Un insight **sans `date`** réelle est **écarté** (pas de veille sans dates).
+
 1. Écrire `topics/<topic>/data/YYYY-WNN.json` au format `references/output-schema.md` : `metadata`
    (topic, week, dates, last_run, run_params, `stats`, `summary` Markdown 150-200 mots) + `insights`.
    - **Recalcule les stats APRÈS filtrage/dédup**, sur le lot **final** d'insights — ne jamais
