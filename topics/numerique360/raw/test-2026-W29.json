@@ -1,0 +1,11 @@
+[
+  {
+    "url": "https://test.fr",
+    "title": "Test Article",
+    "description": "Test description",
+    "axis": "test-axis",
+    "metadata": {
+      "lang": "fr"
+    }
+  }
+]
