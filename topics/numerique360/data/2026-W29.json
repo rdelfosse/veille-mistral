@@ -1,0 +1,459 @@
+{
+  "metadata": {
+    "topic": "numerique360",
+    "week": "2026-W29",
+    "date_start": "2026-07-20",
+    "date_end": "2026-07-26",
+    "last_run": "2026-07-27T17:13:21.834Z",
+    "run_params": {
+      "default_days": 7,
+      "exclude_domains": [
+        "numerique360.banquedesterritoires.fr"
+      ],
+      "content_types": [
+        "actualite",
+        "evenement",
+        "ressource"
+      ],
+      "max_insights_per_axis": 12
+    },
+    "stats": {
+      "total_insights": 19,
+      "by_axis": {
+        "transition-eco-energetique": 4,
+        "citoyens-solidarite": 3,
+        "gouvernance-socles-tech": 3,
+        "ia": 3,
+        "attractivite-amenagement": 3,
+        "mobilites": 3
+      },
+      "by_content_type": {
+        "actualite": 15,
+        "evenement": 2,
+        "ressource": 2
+      },
+      "actionable_insights": 19
+    },
+    "summary": "Veille hebdomadaire pour la plateforme Numérique 360 : 19 insights collectés sur les 6 axes (transition écologique, citoyens-solidarité, gouvernance-socles tech, IA, attractivité-aménagement, mobilités). 19 insights avec actionability ≥ 2, couvrant actualités, événements et ressources pour alimenter la plateforme. Focus sur l'inclusion numérique, la gouvernance territoriale et les innovations IA."
+  },
+  "insights": [
+    {
+      "id": "ins_20260721_264e14",
+      "url": "https://www.bfmtv.com/politique/gouvernement/la-ministre-de-la-transition-ecologique-monique-barbut-va-presenter-sa-demission-d-ici-le-conseil-des-ministres-mercredi_AN-202607210602.html",
+      "title": "La ministre de la Transition écologique Monique Barbut va présenter sa démission",
+      "date": "2026-07-21",
+      "source_type": "search",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "actualite",
+      "summary": "La ministre annonce sa démission lors d'un point sur la sécheresse du territoire.",
+      "scores": {
+        "transition-eco-energetique": 3,
+        "citoyens-solidarite": 1,
+        "gouvernance-socles-tech": 1,
+        "ia": 0,
+        "attractivite-amenagement": 0,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "La démission de la ministre crée une opportunité de repenser la stratégie numérique écologique. Angle: quelles priorités pour le successeur ?",
+      "primary_axis": "transition-eco-energetique",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260721_2af75e",
+      "url": "https://www.aefinfo.fr/depeche/754526-transition-ecologique-aux-jo-et-aux-joue-du-21-22-et-23juillet2026",
+      "title": "Transition écologique : aux JO et aux JOUE du 21, 22 et 23 juillet 2026",
+      "date": "2026-07-21",
+      "source_type": "search",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "evenement",
+      "summary": "Événements sur la transition écologique combinant JO et JOUE.",
+      "scores": {
+        "transition-eco-energetique": 3,
+        "citoyens-solidarite": 2,
+        "gouvernance-socles-tech": 1,
+        "ia": 0,
+        "attractivite-amenagement": 1,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "Les JO comme vitrine des innovations écologiques. Angle: quelles technologies numériques présentées ?",
+      "primary_axis": "transition-eco-energetique",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260720_88c0a0",
+      "url": "https://www.recyclage-recuperation.fr/collectivites-locales/transition-ecologique-des-solutions-concretes-a-destination-des-elus",
+      "title": "Transition écologique : des solutions concrètes à destination des élus",
+      "date": "2026-07-20",
+      "source_type": "search",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "ressource",
+      "summary": "Solutions du Ministère et de l'ADEME pour les élus locaux.",
+      "scores": {
+        "transition-eco-energetique": 3,
+        "citoyens-solidarite": 2,
+        "gouvernance-socles-tech": 2,
+        "ia": 0,
+        "attractivite-amenagement": 1,
+        "mobilites": 0
+      },
+      "actionability": 3,
+      "take": "Kit pratique pour les élus sur la transition écologique numérique. Angle: comment l'adapter aux petites communes ?",
+      "primary_axis": "transition-eco-energetique",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260722_697fdb",
+      "url": "https://www.rsedatanews.net/amp/article/article-les-veilles-la-veille-du-22-juillet-2026-20260721-11071",
+      "title": "La veille du 22 juillet 2026 - RSE ESG Environnement Climat",
+      "date": "2026-07-22",
+      "source_type": "search",
+      "found_via_axis": "transition-eco-energetique",
+      "content_type": "actualite",
+      "summary": "Synthèse de l'actualité des transitions environnementales.",
+      "scores": {
+        "transition-eco-energetique": 3,
+        "citoyens-solidarite": 1,
+        "gouvernance-socles-tech": 1,
+        "ia": 0,
+        "attractivite-amenagement": 0,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "Veille RSE avec focus environnemental. Angle: quels outils numériques pour suivre ces indicateurs ?",
+      "primary_axis": "transition-eco-energetique",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260716_34d3ff",
+      "url": "https://www.france-immigration.com/news/livret-du-citoyen-2026-naturalisation/",
+      "title": "Naturalisation : le livret du citoyen 2026 est en ligne",
+      "date": "2026-07-16",
+      "source_type": "search",
+      "found_via_axis": "citoyens-solidarite",
+      "content_type": "actualite",
+      "summary": "Le livret intègre la vie numérique comme nouveau sujet.",
+      "scores": {
+        "transition-eco-energetique": 1,
+        "citoyens-solidarite": 3,
+        "gouvernance-socles-tech": 1,
+        "ia": 0,
+        "attractivite-amenagement": 0,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "Intégration de la vie numérique dans le parcours citoyen. Angle: quelles compétences numériques évaluer ?",
+      "primary_axis": "citoyens-solidarite",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260722_98b88c",
+      "url": "https://mceni.gov.gn/le-ministre-mourana-soumah-prend-part-au-lancement-du-systeme-national-nimbapay/",
+      "title": "Lancement du système national NimbaPay en Guinée",
+      "date": "2026-07-22",
+      "source_type": "search",
+      "found_via_axis": "citoyens-solidarite",
+      "content_type": "actualite",
+      "summary": "Système de paiement instantané pour l'inclusion financière.",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "citoyens-solidarite": 3,
+        "gouvernance-socles-tech": 2,
+        "ia": 1,
+        "attractivite-amenagement": 1,
+        "mobilites": 0
+      },
+      "actionability": 3,
+      "take": "NimbaPay comme modèle d'inclusion numérique. Angle: transposable en France pour les territoires ruraux ?",
+      "primary_axis": "citoyens-solidarite",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260726_4aeccb",
+      "url": "https://gabonactu.com/blog/2026/07/26/reseaux-sociaux-reguler-dans-le-respect-des-libertes-apsad/",
+      "title": "Réseaux sociaux : Réguler dans le respect des libertés",
+      "date": "2026-07-26",
+      "source_type": "search",
+      "found_via_axis": "citoyens-solidarite",
+      "content_type": "actualite",
+      "summary": "Recommandations pour la gouvernance du numérique.",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "citoyens-solidarite": 3,
+        "gouvernance-socles-tech": 2,
+        "ia": 0,
+        "attractivite-amenagement": 0,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "Cadre pour une régulation équilibrée des réseaux sociaux. Angle: comment appliquer en France ?",
+      "primary_axis": "citoyens-solidarite",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260720_698301",
+      "url": "https://mali24.info/5-ans-de-la-transition-le-general-issa-ousmane-coulibaly-presente-les-avancees-majeures-de-ladministration-territoriale/",
+      "title": "5 ans de la Transition : avancées majeures de l'Administration territoriale",
+      "date": "2026-07-20",
+      "source_type": "search",
+      "found_via_axis": "gouvernance-socles-tech",
+      "content_type": "actualite",
+      "summary": "Transformation numérique de l'administration malienne.",
+      "scores": {
+        "transition-eco-energetique": 1,
+        "citoyens-solidarite": 1,
+        "gouvernance-socles-tech": 3,
+        "ia": 1,
+        "attractivite-amenagement": 1,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "Modernisation administrative via le numérique. Angle: quels enseignements pour la France ?",
+      "primary_axis": "gouvernance-socles-tech",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260722_a129fe",
+      "url": "https://fr.vietnamplus.vn/une-plateforme-nationale-de-gouvernance-numerique-a-letude-post266275.vnp",
+      "title": "Une plateforme nationale de gouvernance numérique à l'étude",
+      "date": "2026-07-22",
+      "source_type": "search",
+      "found_via_axis": "gouvernance-socles-tech",
+      "content_type": "actualite",
+      "summary": "Plateforme pour coordonner les services numériques.",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "citoyens-solidarite": 0,
+        "gouvernance-socles-tech": 3,
+        "ia": 1,
+        "attractivite-amenagement": 1,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "Plateforme unifiée de gouvernance numérique. Angle: modèle pour les collectivités françaises ?",
+      "primary_axis": "gouvernance-socles-tech",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260723_f69f2b",
+      "url": "https://www.aidil.fr/actus/vu-pour-vous-n-71-du-22-juillet-2026/",
+      "title": "VU POUR VOUS - n°71 du 22 juillet 2026",
+      "date": "2026-07-23",
+      "source_type": "search",
+      "found_via_axis": "gouvernance-socles-tech",
+      "content_type": "actualite",
+      "summary": "Veille sur l'adoption des outils numériques.",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "citoyens-solidarite": 1,
+        "gouvernance-socles-tech": 3,
+        "ia": 0,
+        "attractivite-amenagement": 0,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "Accompagnement des agents dans l'adoption du numérique. Angle: bonnes pratiques à partager.",
+      "primary_axis": "gouvernance-socles-tech",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260722_280d68",
+      "url": "https://www.smartcitymag.fr/cleed-ai-met-lia-a-disposition-des-collectivites-du-grand-paris/",
+      "title": "Cleed.ai met l'IA à disposition des collectivités du Grand Paris",
+      "date": "2026-07-22",
+      "source_type": "search",
+      "found_via_axis": "ia",
+      "content_type": "actualite",
+      "summary": "Solutions d'IA pour les collectivités du Grand Paris.",
+      "scores": {
+        "transition-eco-energetique": 1,
+        "citoyens-solidarite": 1,
+        "gouvernance-socles-tech": 2,
+        "ia": 3,
+        "attractivite-amenagement": 2,
+        "mobilites": 1
+      },
+      "actionability": 3,
+      "take": "Cleed.ai propose des outils IA concrets pour les collectivités. Angle: quels cas d'usage prioritaires ?",
+      "primary_axis": "ia",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260721_b9bc10",
+      "url": "https://www.partenaire-entreprise.fr/intelligence-artificielle-la-france-joue-la-carte-de-la-competitivite-dans-la-course-mondiale-aux-data-centers/",
+      "title": "IA : la France joue la carte de la compétitivité dans la course mondiale",
+      "date": "2026-07-21",
+      "source_type": "search",
+      "found_via_axis": "ia",
+      "content_type": "actualite",
+      "summary": "Investissements massifs dans les data centers.",
+      "scores": {
+        "transition-eco-energetique": 2,
+        "citoyens-solidarite": 0,
+        "gouvernance-socles-tech": 2,
+        "ia": 3,
+        "attractivite-amenagement": 2,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "Course aux data centers pour l'IA. Angle: quels impacts pour les territoires ?",
+      "primary_axis": "ia",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260722_b2b267",
+      "url": "https://www.adc-parisnordest.fr/ia-dans-les-administrations-publiques-un-levier-de-transformation/",
+      "title": "IA dans les administrations publiques : un levier de transformation ?",
+      "date": "2026-07-22",
+      "source_type": "search",
+      "found_via_axis": "ia",
+      "content_type": "ressource",
+      "summary": "Analyse des opportunités de l'IA dans les administrations.",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "citoyens-solidarite": 0,
+        "gouvernance-socles-tech": 2,
+        "ia": 3,
+        "attractivite-amenagement": 1,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "Guide pratique sur l'IA dans le public. Angle: quels retours d'expérience ?",
+      "primary_axis": "ia",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260722_a055da",
+      "url": "https://www.info.gouv.fr/choose-france-2026-le-rendez-vous-de-lattractivite-en-france",
+      "title": "Choose France 2026, le rendez-vous de l'attractivité en France",
+      "date": "2026-07-22",
+      "source_type": "search",
+      "found_via_axis": "attractivite-amenagement",
+      "content_type": "evenement",
+      "summary": "Événement pour promouvoir l'attractivité de la France.",
+      "scores": {
+        "transition-eco-energetique": 1,
+        "citoyens-solidarite": 0,
+        "gouvernance-socles-tech": 1,
+        "ia": 2,
+        "attractivite-amenagement": 3,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "Choose France met en avant le numérique. Angle: quels arguments pour les investisseurs ?",
+      "primary_axis": "attractivite-amenagement",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260720_97576c",
+      "url": "https://www.it-social.fr/souverainete-numerique-la-france-multiplie-les-gestes-institutionnels-et-de-terrain/",
+      "title": "Souveraineté numérique : la France multiplie les gestes institutionnels",
+      "date": "2026-07-20",
+      "source_type": "search",
+      "found_via_axis": "attractivite-amenagement",
+      "content_type": "actualite",
+      "summary": "Initiatives pour renforcer la souveraineté numérique.",
+      "scores": {
+        "transition-eco-energetique": 1,
+        "citoyens-solidarite": 0,
+        "gouvernance-socles-tech": 2,
+        "ia": 1,
+        "attractivite-amenagement": 3,
+        "mobilites": 0
+      },
+      "actionability": 3,
+      "take": "Souveraineté numérique comme levier d'attractivité. Angle: comment valoriser ces initiatives ?",
+      "primary_axis": "attractivite-amenagement",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260721_ab150e",
+      "url": "https://www.nicepremium.fr/ia-loi-numerique-cybersecurite-le-grand-tournant-tech-de-2026/",
+      "title": "IA, loi numérique, cybersécurité : le grand tournant tech de 2026",
+      "date": "2026-07-21",
+      "source_type": "search",
+      "found_via_axis": "attractivite-amenagement",
+      "content_type": "actualite",
+      "summary": "2026 marque un tournant technologique majeur.",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "citoyens-solidarite": 0,
+        "gouvernance-socles-tech": 2,
+        "ia": 3,
+        "attractivite-amenagement": 3,
+        "mobilites": 0
+      },
+      "actionability": 2,
+      "take": "Tournant tech 2026 avec IA et cybersécurité. Angle: quelles opportunités pour les territoires ?",
+      "primary_axis": "attractivite-amenagement",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260720_059da6",
+      "url": "https://www.service-public.fr/particuliers/vosdroits/F1215",
+      "title": "Ce qui change en juillet 2026 pour les congés et la mobilité",
+      "date": "2026-07-20",
+      "source_type": "search",
+      "found_via_axis": "mobilites",
+      "content_type": "actualite",
+      "summary": "Nouveautés en matière de congés et droits liés à la mobilité.",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "citoyens-solidarite": 2,
+        "gouvernance-socles-tech": 1,
+        "ia": 0,
+        "attractivite-amenagement": 0,
+        "mobilites": 3
+      },
+      "actionability": 2,
+      "take": "Évolutions réglementaires sur la mobilité. Angle: impact sur les agents territoriaux ?",
+      "primary_axis": "mobilites",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260722_5adcf1",
+      "url": "https://www.radiofrance.fr/actualites/les-nouvelles-frequences-en-vigueur-des-le-22-juillet-2026",
+      "title": "Les nouvelles fréquences radio en vigueur dès le 22 juillet 2026",
+      "date": "2026-07-22",
+      "source_type": "search",
+      "found_via_axis": "mobilites",
+      "content_type": "actualite",
+      "summary": "Mise à jour des fréquences radio avec impacts locaux.",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "citoyens-solidarite": 1,
+        "gouvernance-socles-tech": 1,
+        "ia": 0,
+        "attractivite-amenagement": 0,
+        "mobilites": 3
+      },
+      "actionability": 2,
+      "take": "Nouveaux paysages radiophoniques. Angle: comment informer les citoyens ?",
+      "primary_axis": "mobilites",
+      "status": "new"
+    },
+    {
+      "id": "ins_20260723_2240f8",
+      "url": "https://www.aidil.fr/actus/vu-pour-vous-n-71-du-22-juillet-2026/",
+      "title": "VU POUR VOUS - n°71 : Mobilité professionnelle",
+      "date": "2026-07-23",
+      "source_type": "search",
+      "found_via_axis": "mobilites",
+      "content_type": "actualite",
+      "summary": "Guide pratique pour les agents sur la mobilité professionnelle.",
+      "scores": {
+        "transition-eco-energetique": 0,
+        "citoyens-solidarite": 1,
+        "gouvernance-socles-tech": 2,
+        "ia": 0,
+        "attractivite-amenagement": 0,
+        "mobilites": 3
+      },
+      "actionability": 3,
+      "take": "Guide mobilité pour les agents territoriaux. Angle: quels outils numériques pour faciliter les démarches ?",
+      "primary_axis": "mobilites",
+      "status": "new"
+    }
+  ]
+}
