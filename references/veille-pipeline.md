@@ -88,10 +88,18 @@ l'article (`open_url`) pour la date ; pas de date → écarter l'item.
 3. **URL verbatim** : l'URL exacte de la source ; jamais reconstruite depuis le titre ni ré-encodée
    (aucun mojibake `%C3%A3%C2%A9`). URL douteuse → écarter l'item.
 
-### Fenêtre temporelle dure
-Ne garder que les items dont la **vraie date** de publication tombe dans `[date_start, date_end]`
-(ou < `days` jours). Vérifier la date réelle de l'article ; rejeter tout item hors semaine et tout
-contenu *evergreen* sans date (fiche pratique, page « formation »).
+### Fenêtre temporelle — dure, mais **selon le `content_type`**
+Par défaut (topics sans `content_types`, ex. `pain-points-elus-locaux`) : ne garder que les items dont
+la **vraie date** de publication tombe dans `[date_start, date_end]` (ou < `days` jours) ; rejeter hors
+semaine et l'evergreen sans date.
+
+**Topics d'enrichissement externe** (`content_types` défini) — la contrainte dépend du type :
+- **actualite** : date de **publication** dans la fenêtre (règle par défaut) ; sinon écarter.
+- **evenement** : garder sur la **date de l'événement** (peut être **future / hors fenêtre**) + lieu.
+- **ressource** : **evergreen autorisé** — date **optionnelle** ; dédupliquer contre l'historique.
+
+Ne jamais jeter un **événement** ou une **ressource** au seul motif qu'ils sortent de la fenêtre de
+*publication* : c'est ce qui a rendu le run W29 « 100 % actualité » (événements/ressources éliminés à tort).
 
 ### Qualité & dédup (surtout scoring)
 - Écarter les domaines **non éditoriaux** : sites de campagne, fermes de contenu/SEO, agrégateurs,
