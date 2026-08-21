@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "topic": "numerique360",
+    "week": "2026-W33",
+    "date_start": "2026-08-10",
+    "date_end": "2026-08-16",
+    "last_collecte": "2026-08-21T14:24:26.635Z",
+    "axes_collected": [
+      "transition-eco-energetique",
+      "attractivite-amenagement",
+      "citoyens-solidarite",
+      "mobilites",
+      "gouvernance-socles-tech",
+      "ia"
+    ]
+  },
+  "items": [
+    {
+      "title": "Cyberattaque de la DGFiP : 678 000 usagers ciblés",
+      "url": "https://www.millastuces.fr/cyberattaque-de-la-dgfip-678-000-usagers-cibles-quand-les-victimes-seront-elles-prevenues/",
+      "source": "millastuces.fr",
+      "source_type": "search",
+      "date": "2026-08-12",
+      "lang": "fr",
+      "summary": "Le groupe ZeroBytes revendique le 12 août une cyberattaque contre la DGFiP. L'intrusion, survenue entre juin et juillet 2026 via le vol d'identifiants d'un agent et d'un prestataire tiers, a permis l'extraction de données fiscales de 678 000 particuliers et professionnels. La DGFiP confirme l'intrusion et prépare l'information des victimes.",
+      "found_via_axis": "gouvernance-socles-tech",
+      "content_type": "actualite"
+    },
+    {
+      "title": "DGFiP piratée : la cybersécurité de l'État sous pression",
+      "url": "https://www.archimag.com/veille-technologique/2026/08/dgfip-piratee-la-cybersecurite-de-letat-sous-pression",
+      "source": "archimag.com",
+      "source_type": "search",
+      "date": "2026-08-14",
+      "lang": "fr",
+      "summary": "Sébastien Lecornu annonce la création d'une nouvelle unité cyber composée d'agents de l'Anssi. Le groupe ZeroBytes a exploité des comptes VPN et contourné l'authentification multifacteur. La DGFiP a découvert l'intrusion le 12 août seulement, avec un retard significatif. Plusieurs mesures sont annoncées : déploiement accéléré de la double authentification, renforcement de la formation cyber des agents.",
+      "found_via_axis": "gouvernance-socles-tech",
+      "content_type": "actualite"
+    },
+    {
+      "title": "Cyberattaque contre la DGFiP : comprendre la fuite de données fiscales et les bons réflexes",
+      "url": "https://www.europe-infos.fr/cyberattaque-contre-la-dgfip-comprendre-la-fuite-de-donnees-fiscales-et-les-bons-reflexes-a-adopter/",
+      "source": "europe-infos.fr",
+      "source_type": "search",
+      "date": "2026-08-14",
+      "lang": "fr",
+      "summary": "La DGFiP confirme officiellement le 14 août une cyberattaque d'ampleur. 678 000 particuliers et professionnels concernés. Les intrusions ont eu lieu en juin et juillet 2026 mais n'ont été revendiquées que les 12 et 13 août par ZeroBytes. Le parquet de Paris ouvre une enquête le 15 août. Chaque victime recevra un courrier personnalisé avec les données exposées et des recommandations de protection.",
+      "found_via_axis": "gouvernance-socles-tech",
+      "content_type": "actualite"
+    },
+    {
+      "title": "Piratage informatique de l'État : Lecornu ressort le commando cyber",
+      "url": "https://www.acteurspublics.fr/articles/piratage-informatique-de-letat-pour-reprendre-la-main-sebastien-lecornu-ressort-le-commando-cyber-du-placard",
+      "source": "acteurspublics.fr",
+      "source_type": "search",
+      "date": "2026-08-15",
+      "lang": "fr",
+      "summary": "Dans un courrier du 19 août, Lecornu admet que peu de ministères sont au niveau requis en cybersécurité. Il demande la formation d'une nouvelle unité cyber (Anssi + Armées/Intérieur) pour intervenir en première ligne. 200 M€ de France 2030 dédiés au cyber doivent être engagés de toute urgence. Une cellule interministérielle de crise s'est réunie le 17 août.",
+      "found_via_axis": "gouvernance-socles-tech",
+      "content_type": "actualite"
+    },
+    {
+      "title": "DGFiP : une 2ème cyberattaque revendiquée, plus de 2 millions de personnes concernées",
+      "url": "https://www.archimag.com/veille-technologique/2026/08/dgfip-une-2eme-cyberattaque-revendiquee-plus-de-2-millions-de-personnes-concernees/",
+      "source": "archimag.com",
+      "source_type": "search",
+      "date": "2026-08-14",
+      "lang": "fr",
+      "summary": "Après la première attaque sur les données fiscales, ZeroBytes revendique une deuxième intrusion sur le Serveur Professionnel des Données Cadastrales (SPDC) le 29 juillet. 252 149 lignes de données immobilières extraites. La DGFiP confirme l'intrusion et prépare l'information des propriétaires concernés.",
+      "found_via_axis": "gouvernance-socles-tech",
+      "content_type": "actualite"
+    },
+    {
+      "title": "Ce qui change en août 2026 : nouvelles règles IA et démarchage téléphonique",
+      "url": "https://www.economie.gouv.fr/actualites/ce-qui-change-en-aout-2026",
+      "source": "economie.gouv.fr",
+      "source_type": "search",
+      "date": "2026-08-14",
+      "lang": "fr",
+      "summary": "À partir du 2 août 2026, le règlement européen sur l'IA (AI Act) entre en vigueur. Obligation d'étiqueter les deepfakes avec une icône et d'informer clairement les utilisateurs lorsqu'ils interagissent avec un système d'IA (chatbot, etc.). L'interdiction du démarchage téléphonique commercial entre en vigueur le 11 août.",
+      "found_via_axis": "ia",
+      "content_type": "actualite"
+    },
+    {
+      "title": "IA et collectivités : les clés pour réussir la transformation numérique",
+      "url": "https://www.lagazettedescommunes.com/actualites/ia-et-collectivites-les-cles-pour-reussir-la-transformation-numerique/",
+      "source": "lagazettedescommunes.com",
+      "source_type": "search",
+      "date": "2026-08-15",
+      "lang": "fr",
+      "summary": "La Gazette organise le 17 septembre un Forum numérique dédié à l'IA appliquée aux collectivités. Au programme : cas d'usage concrets, retours d'expérience, et outils pour réussir la transformation numérique.",
+      "found_via_axis": "ia",
+      "content_type": "evenement"
+    },
+    {
+      "title": "Conseillers numériques : budget en chute libre en 2026",
+      "url": "https://www.acteurspublics.fr/articles/conseillers-numeriques-budget-en-chute-libre-en-2026",
+      "source": "acteurspublics.fr",
+      "source_type": "search",
+      "date": "2026-08-10",
+      "lang": "fr",
+      "summary": "Le financement des conseillers numériques France Services chute de 40 à 13,8 M€ en 2026. L'État justifie ce transfert progressif du financement vers les collectivités territoriales. Menace sur l'accompagnement de proximité pour les moins connectés, surtout en zones rurales où ces conseillers constituent souvent le seul relais disponible.",
+      "found_via_axis": "citoyens-solidarite",
+      "content_type": "actualite"
+    }
+  ]
+}
