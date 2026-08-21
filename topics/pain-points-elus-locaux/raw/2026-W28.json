@@ -6,7 +6,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "L&#x27;AMF déplore un budget 2026 marqué par «<strong>un prélèvement budgétaire de plus de 2 Mds€ sur les collectivités » auquel s&#x27;ajoutent d&#x27;autres dispositions portant le total des mesures qui pèsent sur elles «à plus de 5 Mds€ ».</strong> La loi ...",
+      "summary": "La loi de finances pour 2026 gèle la dotation globale de fonctionnement (DGF). <strong>Les communes sont exonérées du DILICO, à la différence des intercommunalités pénalisées par plusieurs mesures</strong>. Ce budget mécontente les élus locaux.",
       "lang": "fr",
       "found_via_axis": "finances"
     },
@@ -16,7 +16,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Bien que le gouvernement se félicite, ... pas prise en compte. Par rapport à l’an passé, <strong>cette non-indexation de la DGF va ainsi provoquer sa baisse – ou sa stabilisation – dans près de la moitié des communes</strong> (contre un peu plus du tiers d&#x27;entre elles en 202...",
+      "summary": "Le gouvernement a rendu publics, ... avril (et non pas au 15 avril comme habituellement). <strong>Le montant de la DGF sera en baisse ou stable pour près de la moitié des communes et pour moins d&#x27;un tiers des intercommunalités</strong>....",
       "lang": "fr",
       "found_via_axis": "finances"
     },
@@ -26,7 +26,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Une autre mesure initiée par LFI et elle aussi adoptée, <strong>prévoit de supprimer en 2026 la réduction de certaines dotations de compensation (&quot;variables d&#x27;ajustement&quot;), effaçant ainsi une perte de 527 millions d&#x27;euros dans les recettes des collectivités</strong>...",
+      "summary": "<strong>Les discussions en nouvelle lecture à l&#x27;Assemblée nationale sur le projet de loi de finances pour 2026 ont une nouvelle fois illustré les difficultés à parvenir à un compromis</strong>.",
       "lang": "fr",
       "found_via_axis": "finances"
     },
@@ -66,7 +66,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Publication de la question au Journal Officiel du 22 avril 2025, page 2856 Publication de la réponse au Journal Officiel du 3 février 2026, page 952 · Question de : Mme Sandra Delannoy Nord (3e circonscription) - Rassemblement National · Mme Sandra Delannoy attire l&#x27;attention de M. le ministre d&#x27;État, ministre de l&#x27;intérieur, sur la situation des petites communes rurales face à la pénurie de secrétaires de mairie qui devient de plus en plus préoccupante.",
+      "summary": "Cette <strong>pénurie</strong> a des conséquences directes sur la vie locale : retards dans les démarches administratives, perte d&#x27;attractivité des postes municipaux, surcharge de travail pour les élus eux-mêmes qui doivent pallier l&#x27;absence de personnel ...",
       "lang": "fr",
       "found_via_axis": "rh-ingenierie"
     },
@@ -91,24 +91,14 @@
       "found_via_axis": "rh-ingenierie"
     },
     {
-      "title": "1 900 postes vacants, départs à la retraite massifs d'ici 2030 : la pénurie de secrétaires de mairie menace les petits villages",
-      "url": "https://france3-regions.franceinfo.fr/nouvelle-aquitaine/deux-sevres/niort/1-900-postes-vacants-departs-a-la-retraite-massifs-d-ici-2030-la-penurie-de-secretaires-de-mairie-menace-les-petits-villages-3381751.html",
+      "title": "Secretaire de mairie - recrutement - 108188",
+      "url": "https://www.emploi-collectivites.fr/secretaire-qr-108188.htm",
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "À lire aussi : Municipales 2026 ... · Pour répondre à la pénurie, <strong>l&#x27;université de Poitiers a créé en 2023, un diplôme dédié aux métiers administratifs en milieu rural</strong>....",
+      "summary": "Oui, c’est possible dans certains cas, mais pas pour tous les emplois de « secrétaire de mairie ». Tout dépend du cadre d’emploi visé, du type de recrutement et du s",
       "lang": "fr",
       "found_via_axis": "rh-ingenierie"
-    },
-    {
-      "title": "Canicule et école : êtes-vous obligé d'envoyer votre enfant en classe ? | France TV",
-      "url": "https://www.france.tv/societe/les-maternelles-xxl/8600612-canicule-et-ecole-etes-vous-oblige-d-envoyer-votre-enfant-en-classe.html",
-      "source": "brave",
-      "source_type": "search",
-      "date": "2026-07-06",
-      "summary": "Depuis le 1er juillet 2025, cette obligation est pleinement en vigueur : <strong>accès à l&#x27;eau fraîche, protection des personnels vulnérables, adaptation des espaces sont désormais des exigences formelles et non de simples recommandations</strong>.",
-      "lang": "fr",
-      "found_via_axis": "climat-transition"
     },
     {
       "title": "Adaptation des écoles face aux vagues de chaleur : les communes devront porter une grande partie de l'effort | Maire-Info, quotidien d'information destiné aux élus locaux",
@@ -116,7 +106,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "L’AMF a rappelé au ministre de l’Éducation nationale, dans un courrier daté du 1er avril 2026, que les collectivités doivent disposer de dispositifs d’accompagnement financier solides et pérennes pour pouvoir rénover efficacement les écoles maternelles et élémentaires publiques sur les plans énergétique et thermique, comme le prévoit le protocole d’accord signé le 8 avril 2025 entre le ministère et l’association.",
+      "summary": "Si auparavant la canicule était appréhendée comme une crise ponctuelle à gérer localement, le ministère de l’Éducation nationale entend changer d’échelle avec ce plan et acte le fait que la chaleur devienne un risque structurel du fonctionnement des écoles.",
       "lang": "fr",
       "found_via_axis": "climat-transition"
     },
@@ -131,12 +121,22 @@
       "found_via_axis": "climat-transition"
     },
     {
-      "title": "Canicule 2026 : écoles fermées exceptionnellement dans plusieurs régions",
-      "url": "https://lafamillesagrandit.fr/enfant/canicule-2026-fermeture-ecoles/",
+      "title": "Canicule et école : êtes-vous obligé d'envoyer votre enfant en classe ? | France TV",
+      "url": "https://www.france.tv/societe/les-maternelles-xxl/8600612-canicule-et-ecole-etes-vous-oblige-d-envoyer-votre-enfant-en-classe.html",
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "<strong>Les élus locaux et nationaux, rejoints par la plupart des syndicats, insistent pour que les bâtiments soient isolés, équipés en équipements adaptés et repensés sur le long terme</strong>.",
+      "summary": "Depuis le 1er juillet 2025, cette obligation est pleinement en vigueur : <strong>accès à l&#x27;eau fraîche, protection des personnels vulnérables, adaptation des espaces sont désormais des exigences formelles et non de simples recommandations</strong>.",
+      "lang": "fr",
+      "found_via_axis": "climat-transition"
+    },
+    {
+      "title": "Canicule : les Français attendent des écoles, des emplois et des bâtiments enfin adaptés à la chaleur",
+      "url": "https://www.parlons-politique.fr/economie-societe/canicule-les-francais-attendent-des-ecoles-des-emplois-et-des-batiments-enfin-adaptes-a-la-chaleur_22061/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Cette fois, l’exécutif veut afficher une réponse rapide. Le ministère de l’Éducation nationale a rappelé le 19 juin 2026 que des adaptations locales pouvaient aller, en dernier recours, jusqu’à la fermeture d’établissements ou au report d’épreuves.",
       "lang": "fr",
       "found_via_axis": "climat-transition"
     },
@@ -151,22 +151,22 @@
       "found_via_axis": "climat-transition"
     },
     {
-      "title": "Le Courrier des maires : l'actualité pour les élus locaux",
-      "url": "https://www.courrierdesmaires.fr/",
-      "source": "brave",
-      "source_type": "search",
-      "date": "2026-07-06",
-      "summary": "Suivez l’actualité des collectivités locales, de la décentralisation et de la fonction publique territoriale pour gérer au mieux votre mandat.",
-      "lang": "fr",
-      "found_via_axis": "services-proximite"
-    },
-    {
       "title": "Désertification des territoires ruraux et fermeture des services publics",
       "url": "https://www.senat.fr/questions/base/2020/qSEQ20101287S.html",
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
       "summary": "Mme Brigitte Lherbier attire l&#x27;attention de M. le secrétaire d&#x27;État auprès de la ministre de la cohésion des territoires et des relations avec les collectivités territoriales, chargé de la ruralité, sur la fermeture des services publics dans les territoires ruraux.",
+      "lang": "fr",
+      "found_via_axis": "services-proximite"
+    },
+    {
+      "title": "Le Courrier des maires : l'actualité pour les élus locaux",
+      "url": "https://www.courrierdesmaires.fr/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "06/07/2026 | Environnement, Gestion locale, Dérèglement climatique · 02/07/2026 | Points de vue, Culture, Cohésion sociale · 02/07/2026 | Politique commerciale, Parlement, Aménagement urbain · 03/07/2026 | Environnement, Dérèglement climatique, Ruralité ·",
       "lang": "fr",
       "found_via_axis": "services-proximite"
     },
@@ -191,12 +191,12 @@
       "found_via_axis": "services-proximite"
     },
     {
-      "title": "Mars 2026 FRANCE RURALITÉS Guide à destination des élus",
-      "url": "https://media.anct.gouv.fr/ressources/2026-04/guide_franceruralites_elus_2026.pdf",
+      "title": "Services publics dans les territoires ruraux : l'accès aux services de santé polarise les débats",
+      "url": "https://www.banquedesterritoires.fr/services-publics-dans-les-territoires-ruraux-lacces-aux-services-de-sante-polarise-les-inquietudes",
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Guide à destination des élus · Chères élues, chers élus,",
+      "summary": "Elle rappelle que le zonage France ruralité revitalisation (FRR) propose des exonérations fiscales et des déductions de charges sociales à tout médecin qui voudrait s’installer dans 17.500 – sur 28.000 au total – communes rurales, lesquelles deviennent donc plus attractives. Elle incite aussi les élus locaux à se saisir d&#x27;un dispositif méconnu de renforcement de l’action des ARS dans les territoires – au moyen d’un décret leur permettant de déroger aux normes réglementaires – afin de répondre à un besoin particulier local.",
       "lang": "fr",
       "found_via_axis": "services-proximite"
     },
@@ -236,7 +236,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Sécurité informatique mairie : plan anti-cyberattaque, rancongiciel, protection données. Guide pour communes",
+      "summary": "Sécurité informatique mairie : plan anti-cyberattaque, rancongiciel, protection données. Guide pour communes &lt; 3500 hab.",
       "lang": "fr",
       "found_via_axis": "numerique-simplification"
     },
@@ -256,7 +256,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "L&#x27;exposition d&#x27;un élu local ne se réduit pas à l&#x27;agression physique. <strong>Une lecture professionnelle du risque distingue huit familles de menaces, dont la combinaison définit le profil de vulnérabilité réel</strong>.",
+      "summary": "Aucune statistique ne dit aussi clairement la réalité du phénomène que le parcours d&#x27;un élu poussé à renoncer. Le cas de Saint-Brevin-les-Pins, en Loire-Atlantique, est devenu la référence nationale en matière d&#x27;atteintes aux maires — et il illustre, mieux qu&#x27;un rapport, comment une succession de menaces peut conduire à l&#x27;abandon d&#x27;un mandat.",
       "lang": "fr",
       "found_via_axis": "mandat-elus"
     },
@@ -296,7 +296,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": ": <strong>les agressions physiques ont progressé de 6 % par rapport à 2023, les attaques en ligne représentent désormais près d&#x27;un quart des faits recensés, et les maires concentrent à eux seuls 64 % des victimes</strong>. Plus encore, les élections municipales de mars 2026 ont révélé ...",
+      "summary": "Si ce volume global marque une ... alarmantes : <strong>les agressions physiques ont progressé de 6 % par rapport à 2023, les attaques en ligne représentent désormais près d&#x27;un quart des faits recensés, et les maires concentrent à eux seuls 64 % des victimes</strong>....",
       "lang": "fr",
       "found_via_axis": "mandat-elus"
     },
@@ -316,7 +316,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Découvrez les délais d&#x27;instruction d&#x27;un permis de construire en 2026, comment les anticiper et les facteurs qui les influencent. Guide complet.",
+      "summary": "Ce numéro vous permet de suivre l&#x27;état d&#x27;avancement de votre demande en ligne, sur le site internet de votre mairie ou de votre communauté de communes, si ce service est disponible. Vous pouvez également contacter directement le service urbanisme par téléphone ou par email pour obtenir des informations. L&#x27;administration a l&#x27;obligation de vous informer de toute difficulté rencontrée dans l&#x27;instruction de votre dossier, et de vous indiquer les éventuelles pièces complémentaires à fournir.",
       "lang": "fr",
       "found_via_axis": "logement-urbanisme"
     },
@@ -336,7 +336,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Permis de construire 2026 : seuils, dépôt 100 % en ligne, pièces, délais, coûts, cas pratiques. Un guide ancré dans le terrain pour éviter le refus.",
+      "summary": "Depuis 2022, toutes les communes doivent accepter les demandes électroniques.[5] Des acteurs spécialisés en maîtrise d’œuvre, comme Goupil MOE, annoncent une étape supplémentaire au 1er janvier 2026 : obligation nationale de déposer toutes les demandes d’urbanisme en ligne, y compris les permis de construire et les déclarations préalables.[2] Même si les modalités précises dépendront des décrets et des choix techniques des communes, la tendance est claire : moins de paperasse physique, plus de téléservices et de pièces jointes numériques.",
       "lang": "fr",
       "found_via_axis": "logement-urbanisme"
     },
@@ -361,32 +361,22 @@
       "found_via_axis": "mobilites-voirie"
     },
     {
+      "title": "Movin'On présente 20 propositions de mobilité durable pour façonner les élections municipales françaises de 2026 : Nouvelle mise à jour - Travel And Tour World",
+      "url": "https://www.travelandtourworld.fr/nouvelles/article/Movenon-pr%C3%A9sente-20-propositions-de-mobilit%C3%A9-durable-pour-influencer-les-%C3%A9lections-municipales-fran%C3%A7aises-de-2026-(nouvelle-mise-%C3%A0-jour)/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "À l&#x27;approche des élections municipales de 2026 en France, <strong>Movin&#x27;On, un collectif d&#x27;entreprises engagé pour la mobilité durable, a dévoilé 20 propositions concrètes</strong>. Testées et documentées, ces propositions visent à aider les collectivités ...",
+      "lang": "fr",
+      "found_via_axis": "mobilites-voirie"
+    },
+    {
       "title": "Projet de loi de finances pour 2026 : Transports - Sénat",
       "url": "https://www.senat.fr/rap/a25-143-2/a25-143-224.html",
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
       "summary": "Néanmoins, ce dispositif n&#x27;apporte qu&#x27;une solution partielle aux difficultés rencontrées par les AOM rurales : d&#x27;une part, l&#x27;instauration du VMRR, de même que le choix du taux et du périmètre d&#x27;application, est à la discrétion des régions (à ce jour, sept régions auraient délibéré en ce sens) et, d&#x27;autre part, le taux maximal du VMRR est en tout état de cause limité à 0,15 %. Dès lors, il convient d&#x27;apporter un soutien supplémentaire aux communautés de communes souhaitant développer une offre de mobilité.",
-      "lang": "fr",
-      "found_via_axis": "mobilites-voirie"
-    },
-    {
-      "title": "Développer les mobilités durables en zones rurales",
-      "url": "https://aides-territoires.beta.gouv.fr/aides/developper-les-mobilites-durables-en-zones-rurales-2/",
-      "source": "brave",
-      "source_type": "search",
-      "date": "2026-07-06",
-      "summary": "À chaque territoire rural de disposer d’une stratégie mobilité et d’une offre de mobilité durable, innovante et inclusive d’ici 2026 ;",
-      "lang": "fr",
-      "found_via_axis": "mobilites-voirie"
-    },
-    {
-      "title": "Mobilité rurale | Collectivites | Agir pour la transition écologique | ADEME",
-      "url": "https://agirpourlatransition.ademe.fr/collectivites/elus-locaux-mandat-agir/aujourdhui-mon-territoire/mobilite-rurale-comprendre",
-      "source": "brave",
-      "source_type": "search",
-      "date": "2026-07-06",
-      "summary": "<strong>Rendre les déplacements plus durables est indispensable pour limiter le changement climatique et la pollution atmosphérique, y compris dans les zones périurbaines et rurales</strong>. Mais l’enjeu est aussi économique et social. Il s’agit d’assurer pour tous les citoyens un accès moins coûteux ...",
       "lang": "fr",
       "found_via_axis": "mobilites-voirie"
     },
@@ -401,6 +391,26 @@
       "found_via_axis": "mobilites-voirie"
     },
     {
+      "title": "Développer les mobilités durables en zones rurales",
+      "url": "https://aides-territoires.beta.gouv.fr/aides/developper-les-mobilites-durables-en-zones-rurales-2/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "À chaque territoire rural de disposer d’une stratégie mobilité et d’une offre de mobilité durable, innovante et inclusive d’ici 2026 ;",
+      "lang": "fr",
+      "found_via_axis": "mobilites-voirie"
+    },
+    {
+      "title": "Vers une hausse des factures d’électricité des collectivités en 2026 ?",
+      "url": "https://www.lagazettedescommunes.com/1007980/vers-une-hausse-des-factures-delectricite-des-collectivites-en-2026-arenh-acces-regule-a-lelectricite-nucleaire-historique/",
+      "source": "brave",
+      "source_type": "search",
+      "date": "2026-07-06",
+      "summary": "Sans toujours le savoir, les collectivités payaient un prix de l’électricité qui restait contenu, grâce au dispositif de l’Arenh (accès régulé à l’électricité nucléaire historique). Mais à partir du 1er janvier 2026, ce mécanisme s’arrêtera et exposera les collectivités à des prix plus volatiles.",
+      "lang": "fr",
+      "found_via_axis": "reseaux-dechets-energie"
+    },
+    {
       "title": "Économies d'énergie dans une commune : guide complet 2026 | Terneo",
       "url": "https://www.terneo.fr/post/%C3%A9conomies-%C3%A9nergie-commune",
       "source": "brave",
@@ -411,12 +421,12 @@
       "found_via_axis": "reseaux-dechets-energie"
     },
     {
-      "title": "Vers une hausse des factures d’électricité des collectivités en 2026 ?",
-      "url": "https://www.lagazettedescommunes.com/1007980/vers-une-hausse-des-factures-delectricite-des-collectivites-en-2026-arenh-acces-regule-a-lelectricite-nucleaire-historique/",
+      "title": "Pourquoi vos factures de gaz, d'électricité et d'eau vont toutes augmenter en même temps (dès cet été !)",
+      "url": "https://selectra.info/energie/actualites/marche/factures-gaz-electricite-eau-hausse-ete-2026",
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Sans toujours le savoir, les collectivités payaient un prix de l’électricité qui restait contenu, grâce au dispositif de l’Arenh (accès régulé à l’électricité nucléaire historique). Mais à partir du 1er janvier 2026, ce mécanisme s’arrêtera et exposera les collectivités à des prix plus volatiles.",
+      "summary": "La Commission de régulation de l&#x27;énergie a officialisé une <strong>hausse de 7,4 % TTC du prix repère du gaz au 1er juillet 2026</strong>.",
       "lang": "fr",
       "found_via_axis": "reseaux-dechets-energie"
     },
@@ -431,22 +441,12 @@
       "found_via_axis": "reseaux-dechets-energie"
     },
     {
-      "title": "Pourquoi vos factures de gaz, d'électricité et d'eau vont toutes augmenter en même temps (dès cet été !)",
-      "url": "https://selectra.info/energie/actualites/marche/factures-gaz-electricite-eau-hausse-ete-2026",
-      "source": "brave",
-      "source_type": "search",
-      "date": "2026-07-06",
-      "summary": "L&#x27;été 2026 s&#x27;annonce coûteux pour les ménages français. À quelques semaines d&#x27;intervalle, <strong>les trois grandes factures du foyer, le gaz, l&#x27;électricité et l&#x27;eau, basculent toutes du côté de la hausse</strong>.",
-      "lang": "fr",
-      "found_via_axis": "reseaux-dechets-energie"
-    },
-    {
       "title": "Énergie : les communes, clés face à la hausse des prix",
       "url": "https://www.photovoltaique-panneaux.fr/hausse-des-prix-de-lenergie-et-si-les-communes-detenaient-deja-la-cle-pour-y-faire-face/",
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Hausse des prix de l’énergie : découvrez comment les communes peuvent agir efficacement pour maîtriser leurs coûts et soutenir leurs habitants.",
+      "summary": "juin 30, 2026 Hausse des prix de l’énergie : et si les communes détenaient déjà la clé pour y faire face ?",
       "lang": "fr",
       "found_via_axis": "reseaux-dechets-energie"
     },
@@ -496,7 +496,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Revivez notre webconférence pour tout savoir sur le métier d’agent de Police municipale à la Ville de Paris et avoir toutes les clés pour réussir ! Téléchargez le support diffusé lors de la webconférence pour retrouver toutes les informations relatives au concours 2026 d&#x27;agent de police municipale.",
+      "summary": "Vous aimez relever des défis ? Vous souhaitez exercer un métier de terrain et être au service des autres ? La Ville de Paris recrute régulièrement des agents de police municipale (F/H) par concours. Les inscriptions sont closes.",
       "lang": "fr",
       "found_via_axis": "securite-tranquillite"
     },
@@ -526,7 +526,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Les enjeux Si la crise de la Covid-19 a pu jouer un rôle d’accélérateur de transformations, et acter l’introduction de changements structurels profonds, le maintien de l’activité commerciale reste un enjeu majeur pour la revitalisation des centres villes dans un contexte de mutation ...",
+      "summary": "Les enjeux Si la crise de la Covid-19 a pu jouer un rôle d’accélérateur de transformations, et acter l’introduction de changements structurels profonds, le maintien de l’activité commerciale reste un enjeu majeur pour la revitalisation des centres villes dans un contexte de mutation profondes du comportement des consommateurs et des habitants.",
       "lang": "fr",
       "found_via_axis": "attractivite-commerce"
     },
@@ -566,7 +566,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Un Comité Central d’Action Sociale (CCAS) s’est tenu le jeudi 4 juin 2026. Veuillez trouver ci-dessous la déclaration des représentants de l’UNSA : Madame La Directrice des Ressources Humaines, Mesdames et Messieurs, Chers collègues, Au terme d’un premier semestre particulièrement tourmenté, tant su...",
+      "summary": "À cette situation s’ajoute la flambée des prix des carburants observée depuis mars 2026 : +24 % sur un an pour le gazole et entre +17 % et +18 % pour l’essence sans plomb. Cette hausse contribue à aggraver encore davantage les difficultés rencontrées par l’ensemble des agents du ministère.",
       "lang": "fr",
       "found_via_axis": "social-grand-age"
     },
@@ -596,7 +596,7 @@
       "source": "brave",
       "source_type": "search",
       "date": "2026-07-06",
-      "summary": "Partout en France, les maires et leurs CCAS/CIAS constatent l’arrivée de nouveaux publics, notamment des travailleurs pauvres et des ménages modestes confrontés à la hausse des dépenses contraintes (carburant, énergie, logement) », souligne l’Unccas, pour qui « les demandes d’aide progressent continuellement alors même que les moyens financiers des collectivités stagnent ».",
+      "summary": "L’Union nationale des centres communaux d’action sociale (Unccas), créée en 1926 et qui regroupe 4.200 établissements, alerte mardi sur la possibilité qui pourrait être laissée aux communes de rendre facultatifs les centres communaux d’action sociale (CCAS), ouvrant la voie à leur disparition progressive.",
       "lang": "fr",
       "found_via_axis": "social-grand-age"
     }
@@ -606,7 +606,7 @@
     "week": "2026-W28",
     "date_start": "2026-07-06",
     "date_end": "2026-07-12",
-    "last_collecte": "2026-07-15T13:06:21.273Z",
+    "last_collecte": "2026-07-16T14:14:09.199Z",
     "axes_collected": [
       "finances",
       "rh-ingenierie",
